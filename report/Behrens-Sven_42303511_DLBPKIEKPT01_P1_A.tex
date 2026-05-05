@@ -1,0 +1,247 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[a4paper, top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+
+\usepackage{setspace}
+\setstretch{1.5}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\usepackage{microtype}
+\sloppy
+\hyphenpenalty=1000
+\tolerance=3000
+
+\renewcommand{\footnotesize}{\fontsize{10}{12}\selectfont}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\fontsize{12}{14}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\fontsize{12}{14}\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\fontsize{12}{14}\bfseries}{\thesubsubsection}{1em}{}
+
+\usepackage[
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=blue,
+  filecolor=black,
+  urlcolor=blue
+]{hyperref}
+\usepackage[capitalise,nameinlink]{cleveref}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}
+
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{titling}
+
+\usepackage{acronym}
+\usepackage[german=quotes]{csquotes}
+
+\usepackage{caption}
+\captionsetup[table]{
+    font=small,
+    skip=10pt,
+    labelfont=bf
+}
+
+\usepackage[table]{xcolor}
+\definecolor{zebragray}{gray}{0.92}
+
+\begin{document}
+
+\begin{titlepage}
+    \thispagestyle{empty}
+    \centering
+    \vspace*{5cm}
+    {\Huge\bfseries Portfolio \par}
+    \vspace{0.3cm}
+    {\Large Konzeptionsphase (Phase~1) \par}
+    \vspace{1cm}
+    {\large Konzeptgrundlage für ein KMU-KI-Beratungsangebot: \\ Branchen, Use Cases und Geschäftsmodell \par}
+    \vspace{1.5cm}
+    {\large Kurs: DLBPKIEKPT01 -- Project: AI Fluency -- Einführung in die Generative KI (Code) \par}
+    \vspace{0.5cm}
+    {\large Studiengang: Angewandte Künstliche Intelligenz \par}
+    \vspace{0.5cm}
+    {\large Sven Behrens \par}
+    \vspace{0.5cm}
+    {\large Matrikelnummer: 42303511 \par}
+    \vspace{0.5cm}
+    {\large Tutor: [wird ergänzt] \par}
+    \vspace{0.5cm}
+    {\large \today \par}
+\end{titlepage}
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% =============================================================================
+% PHASE 1 -- KONZEPTIONSPHASE
+% Laut Aufgabenstellung besteht Phase 1 aus drei Teilen:
+%   1. Mein Problem            (ca. 1   Seite DIN A4)
+%   2. Meine Strategie         (ca. 1-2 Seiten DIN A4)
+%   3. Meine Tool-Auswahl      (ca. 0,5 Seiten DIN A4)
+% =============================================================================
+
+\section{Mein Problem}
+% Anforderung: konkrete, persönlich relevante, inhaltlich überschaubare Aufgabe.
+
+\subsection{Das Problem}
+Mit Mitgründern befinde ich mich in der Frühphase eines
+Gründungsvorhabens: Wir wollen ein Beratungsunternehmen aufbauen, das
+kleinen lokalen Unternehmen (KMU) und Handwerksbetrieben hilft, generative
+KI in konkrete Arbeitsabläufe einzubauen. Bevor wir uns auf eine
+Branchenausrichtung, ein Leistungsangebot und ein Preismodell festlegen
+können, müssen drei zusammenhängende Fragen beantwortet sein:
+
+\begin{enumerate}
+    \item Welche drei bis fünf lokalen Branchen kommen als realistische
+    Erstkunden in Frage?
+    \item Welche generativen KI-Use-Cases sind in diesen Branchen heute
+    schon produktionsreif -- also nicht nur theoretisch denkbar, sondern
+    mit überschaubarem Aufwand und akzeptablem Risiko produktiv
+    einsetzbar?
+    \item Wie übersetzt sich die Antwort auf (1) und (2) in unser eigenes
+    Geschäftsmodell, dargestellt als Business Model Canvas?
+\end{enumerate}
+
+Im Rahmen dieses Portfolios bearbeite ich ausschließlich meinen Anteil an
+dieser Konzeptarbeit, also die Vorbereitung des Canvas-Entwurfs samt der
+zugrunde liegenden Branchen- und Use-Case-Recherche. Verhandlungen mit
+Mitgründern, juristische Prüfungen, Behördengänge und der Aufbau der
+operativen Struktur sind nicht Gegenstand dieser Arbeit; sie liegen
+außerhalb dessen, was sich mit KI-Unterstützung sinnvoll innerhalb eines
+Semesters bearbeiten lässt.
+
+\subsection{Relevanz}
+Das Problem ist für mich aus drei Gründen unmittelbar relevant. Erstens hat
+unser Gründungsvorhaben reale Konsequenzen: Die hier entwickelte
+Konzeptgrundlage fließt direkt in unsere ersten Akquisegespräche und in
+unser Pitch-Material ein. Zweitens entsteht eine besondere
+Authentizitätsfrage. Da wir KI-Beratungsleistungen verkaufen wollen,
+müssen wir nachweislich selbst KI-kompetent sein -- ein ungeprüfter,
+generisch übernommener KI-Output als Geschäftsgrundlage wäre inkonsistent
+mit unserem eigenen Wertversprechen gegenüber zukünftigen Kunden.
+Drittens fehlt mir aktuell genau das Methodengerüst, das die kritische,
+urteilsfähige KI-Nutzung strukturiert, die für eine seriöse Konzeptarbeit
+notwendig ist; das Modul \emph{Project: AI Fluency} bietet hierfür den
+passenden Rahmen.
+
+\subsection{Ziel und Abgrenzung}
+Das Endergebnis dieser Portfolio-Arbeit besteht aus zwei Dokumenten:
+einem ausgearbeiteten Business Model Canvas für unser geplantes
+KMU-KI-Beratungsangebot sowie einem Branchen- und Use-Case-Mapping als
+Anlage, das die Auswahl der Erstzielbranchen und der vorgeschlagenen
+Anwendungsfälle nachvollziehbar begründet.
+
+Ein gutes Ergebnis erfüllt aus meiner Sicht drei Kriterien. Erstens ist
+die Branchenauswahl mit eigenem regionalen Kontextwissen und eigener
+Recherche begründet, nicht allein mit KI-generierten Vorschlägen.
+Zweitens unterscheiden die genannten Use-Cases klar zwischen
+produktionsreifen, eingeschränkt einsatzfähigen und (noch) ungeeigneten
+Anwendungen, inklusive einer offenen Beschreibung, womit KI heute
+scheitert. Drittens ist der Canvas eine begründete Arbeitshypothese, die
+in nachfolgenden Validierungsgesprächen geprüft werden kann -- kein
+fertiges Geschäftsmodell. Diese Zurückhaltung im Anspruch ist Teil der
+inhaltlichen Aussage: Eine Konzeptphase liefert keinen validierten Markt,
+sondern eine prüfbare Arbeitsgrundlage.
+
+\section{Meine Strategie: Mensch-KI-Aufgabenteilung}
+% Anforderung: Plane BEVOR Du loslegst.
+% Drei Tabellen abdecken:
+%   (a) Was ICH selbst mache       -> Warum menschliche Kompetenz?
+%   (b) Wo KI mich unterstützt     -> Warum ist KI hier sinnvoll?
+%   (c) Wo ich KEINE KI nutze      -> Warum nicht?
+
+[Einleitende Argumentation folgt.]
+
+\begin{table}[H]
+\centering
+\caption{Was ich selbst mache}
+\label{tab:strategie_mensch}
+\rowcolors{2}{zebragray}{white}
+\begin{tabular}{p{6cm}p{9cm}}
+\toprule
+\textbf{Tätigkeit} & \textbf{Warum menschliche Kompetenz nötig ist} \\
+\midrule
+\textit{z.\,B.\ Zieldefinition}            & \textit{Begründung} \\
+\textit{z.\,B.\ Strategische Entscheidung} & \textit{Begründung} \\
+\textit{z.\,B.\ Qualitätskontrolle}        & \textit{Begründung} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Wo KI mich unterstützt}
+\label{tab:strategie_ki}
+\rowcolors{2}{zebragray}{white}
+\begin{tabular}{p{6cm}p{9cm}}
+\toprule
+\textbf{Tätigkeit} & \textbf{Warum KI hier sinnvoll ist} \\
+\midrule
+\textit{z.\,B.\ Recherche}        & \textit{Begründung} \\
+\textit{z.\,B.\ Erste Entwürfe}   & \textit{Begründung} \\
+\textit{z.\,B.\ Strukturierung}   & \textit{Begründung} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Wo ich KEINE KI nutze}
+\label{tab:strategie_ohneki}
+\rowcolors{2}{zebragray}{white}
+\begin{tabular}{p{6cm}p{9cm}}
+\toprule
+\textbf{Tätigkeit} & \textbf{Warum nicht} \\
+\midrule
+\textit{z.\,B.\ Finale Entscheidungen} & \textit{Begründung} \\
+\textit{z.\,B.\ Ethische Abwägungen}   & \textit{Begründung} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+[Abschließende Begründung folgt.]
+
+\section{Meine Tool-Auswahl}
+% Anforderung: Welche Tools nutzt Du -- und warum?
+%   - KI-Tools (welche und warum)
+%   - Andere Ressourcen (Fachliteratur, Experten, etc.)
+% Format frei: Text, Tabelle, Mindmap.
+
+[Inhalt folgt: begründete Auswahl der eingesetzten KI-Tools sowie weiterer
+Ressourcen (z.\,B.\ Gespräche mit lokalen Unternehmern, Branchenliteratur).]
+
+\newpage
+
+\printbibliography
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+
+\end{document}

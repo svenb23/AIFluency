@@ -1,0 +1,29 @@
+Infos/
+Zusammenfassungen/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*-SAVE-ERROR
+
+# Windows / OneDrive
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+
+# Editor / IDE
+.vscode/
+.idea/
+.DS_Store
