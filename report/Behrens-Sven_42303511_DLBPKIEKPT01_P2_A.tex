@@ -1,0 +1,193 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[a4paper, top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+
+\usepackage{setspace}
+\setstretch{1.5}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\usepackage{microtype}
+\sloppy
+\hyphenpenalty=1000
+\tolerance=3000
+
+\renewcommand{\footnotesize}{\fontsize{10}{12}\selectfont}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\fontsize{12}{14}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\fontsize{12}{14}\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\fontsize{12}{14}\bfseries}{\thesubsubsection}{1em}{}
+
+\usepackage[
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=blue,
+  filecolor=black,
+  urlcolor=blue
+]{hyperref}
+\usepackage[capitalise,nameinlink]{cleveref}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}
+
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{titling}
+
+\usepackage{acronym}
+\usepackage[german=quotes]{csquotes}
+
+\usepackage{caption}
+\captionsetup[table]{
+    font=small,
+    skip=10pt,
+    labelfont=bf
+}
+
+\usepackage[table]{xcolor}
+\definecolor{zebragray}{gray}{0.92}
+
+\begin{document}
+
+\begin{titlepage}
+    \thispagestyle{empty}
+    \centering
+    \vspace*{5cm}
+    {\Huge\bfseries Portfolio \par}
+    \vspace{0.3cm}
+    {\Large Erarbeitungs-/Reflexionsphase (Phase~2) \par}
+    \vspace{1cm}
+    {\large Sondierung produktionsreifer KI-Use-Cases für lokale KMU \\ und Skizze eines möglichen Beratungsangebots \par}
+    \vspace{1.5cm}
+    {\large Kurs: DLBPKIEKPT01 -- Project: AI Fluency -- Einführung in die Generative KI \par}
+    \vspace{0.5cm}
+    {\large Studiengang: Angewandte Künstliche Intelligenz \par}
+    \vspace{0.5cm}
+    {\large Sven Behrens \par}
+    \vspace{0.5cm}
+    {\large Matrikelnummer: 42303511 \par}
+    \vspace{0.5cm}
+    {\large Tutor: Prof. Dr. Thorsten Fröhlich \par}
+    \vspace{0.5cm}
+    {\large \today \par}
+\end{titlepage}
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% =============================================================================
+% PHASE 2 -- ERARBEITUNGS-/REFLEXIONSPHASE
+% Laut Aufgabenstellung besteht Phase 2 aus zwei Teilen:
+%   1. Zwischenprodukt              (keine Seitenvorgabe)
+%   2. Dokumentation Arbeitsweise   (5 Beispiele, je 0,5-1 Seite)
+%      - 3x Strategische KI-Nutzung (Beispiel A)
+%      - 1x Bewusst ohne KI         (Beispiel B)
+%      - 1x KI-Fehler gefunden      (Beispiel C)
+% =============================================================================
+
+\section{Zwischenprodukt}
+% Inhalt: Business Model Canvas + Branchen-Use-Case-Mapping.
+% Darf unfertig sein, wird in Phase 3 weiterentwickelt.
+
+[Einleitende Bemerkung folgt: Was wird im Zwischenprodukt geliefert,
+welcher Reifegrad wird in dieser Phase angestrebt.]
+
+\subsection{Branchen-Use-Case-Mapping}
+% Inhalt: 3-5 Branchen mit jeweils produktionsreifen, eingeschränkt
+% einsatzfähigen und ungeeigneten Use-Cases.
+
+[Inhalt folgt.]
+
+\subsection{Business Model Canvas}
+% Inhalt: Canvas-Bausteine für das hypothetische KMU-KI-Beratungsangebot.
+
+[Inhalt folgt.]
+
+\section{Dokumentation der Arbeitsweise}
+
+Die folgende Dokumentation gibt fünf konkrete Arbeitssituationen aus der
+vorliegenden Sondierung wieder. Drei Beispiele zeigen die strategische
+Nutzung generativer KI, ein Beispiel die bewusste Nicht-Nutzung und ein
+Beispiel die Identifikation und Korrektur eines KI-Fehlers.
+
+% =============================================================================
+% STRUKTUR PRO BEISPIEL (Aufgabenstellung):
+%   Beispiel A (Strategische KI-Nutzung):
+%     - Die Aufgabe
+%     - Der Prompt (mit Begründung)
+%     - Der KI-Output (Screenshot oder Textauszug)
+%     - Kritische Prüfung (brauchbar / falsch / bias / Vereinfachung)
+%     - Verbesserung (was wurde selbst getan)
+%   Beispiel B (Bewusst ohne KI):
+%     - Die Aufgabe
+%     - Warum keine KI
+%     - Die Lösung
+%   Beispiel C (KI-Fehler gefunden \& korrigiert):
+%     - Was war falsch (faktisch / biased / oberflächlich)
+%     - Wie erkannt
+%     - Wie korrigiert
+% =============================================================================
+
+\subsection{Beispiel A1: [Titel folgt]}
+\paragraph{Die Aufgabe.} [Inhalt folgt.]
+\paragraph{Der Prompt.} [Inhalt folgt.]
+\paragraph{Der KI-Output.} [Inhalt folgt.]
+\paragraph{Kritische Prüfung.} [Inhalt folgt.]
+\paragraph{Verbesserung.} [Inhalt folgt.]
+
+\subsection{Beispiel A2: [Titel folgt]}
+\paragraph{Die Aufgabe.} [Inhalt folgt.]
+\paragraph{Der Prompt.} [Inhalt folgt.]
+\paragraph{Der KI-Output.} [Inhalt folgt.]
+\paragraph{Kritische Prüfung.} [Inhalt folgt.]
+\paragraph{Verbesserung.} [Inhalt folgt.]
+
+\subsection{Beispiel A3: [Titel folgt]}
+\paragraph{Die Aufgabe.} [Inhalt folgt.]
+\paragraph{Der Prompt.} [Inhalt folgt.]
+\paragraph{Der KI-Output.} [Inhalt folgt.]
+\paragraph{Kritische Prüfung.} [Inhalt folgt.]
+\paragraph{Verbesserung.} [Inhalt folgt.]
+
+\subsection{Beispiel B: [Titel folgt -- bewusst ohne KI]}
+\paragraph{Die Aufgabe.} [Inhalt folgt.]
+\paragraph{Warum keine KI.} [Inhalt folgt.]
+\paragraph{Die Lösung.} [Inhalt folgt.]
+
+\subsection{Beispiel C: [Titel folgt -- KI-Fehler gefunden \& korrigiert]}
+\paragraph{Was war falsch.} [Inhalt folgt.]
+\paragraph{Wie erkannt.} [Inhalt folgt.]
+\paragraph{Wie korrigiert.} [Inhalt folgt.]
+
+\newpage
+
+\printbibliography
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+
+\end{document}
