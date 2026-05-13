@@ -248,14 +248,34 @@ Werkzeug eingesetzt; und wo menschliche Eigenleistung den Erkenntniswert
 der Sondierung überhaupt erst trägt, wird auf KI-Unterstützung bewusst
 verzichtet.
 
-\section{Meine Tool-Auswahl}
-% Anforderung: Welche Tools nutzt Du -- und warum?
+\section{Tool-Auswahl}
+% Anforderung: Welche Tools werden genutzt -- und warum?
 %   - KI-Tools (welche und warum)
 %   - Andere Ressourcen (Fachliteratur, Experten, etc.)
-% Format frei: Text, Tabelle, Mindmap.
 
-[Inhalt folgt: begründete Auswahl der eingesetzten KI-Tools sowie weiterer
-Ressourcen (z.\,B.\ Gespräche mit lokalen Unternehmern, Branchenliteratur).]
+Die Tool-Auswahl folgt der in Abschnitt~2 entwickelten Strategie und
+kombiniert ein generalistisches Sprachmodell für die Textarbeit mit
+spezialisierten Recherche-Werkzeugen für die Quellensuche.
+\subsection{KI-Tools}
+
+\begin{table}[H]
+\centering
+\caption{Eingesetzte KI-Tools}
+\label{tab:tools_ki}
+\rowcolors{2}{zebragray}{white}
+\begin{tabular}{p{4.5cm}p{10.5cm}}
+\toprule
+\textbf{Tool} & \textbf{Begründung} \\
+\midrule
+Claude Opus 4.7 (Anthropic) & Hauptwerkzeug für Strukturierung, mehrstufige Textarbeit und Argumentation. Großes Kontextfenster für die durchgängige Bearbeitung des Sondierungs-Dokuments; die Auswahl als Hauptmodell stützt sich zudem auf die unter den verfügbaren Modellen umfangreichste Praxiserfahrung des Verfassers mit Claude im Software-Entwicklungs-Kontext. \\
+ChatGPT Deep Research (OpenAI) & Hauptrecherche für Primär- und Sekundärquellen; im ResearcherBench besonders stark bei offenen Beratungsfragen und Literatur-Review-Aufgaben \parencite{Xu2025ResearcherBench}, was der konzeptionellen Ausrichtung dieser Sondierung entspricht. \\
+Gemini Deep Research (Google) & Ergänzender Recherchelauf; nach ResearcherBench beste Balance zwischen Faithfulness und Groundedness \parencite{Xu2025ResearcherBench} und nach DeepResearch Bench das stärkste Gesamtsystem mit durchschnittlich 165 effektiven Zitationen pro Bericht \parencite{Du2025DeepResearchBench}; geeignet zur Querbestätigung der ChatGPT-Ergebnisse. \\
+Perplexity Deep Research & Verifikationslauf für kritische Primärquellen; weist nach DeepResearch Bench mit 90{,}2\,\% die höchste Citation Accuracy unter den geprüften Deep-Research-Werkzeugen auf (Gemini 81{,}4\,\%, OpenAI 78{,}0\,\%) \parencite{Du2025DeepResearchBench}. \\
+Elicit & Spezialisiertes Werkzeug zur systematischen Erschließung peer-reviewter Sekundärliteratur. Praxiserfahrung des Verfassers liegt mit diesem Werkzeug noch nicht vor; der Einsatz erfolgt im Rahmen dieser Sondierung erstmals erprobend. \\
+NotebookLM (Google) & Bearbeitung einer abgegrenzten Sammlung lokal hochgeladener Quellen (PDF, Notizen) zur gezielten Stellen-Suche, Querverweisen und Synthese über mehrere Dokumente. \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 \newpage
 
