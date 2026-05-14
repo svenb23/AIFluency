@@ -66,6 +66,12 @@
 
 \usepackage[table]{xcolor}
 \definecolor{zebragray}{gray}{0.92}
+\definecolor{diffgreen}{rgb}{0.0,0.5,0.0}
+\definecolor{diffred}{rgb}{0.75,0.0,0.0}
+
+\usepackage[normalem]{ulem}
+\newcommand{\added}[1]{\textcolor{diffgreen}{#1}}
+\newcommand{\removed}[1]{\textcolor{diffred}{\sout{#1}}}
 
 \begin{document}
 
@@ -154,12 +160,66 @@ Beispiel die Identifikation und Korrektur eines KI-Fehlers.
 %     - Wie korrigiert
 % =============================================================================
 
-\subsection{Beispiel A1: [Titel folgt]}
-\paragraph{Die Aufgabe.} [Inhalt folgt.]
-\paragraph{Der Prompt.} [Inhalt folgt.]
-\paragraph{Der KI-Output.} [Inhalt folgt.]
-\paragraph{Kritische Prüfung.} [Inhalt folgt.]
-\paragraph{Verbesserung.} [Inhalt folgt.]
+\subsection{Beispiel A1: Erstellung eines Deep-Research-Prompts für die Branchen-Auswahl}
+
+\paragraph{Die Aufgabe.}
+Für das Zwischenprodukt der Phase~2 sollte ein Deep-Research-Prompt
+erstellt werden, der zitierfähige Quellen und empirische Befunde für
+ein Branchen-Use-Case-Mapping liefert. Der Prompt sollte methodisch
+entlang der Kursstruktur des Moduls \emph{Project: AI Fluency} aufgebaut
+sein.
+
+\paragraph{Der Prompt.}
+\begin{quote}
+\textbf{Rolle:} Assistierende Instanz für die Prompt-Konstruktion.\\
+\textbf{Kontext:} Sondierungs-Phase 2 mit dem Zielprodukt eines
+Branchen-Use-Case-Mappings und eines hypothetischen Business Model
+Canvas.\\
+\textbf{Aufgabe:} Branchen-Auswahl und KI-Einsatzmöglichkeiten in einen
+recherchetauglichen Deep-Research-Prompt überführen.\\
+\textbf{Strukturvorgabe:} Entsprechend der Kurslogik des Moduls
+\emph{Project: AI Fluency}.\\
+\textbf{Bewusst nicht vorgegeben:} Output-Detailtiefe und Quellenliste.
+\end{quote}
+
+\paragraph{Der KI-Output.}
+Die KI generierte einen mehrteiligen Prompt mit Anwendungskontext,
+einer Liste vorgegebener Branchen (Handwerk, Steuerberatung,
+Friseur- und Beauty-Salons, lokale Gastronomie), differenzierten
+Reifegrad-Anforderungen, gewünschten Quellenarten (u.\,a.\ Bitkom,
+ZEW, Eurostat) sowie einem definierten Output-Format einschließlich
+APA-7-Konventionen und BibTeX-Einträgen.
+
+\paragraph{Kritische Prüfung.}
+Der KI-Output wies mehrere Schwächen auf. Erstens fügte die KI
+unaufgefordert eine konkrete Vier-Branchen-Liste (Handwerk,
+Steuerberatung, Friseur- und Beauty-Salons, lokale Gastronomie) ein,
+die als Vorgabe die Ergebnisoffenheit der Sondierung untergraben hätte:
+Die Branchen-Auswahl ist Teil dessen, was die Sondierung untersuchen
+soll, nicht eine vorausgesetzte Annahme. Zweitens enthielt der Prompt
+explizite Verweise auf einzelne Lektionen des Moduls \emph{Project:
+AI Fluency} (Tag 1 und Tag 10). Die KI hatte die Strukturvorgabe
+ernst genommen und konnte über die vom Verfasser zuvor angelegten
+Kapitel-Zusammenfassungen direkt auf die Kurslogik zugreifen,
+übernahm dabei aber auch kursinterne Bezugspunkte, die für einen
+externen Recherche-Agenten keine inhaltliche Funktion erfüllen und
+nur Verständnishürden produzieren. Drittens nannte der Anwendungskontext institutionelle
+Bezüge (Studiengang, Hochschule), die für die Recherche-Aufgabe selbst
+irrelevant sind. Hinzu kamen einige redundante Format- und
+Stil-Vorgaben, die ohne inhaltlichen Mehrwert wirkten.
+
+\paragraph{Verbesserung.}
+Der Prompt wurde an mehreren Stellen entschärft. Der Abschnitt zur
+Branchen-Auswahl wurde durch eine offene Formulierung mit fünf
+expliziten Auswahlkriterien (Text-Intensität, KMU-Dichte,
+KI-Adoptionslücke bei erkennbarem Anwendungsbedarf,
+DSGVO-Praktikabilität und Verfügbarkeit zitierfähiger Branchendaten)
+ersetzt, sodass die Branchen-Auswahl selbst Teil des Forschungs\-ergebnisses
+wird. Die expliziten Tag-Verweise auf das Modul \emph{Project: AI
+Fluency} sowie der institutionelle Kontext wurden gestrichen, da sie
+für die Recherche-Qualität keinen Mehrwert liefern. Eine vollständige
+Gegenüberstellung beider Fassungen mit farblich markierten Änderungen
+findet sich in Anhang~A.
 
 \subsection{Beispiel A2: [Titel folgt]}
 \paragraph{Die Aufgabe.} [Inhalt folgt.]
@@ -184,6 +244,88 @@ Beispiel die Identifikation und Korrektur eines KI-Fehlers.
 \paragraph{Was war falsch.} [Inhalt folgt.]
 \paragraph{Wie erkannt.} [Inhalt folgt.]
 \paragraph{Wie korrigiert.} [Inhalt folgt.]
+
+\newpage
+
+\section*{Anhang A: Prompt-Iteration zu Beispiel A1}
+\addcontentsline{toc}{section}{Anhang A: Prompt-Iteration zu Beispiel A1}
+
+Die folgende Gegenüberstellung zeigt den KI-generierten Erstentwurf des
+Deep-Research-Prompts (A.1) und die vom Verfasser überarbeitete Fassung
+(A.2). In A.1 sind die später gestrichenen Stellen \removed{rot
+durchgestrichen}, in A.2 die neu hinzugefügten Stellen \added{grün
+hervorgehoben}, sodass die Änderungen zwischen beiden Fassungen direkt
+nachvollziehbar werden.
+
+\subsection*{A.1\quad KI-generierter Erstentwurf}
+
+\begin{quote}\small
+Recherchiere zitierfähige Quellen und empirische Befunde zur Frage, in welchen lokalen KMU-Branchen in Deutschland heute welche Use-Cases generativer KI produktiv eingesetzt werden können.
+
+\textbf{ANWENDUNGSKONTEXT:}\\
+\removed{Modul-Portfolio "Project: AI Fluency" (Phase 2), Studiengang Angewandte Künstliche Intelligenz, IU Internationale Hochschule.} Die Arbeit ist eine Sondierung, die als Zwischenprodukt ein Branchen-Use-Case-Mapping und ein Business Model Canvas für ein hypothetisches KMU-KI-Beratungsangebot liefert.
+
+\removed{\textbf{AUSGANGSAUSWAHL DER BRANCHEN} (zur Bestätigung oder Korrektur):}\\
+\removed{1. Handwerk (SHK, Elektro, Maler, Schreinerei, Dachdecker)}\\
+\removed{2. Steuerberatung und kleine Wirtschaftskanzleien}\\
+\removed{3. Friseur-, Beauty- und Wellness-Salons}\\
+\removed{4. Lokale Gastronomie}
+
+\textbf{PRO BRANCHE GESUCHT:}
+
+a) Markt- und Strukturzahlen: Anzahl Betriebe in Deutschland, durchschnittliche Betriebsgröße bzw. Beschäftigtenzahl, wirtschaftliche Bedeutung (Umsatz, Wertschöpfung). Bevorzugte Quellen: Statistisches Bundesamt, Zentralverband Deutsches Handwerk, Bundessteuerberaterkammer, DEHOGA, Zentralverband des Deutschen Friseurhandwerks.
+
+b) Use-Case-Mapping nach drei Reifegraden \removed{(entsprechend AI-Fluency-Logik Tag~10 ,,Korrekt vs. Gut'')}: PRODUKTIONSREIF (heute mit überschaubarem Aufwand und akzeptablem Risiko produktiv einsetzbar); EINGESCHRÄNKT EINSATZFÄHIG (technisch möglich, aber mit Auflagen wie DSGVO, Bias-Risiko, fachliche Kontrolle); NICHT GEEIGNET (aktuell ohne erhebliches Risiko nicht produktiv einsetzbar). \removed{Strukturierung entsprechend der vier Tool-Kategorien aus AI Fluency Tag~1:} Kommunikatoren (Sprachmodelle), Kreative (Bild-KI), Ingenieure (Code-KI), Analysten (Daten-KI).
+
+c) Konkrete empirische Belege zur tatsächlichen KI-Nutzung in der Branche (Bitkom, ZEW, Branchen-Reports, Fraunhofer, Eurostat \texttt{E\_AI\_TNLG}).
+
+\textbf{OUTPUT-FORMAT PRO BRANCHE:}\\
+- \removed{Strukturdaten (3-5 Sätze mit Belegen)}\\
+- Tabellarisches Use-Case-Mapping nach Reifegrad\\
+- Pro Use Case: kurze Begründung, nach Möglichkeit empirischer Beleg\\
+- Branchenspezifische Risiken oder Hürden
+
+\textbf{OUTPUT-STIL:}\\
+- \removed{Akademisch, deutschsprachig}\\
+- APA-7-Stil, Direktlinks, BibTeX-Einträge, methodische Einschränkungen explizit
+
+\textbf{AUSSCHLÜSSE:} Vendor-Marketing, methodisch intransparente Whitepapers, Pressemitteilungen, Quellen älter als 2023.
+\end{quote}
+
+\subsection*{A.2\quad Überarbeitete Fassung}
+
+\begin{quote}\small
+Recherchiere zitierfähige Quellen und empirische Befunde zur Frage, in welchen lokalen KMU-Branchen in Deutschland heute welche Use-Cases generativer KI produktiv eingesetzt werden können.
+
+\textbf{ANWENDUNGSKONTEXT:}\\
+Die Arbeit ist eine Sondierung, die als Zwischenprodukt ein Branchen-Use-Case-Mapping und ein Business Model Canvas für ein hypothetisches KMU-KI-Beratungsangebot liefert.
+
+\added{\textbf{BRANCHEN-AUSWAHL OFFEN:}}\\
+\added{Die Sondierung soll KMU-Branchen identifizieren, die als realistische Erstkandidaten für ein produktives KI-Beratungsangebot in Frage kommen. Bitte konkrete Vorschläge mit empirisch hergeleiteter Begründung liefern, statt vorgegebene Branchen abzuarbeiten. Mögliche Auswahlkriterien:}\\
+\added{- Anteil text- und kommunikationsintensiver Tätigkeiten (wo generative KI heute stark ist)}\\
+\added{- Hohe KMU-Dichte und viele kleine Betriebe in Deutschland}\\
+\added{- Bislang niedrige KI-Adoption bei erkennbarem Anwendungsbedarf}\\
+\added{- DSGVO-Vertretbarkeit und regulatorische Praktikabilität}\\
+\added{- Verfügbarkeit zitierfähiger Branchen-Strukturdaten}
+
+\textbf{PRO BRANCHE GESUCHT:}
+
+a) Markt- und Strukturzahlen: Anzahl Betriebe in Deutschland, durchschnittliche Betriebsgröße bzw. Beschäftigtenzahl, wirtschaftliche Bedeutung (Umsatz, Wertschöpfung). Bevorzugte Quellen: Statistisches Bundesamt, Zentralverband Deutsches Handwerk, Bundessteuerberaterkammer, DEHOGA, Zentralverband des Deutschen Friseurhandwerks.
+
+b) Use-Case-Mapping nach drei Reifegraden: PRODUKTIONSREIF (heute mit überschaubarem Aufwand und akzeptablem Risiko produktiv einsetzbar); EINGESCHRÄNKT EINSATZFÄHIG (technisch möglich, aber mit Auflagen wie DSGVO, Bias-Risiko, fachliche Kontrolle); NICHT GEEIGNET (aktuell ohne erhebliches Risiko nicht produktiv einsetzbar). Kommunikatoren (Sprachmodelle), Kreative (Bild-KI), Ingenieure (Code-KI), Analysten (Daten-KI).
+
+c) Konkrete empirische Belege zur tatsächlichen KI-Nutzung in der Branche (Bitkom, ZEW, Branchen-Reports, Fraunhofer, Eurostat \texttt{E\_AI\_TNLG}).
+
+\textbf{OUTPUT-FORMAT PRO BRANCHE:}\\
+- Tabellarisches Use-Case-Mapping nach Reifegrad\\
+- Pro Use Case: kurze Begründung, nach Möglichkeit empirischer Beleg\\
+- Branchenspezifische Risiken oder Hürden
+
+\textbf{OUTPUT-STIL:}\\
+- APA-7-Stil, Direktlinks, BibTeX-Einträge, methodische Einschränkungen explizit
+
+\textbf{AUSSCHLÜSSE:} Vendor-Marketing, methodisch intransparente Whitepapers, Pressemitteilungen, Quellen älter als 2023.
+\end{quote}
 
 \newpage
 
