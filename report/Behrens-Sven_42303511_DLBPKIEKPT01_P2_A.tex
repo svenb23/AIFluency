@@ -133,11 +133,14 @@ die in mindestens zwei dieser Recherchen übereinstimmend als realistische
 Erstkandidaten für ein KMU-KI-Beratungsangebot genannt wurden, bilden
 den Kern der Auswahl; eine ergänzende fünfte Branche stammt aus nur
 einer Recherche, fügt aber eine relevante Perspektive hinzu.
-Heilberufe (Arztpraxen, Therapeuten) wurden vom Verfasser aufgrund der gesetzten Auswahlkriterien
-nicht in die Auswahl aufgenommen; ausschlaggebend sind insbesondere
-die strengen DSGVO-Anforderungen an Patientendaten, das hohe
-Bias-Risiko bei medizinischen Aussagen sowie die besondere
-berufsrechtliche Haftung.
+Heilberufe (Arztpraxen, Therapeuten) waren in keiner der drei
+Recherchen als Kandidaten genannt, sind im KMU-Beratungskontext jedoch
+eine naheliegende Erstkandidaten-Frage; sie wurden daher vom Verfasser
+als ausdrücklich ausgeschlossene Branche in die Methodik aufgenommen,
+um die Auswahllogik transparent zu halten. Ausschlaggebend für den
+Ausschluss sind insbesondere die strengen DSGVO-Anforderungen an
+Patientendaten, das hohe Bias-Risiko bei medizinischen Aussagen sowie
+die besondere berufsrechtliche Haftung.
 
 \begin{table}[H]
 \centering
@@ -248,12 +251,70 @@ für die Recherche-Qualität keinen Mehrwert liefern. Eine vollständige
 Gegenüberstellung beider Fassungen mit farblich markierten Änderungen
 findet sich in Anhang~A.
 
-\subsection{Beispiel A2: [Titel folgt]}
-\paragraph{Die Aufgabe.} [Inhalt folgt.]
-\paragraph{Der Prompt.} [Inhalt folgt.]
-\paragraph{Der KI-Output.} [Inhalt folgt.]
-\paragraph{Kritische Prüfung.} [Inhalt folgt.]
-\paragraph{Verbesserung.} [Inhalt folgt.]
+\subsection{Beispiel A2: Synthese der drei Deep-Research-Ergebnisse zur Branchenauswahl}
+
+\paragraph{Die Aufgabe.}
+Aus drei unabhängigen Deep-Research-Läufen (ChatGPT Deep Research,
+Gemini Deep Research, Perplexity Deep Research) sollte eine
+Branchenauswahl für das Zwischenprodukt entstehen. Maßgeblich war die
+Frage, welche Branchen in welcher Anzahl der Reports auftauchen und
+welche davon als Erstkandidaten für ein KMU-KI-Beratungsangebot tragen.
+
+\paragraph{Der Prompt.}
+\begin{quote}
+\textbf{Rolle:} Assistierende Instanz für die Vergleichsanalyse mehrerer
+Recherche-Ergebnisse.\\
+\textbf{Kontext:} Drei unabhängige Deep-Research-Reports zu KMU-Branchen
+mit produktionsreifen GenAI-Use-Cases liegen vor.\\
+\textbf{Aufgabe:} Welche Branchen kommen in allen drei, welche in zwei
+und welche in nur einem Report vor? Ergebnis tabellarisch.\\
+\textbf{Strukturvorgabe:} Quorum-Auszählung (3 von 3, 2 von 3, 1 von 3),
+für jede Branche zusätzlich eine knappe Auswahlbegründung.\\
+\textbf{Bewusst nicht vorgegeben:} Die endgültige Anzahl auszuwählender
+Branchen, die inhaltliche Gewichtung sowie etwaige aus dem Scope
+herausfallende Branchen.
+\end{quote}
+
+\paragraph{Der KI-Output.}
+Die KI strukturierte das Ergebnis tabellarisch nach Quorum: drei
+Branchen in allen drei Recherchen vertreten (Handwerk, Gastgewerbe,
+Steuerberatung), Friseurhandwerk in zwei von drei, Einzelhandel sowie
+produzierendes Gewerbe in nur einer. Auf dieser Basis wurde eine
+Vier-Branchen-Variante (Quorum $\geq 2$) und eine Fünf-Branchen-Variante
+(inkl.\ einer Ein-Report-Ergänzung) vorgeschlagen. Heilberufe und
+Arztpraxen wurden in der Aufstellung nicht thematisiert, da sie in
+keiner der drei Recherchen genannt waren.
+
+\paragraph{Kritische Prüfung.}
+Die Synthese war methodisch sauber, aber rein quorumgetrieben. Drei
+inhaltliche Schwächen wurden sichtbar. Erstens behandelte die
+Standardlogik Friseurhandwerk wie eine schwächer belegte Branche
+($2$ von $3$), obwohl die Betriebsstruktur (überwiegend Kleinstbetriebe)
+und die typischen Anwendungsfelder sich grundlegend vom übrigen Handwerk
+unterscheiden. Zweitens fehlte mit den Heilberufen eine Branche, die im
+KMU-Beratungskontext naheliegt, in keiner der drei Recherchen aber
+genannt wurde, weil sie systematisch durch das DSGVO- und
+Haftungs-Kriterium des Ausgangsprompts ausgeschlossen wird. Drittens
+blieb die Entscheidung zwischen Vier- und Fünf-Branchen-Variante eine
+inhaltliche Wahl, die das Modell nicht für den Verfasser treffen konnte.
+
+\paragraph{Verbesserung.}
+Der Verfasser hat die drei Original-Reports selbst quergelesen, statt
+sich allein auf die KI-Synthese zu verlassen, und drei inhaltliche
+Korrekturen vorgenommen. Friseurhandwerk wurde trotz nur zweifacher
+Nennung als eigenständige Branche aufgenommen, da die wirtschaftliche
+und betriebliche Sonderlage diese Trennung sachlich rechtfertigt. Die
+Heilberufe waren in keiner der drei Recherchen aufgetaucht, weil das
+DSGVO-Kriterium des Ausgangsprompts sie systematisch ausschloss,
+der Verfasser hat diese Lücke jedoch selbst erkannt, da Arztpraxen im
+KMU-Beratungskontext eine naheliegende Erstkandidaten-Frage sind, und
+sie als bewusst ausgeschlossene Branche mit Begründung
+(DSGVO, Bias-Risiko, berufsrechtliche Haftung) in den
+Methodik-Absatz aufgenommen, sodass die Auswahllogik transparent
+nachvollziehbar bleibt. Die Auswahl wurde schließlich auf fünf
+Branchen festgelegt, mit dem lokalen Einzelhandel als ergänzendem
+Fall, dessen geringere Belegtheit in der Tabelle explizit ausgewiesen
+ist.
 
 \subsection{Beispiel A3: [Titel folgt]}
 \paragraph{Die Aufgabe.} [Inhalt folgt.]
