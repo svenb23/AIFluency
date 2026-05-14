@@ -1,8 +1,4 @@
 # Deep-Research-Prompt: Branchen-Use-Case-Mapping für KMU-KI-Beratung
-
-**Verwendet für:** Phase 2 Zwischenprodukt (Branchen-Use-Case-Mapping + Business Model Canvas)
-**Strukturiert nach:** AI Fluency Tag 1 (vier Tool-Kategorien) und Tag 10 (Reifegrad-Differenzierung)
-
 ---
 
 ```
@@ -11,17 +7,22 @@ welchen lokalen KMU-Branchen in Deutschland heute welche Use-Cases
 generativer KI produktiv eingesetzt werden können.
 
 ANWENDUNGSKONTEXT:
-Modul-Portfolio "Project: AI Fluency" (Phase 2), Studiengang Angewandte
-Künstliche Intelligenz, IU Internationale Hochschule. Die Arbeit ist
-eine Sondierung, die als Zwischenprodukt ein Branchen-Use-Case-Mapping
+Die Arbeit ist eine Sondierung, die als Zwischenprodukt ein Branchen-Use-Case-Mapping
 und ein Business Model Canvas für ein hypothetisches KMU-KI-Beratungs-
 angebot liefert.
 
-AUSGANGSAUSWAHL DER BRANCHEN (zur Bestätigung oder Korrektur):
-1. Handwerk (SHK, Elektro, Maler, Schreinerei, Dachdecker)
-2. Steuerberatung und kleine Wirtschaftskanzleien
-3. Friseur-, Beauty- und Wellness-Salons
-4. Lokale Gastronomie
+BRANCHEN-AUSWAHL OFFEN:
+Die Sondierung soll KMU-Branchen identifizieren, die als
+realistische Erstkandidaten für ein produktives KI-Beratungsangebot in
+Frage kommen. Bitte konkrete Vorschläge mit empirisch hergeleiteter
+Begründung liefern, statt vorgegebene Branchen abzuarbeiten. Mögliche
+Auswahlkriterien:
+- Anteil text- und kommunikationsintensiver Tätigkeiten (wo generative
+  KI heute stark ist)
+- Hohe KMU-Dichte / viele kleine Betriebe in Deutschland
+- Bislang niedrige KI-Adoption bei erkennbarem Anwendungsbedarf
+- DSGVO-Vertretbarkeit und regulatorische Praktikabilität
+- Verfügbarkeit zitierfähiger Branchen-Strukturdaten
 
 PRO BRANCHE GESUCHT:
 
@@ -33,8 +34,7 @@ a) Markt- und Strukturzahlen
      Deutsches Handwerk, Bundessteuerberaterkammer, DEHOGA,
      Zentralverband des Deutschen Friseurhandwerks
 
-b) Use-Case-Mapping nach drei Reifegraden
-   (entsprechend AI-Fluency-Logik Tag 10 "Korrekt vs. Gut"):
+b) Use-Case-Mapping nach drei Reifegraden:
 
    - PRODUKTIONSREIF: heute mit überschaubarem Aufwand und akzeptablem
      Risiko produktiv einsetzbar
@@ -44,8 +44,6 @@ b) Use-Case-Mapping nach drei Reifegraden
      einsetzbar (z.B. autonome Entscheidungen, sicherheitskritische
      Berechnungen, ethisch sensible Patienten-Kommunikation)
 
-   Strukturierung entsprechend der vier Tool-Kategorien aus
-   AI Fluency Tag 1:
    - Kommunikatoren (Sprachmodelle): Texterstellung, Übersetzung,
      Zusammenfassung
    - Kreative (Bild-KI): Werbe-Visuals, Logo-Skizzen,
@@ -63,7 +61,6 @@ c) Konkrete empirische Belege
    - Eurostat AI Statistics (Indikator E_AI_TNLG)
 
 OUTPUT-FORMAT PRO BRANCHE:
-- Strukturdaten (3-5 Sätze mit Belegen)
 - Tabellarisches Use-Case-Mapping nach Reifegrad
 - Pro Use Case: kurze Begründung (1-2 Sätze), nach Möglichkeit
   empirischer Beleg
@@ -77,7 +74,6 @@ ZUSÄTZLICH:
   Handwerk Digital)
 
 OUTPUT-STIL:
-- Akademisch, deutschsprachig
 - APA-7-Stil für alle Quellenangaben
 - Direktlinks (DOI/URL) zu Primärquellen
 - BibTeX-Einträge zur direkten Übernahme in references.bib
