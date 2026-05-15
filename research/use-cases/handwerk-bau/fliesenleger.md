@@ -20,6 +20,8 @@
 | Verwaltung & Personal | Rechnungserstellung | PR | konvergent |
 | Verwaltung & Personal | Digitales Onboarding für Azubis | PR | konvergent |
 | Verwaltung & Personal | Automatisierte Bewerber- und Qualifikationsanalyse | EE | konvergent |
+| Verwaltung & Personal | Digitale Projektakte (DMS) mit KI-Indexierung | EE | konvergent |
+| Verwaltung & Personal | Werkstatt- und Auslastungsplanung aus Auftragsdaten | EE | konvergent |
 | Operatives Kerngeschäft | Renovierungs-Checklisten generieren | PR | konvergent |
 | Operatives Kerngeschäft | Material- und Werkzeuglisten pro Projekt | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Bruch-/Verschnitt-Vermeidung durch KI-Zuschnittplanung | PR | branchenspezifisch |
@@ -29,3 +31,4 @@
 | Kundenservice & Beziehung | Terminerinnerungen | PR | konvergent |
 | Kundenservice & Beziehung | Beschwerde-Antworten | PR | konvergent |
 | Kundenservice & Beziehung | Schadens- und Reklamationsmanagement | EE | konvergent |
+| Kundenservice & Beziehung | Kundenportal mit Projektstatus-Updates | PR | konvergent |

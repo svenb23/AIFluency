@@ -25,11 +25,15 @@
 | Verwaltung & Personal | Saisonale Schichtplanung | EE | konvergent |
 | Verwaltung & Personal | Automatisiertes Nachunternehmer-Management | EE | konvergent |
 | Verwaltung & Personal | Fördermittel- und Zuschussantrags-Assistenz | EE | branchenspezifisch |
+| Verwaltung & Personal | Digitale Baustellenakte (DMS) mit KI-Indexierung | EE | konvergent |
 | Operatives Kerngeschäft | Pflanzendatenbank-Chat (Pflege-, Standort-Empfehlungen) | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Material- und Pflanzen-Bestelloptimierung | EE | branchenspezifisch |
 | Operatives Kerngeschäft | KI-gestützte Pflanzenschutz- und Schaderkennung | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Intelligentes Baustellen-Logistik-Grouping (Materialbündelung) | PR | konvergent |
+| Operatives Kerngeschäft | Predictive Maintenance für Maschinenpark (Bagger, Mäher, Akku-Werkzeuge) | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Saisonale Pflegekalender für Kunden | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Terminerinnerungen | PR | konvergent |
 | Kundenservice & Beziehung | Beschwerde-Antworten | PR | konvergent |
 | Kundenservice & Beziehung | KI-Schadensanalyse bei Gewährleistung | EE | konvergent |
+| Kundenservice & Beziehung | Pflegevertrags-Management (Vertragslaufzeiten, saisonale Reminder) | EE | konvergent |
+| Kundenservice & Beziehung | Kundenportal mit Projektstatus-Updates | PR | konvergent |

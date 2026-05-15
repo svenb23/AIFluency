@@ -31,3 +31,4 @@
 | Kundenservice & Beziehung | Mietverwaltung-Korrespondenz | EE | branchenspezifisch |
 | Kundenservice & Beziehung | Terminerinnerungen | PR | konvergent |
 | Kundenservice & Beziehung | KI-Benachrichtigung bei Störungsmeldungen | PR | branchenspezifisch |
+| Kundenservice & Beziehung | Kundenportal mit Auftragsstatus-Updates (Eigentümer, Verwaltung) | PR | konvergent |

@@ -45,7 +45,7 @@ Beispiele:
 
 | Cluster | Status | Mappings |
 | --- | --- | --- |
-| Handwerk & Bau | bearbeitet | 14 von ~14 (Elektriker, Maler, Tischlerei, Dachdecker, GaLa-Bau, Sanitär/Heizung, Fliesenleger, Gebäudereinigung, Hausmeisterservice, Trockenbau, Schornsteinfeger, Zimmerei, Glaser, Metall/Schmiede) |
+| Handwerk & Bau | vollständig | 34 von 34 |
 | Beratung & Dienstleistungen | offen | 0 von 15 |
 | Mobilität & Fahrzeuge | offen | 0 von 11 |
 | Gastronomie & Lebensmittel | offen | 0 von 11 |

@@ -24,9 +24,12 @@
 | Verwaltung & Personal | Schichtplanung-Vorschläge | EE | konvergent |
 | Verwaltung & Personal | KI-Posteingangs-Klassifizierung | PR | konvergent |
 | Verwaltung & Personal | Digitales Onboarding für Azubis | PR | konvergent |
+| Verwaltung & Personal | Digitale Projektakte (DMS) mit KI-Indexierung | EE | konvergent |
+| Verwaltung & Personal | Werkstatt- und Auslastungsplanung aus Auftragsdaten | EE | konvergent |
 | Operatives Kerngeschäft | Materialberechnung (Farbmenge, Werkzeug) aus Aufmaßen | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Renovierungs-Checklisten generieren | PR | branchenspezifisch |
 | Operatives Kerngeschäft | Baufortschrittskontrolle via Foto-Abgleich (Soll/Ist) | EE | konvergent |
 | Kundenservice & Beziehung | Terminerinnerungen | PR | konvergent |
 | Kundenservice & Beziehung | Pflege-Tipps für Wandflächen nach Abschluss | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Dokumentations-Paket für Versicherungen (Schadensfälle) | PR | konvergent |
+| Kundenservice & Beziehung | Kundenportal mit Projektstatus-Updates | PR | konvergent |

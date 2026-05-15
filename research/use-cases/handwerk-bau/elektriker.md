@@ -24,6 +24,9 @@
 | Verwaltung & Personal | KI-Abgleich von Lieferschein und Rechnung | PR | konvergent |
 | Verwaltung & Personal | KI-Posteingangs-Klassifizierung | PR | konvergent |
 | Verwaltung & Personal | Digitales Onboarding für Azubis (Chatbot zu Werkzeug, Material) | PR | konvergent |
+| Verwaltung & Personal | Digitale Projektakte (DMS) mit KI-Indexierung | EE | konvergent |
+| Verwaltung & Personal | Werkstatt- und Auslastungsplanung aus Auftragsdaten | EE | konvergent |
+| Verwaltung & Personal | Lagerverwaltung mit bildbasierter Bestandserkennung (Bauteile) | EE | konvergent |
 | Operatives Kerngeschäft | Fehlerdiagnose-Assistent für elektrische Installation | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Materiallisten-Erstellung aus Bauplänen | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Dokumentation und Prüfprotokolle | PR | branchenspezifisch |
@@ -33,3 +36,5 @@
 | Kundenservice & Beziehung | Wartungsempfehlungen nach Installation | EE | branchenspezifisch |
 | Kundenservice & Beziehung | Termin-Routen-Optimierung im Notdienst | EE | branchenspezifisch |
 | Kundenservice & Beziehung | Dokumentations-Paket für Versicherungen (Schadensfälle) | PR | konvergent |
+| Kundenservice & Beziehung | Wartungsvertrags- und Service-Verwaltung (Smart-Home, Anlagen) | EE | konvergent |
+| Kundenservice & Beziehung | Kundenportal mit Auftragsstatus-Updates | PR | konvergent |

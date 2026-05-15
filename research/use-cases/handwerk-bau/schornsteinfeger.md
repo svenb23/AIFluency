@@ -19,11 +19,15 @@
 | Verwaltung & Personal | Rechnungserstellung | PR | konvergent |
 | Verwaltung & Personal | Compliance-Recherche und Verordnungsmonitoring | EE | branchenspezifisch |
 | Verwaltung & Personal | KI-Posteingangs-Klassifizierung | PR | konvergent |
+| Verwaltung & Personal | Digitale Objektakte (DMS) mit KI-Indexierung pro Kehrbezirk | EE | konvergent |
 | Operatives Kerngeschäft | Feuerstättenbescheid-Erstellung aus Messdaten | EE | branchenspezifisch — regulatorisch sensibel |
 | Operatives Kerngeschäft | Messprotokolle automatisch generieren | PR | branchenspezifisch |
 | Operatives Kerngeschäft | Anomalieerkennung in Abgasdaten | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Thermalkamera-gestützte Analyse bei Prüfungen | EE | branchenspezifisch |
+| Operatives Kerngeschäft | Predictive Maintenance für Messgeräte und Prüftechnik | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Energieeffizienz-Empfehlungen an Eigentümer | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Bauherren-Beratung zu Heizungsanlagen (Chat-Assistent) | EE | branchenspezifisch |
 | Kundenservice & Beziehung | Terminerinnerungen für Kehrtermine | PR | konvergent |
 | Kundenservice & Beziehung | Förder-FAQ-Beantwortung (Fristen Heizungsumstellung) | PR | branchenspezifisch |
+| Kundenservice & Beziehung | Kundenportal mit Termin-Übersicht und Messdaten-Historie | PR | konvergent |
+| Kundenservice & Beziehung | Wartungsvertrags-Management für freiwillige Leistungen | EE | konvergent |

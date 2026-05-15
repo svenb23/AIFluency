@@ -19,10 +19,13 @@
 | Vertrieb & Angebote | Förderfähigkeits-Recherche (KfW-Energieprogramm, Solar) | EE | branchenspezifisch |
 | Vertrieb & Angebote | Drohnen-Bildauswertung für Aufmaß und Zustandsanalyse | PR | branchenspezifisch |
 | Vertrieb & Angebote | PV-Potenzialanalyse aus Dachfotos | EE | branchenspezifisch |
+| Vertrieb & Angebote | Schadens-Klassifizierung via Foto (Sturm-, Hagel-, Wasserschäden) | EE | konvergent |
 | Verwaltung & Personal | Rechnungserstellung | PR | konvergent |
 | Verwaltung & Personal | Sicherheitsunterweisungen aus BG-Bau-Vorgaben | EE | branchenspezifisch |
 | Verwaltung & Personal | KI-Abgleich von Lieferschein und Rechnung | PR | konvergent |
 | Verwaltung & Personal | KI-Posteingangs-Klassifizierung | PR | konvergent |
+| Verwaltung & Personal | Digitale Baustellenakte (DMS) mit KI-Indexierung | EE | konvergent |
+| Verwaltung & Personal | Werkstatt- und Auslastungsplanung aus Auftragsdaten | EE | konvergent |
 | Operatives Kerngeschäft | Dachflächenberechnung aus Luft- oder Drohnenbildern | PR | branchenspezifisch |
 | Operatives Kerngeschäft | Dokumentation und Abnahme-Protokolle | PR | branchenspezifisch |
 | Operatives Kerngeschäft | Spracherkennung für Abnahmeprotokolle | PR | konvergent |
@@ -30,3 +33,5 @@
 | Kundenservice & Beziehung | Terminerinnerungen | PR | konvergent |
 | Kundenservice & Beziehung | Wartungsvertrags-Inhalte generieren | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Versicherungsservice (Abtretungserklärung bei Sturmschäden) | PR | branchenspezifisch |
+| Kundenservice & Beziehung | Wartungsvertrags-Management (Vertragslaufzeiten, Prüf-Reminder) | EE | konvergent |
+| Kundenservice & Beziehung | Kundenportal mit Auftragsstatus-Updates | PR | konvergent |

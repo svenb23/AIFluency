@@ -18,6 +18,9 @@
 | Vertrieb & Angebote | Energieeffizienz- und Fördermittelberatung (Wärmeverlust-Kalkulation) | EE | branchenspezifisch |
 | Verwaltung & Personal | Rechnungserstellung | PR | konvergent |
 | Verwaltung & Personal | KI-gestütztes Liefertermin-Management | PR | konvergent |
+| Verwaltung & Personal | Digitale Projektakte (DMS) mit KI-Indexierung | EE | konvergent |
+| Verwaltung & Personal | Werkstatt- und Auslastungsplanung aus Auftragsdaten | EE | konvergent |
+| Verwaltung & Personal | Lagerverwaltung mit bildbasierter Bestandserkennung | EE | konvergent |
 | Operatives Kerngeschäft | Sicherheitsglas-Normenrecherche (z. B. DIN 18008) | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Aufmaß- und Schnittoptimierung | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Montagedokumentation | PR | konvergent |
@@ -25,7 +28,10 @@
 | Operatives Kerngeschäft | Logistik-Optimierung für Glas-Transporte (Bruchgefahr-Minimierung) | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Materialbestellung aus Aufmaßdaten | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Qualitätsprüfung von Verglasungen (Kratzer, Spannungsrisse) | EE | branchenspezifisch |
+| Operatives Kerngeschäft | Predictive Maintenance für Schneidemaschinen | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Reparatur- und Pflegehinweise | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Terminerinnerungen | PR | konvergent |
 | Kundenservice & Beziehung | Beschwerde-Antworten | PR | konvergent |
 | Kundenservice & Beziehung | Versicherungsservice (Abtretungserklärung bei Glasschäden) | PR | branchenspezifisch |
+| Kundenservice & Beziehung | Wartungsvertrags-Management für Verglasungen | EE | konvergent |
+| Kundenservice & Beziehung | Kundenportal mit Auftragsstatus-Updates | PR | konvergent |

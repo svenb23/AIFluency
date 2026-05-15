@@ -14,6 +14,7 @@
 | Marketing & Kommunikation | Webseiten-Inhalte | PR | konvergent |
 | Marketing & Kommunikation | Bild-KI für Schmiede-Entwürfe (Geländer, Tore, Treppen) | PR | branchenspezifisch |
 | Marketing & Kommunikation | KI-Stilberatung für Architekten (objektspezifisches Design) | PR | branchenspezifisch |
+| Marketing & Kommunikation | AR-Live-Visualisierung von Geländern und Toren am Objekt | PR | konvergent |
 | Vertrieb & Angebote | Angebotserstellung | PR | konvergent |
 | Vertrieb & Angebote | Materialkalkulation (Stahl, Profile, Halbzeuge) | EE | branchenspezifisch |
 | Vertrieb & Angebote | Maßanfertigungs-Visualisierung für Kunden | PR | branchenspezifisch |
@@ -21,6 +22,8 @@
 | Verwaltung & Personal | Rechnungserstellung | PR | konvergent |
 | Verwaltung & Personal | Automatisierte Prüfung von Schweißzertifikaten | PR | branchenspezifisch |
 | Verwaltung & Personal | Bewerber- und Qualifikationsanalyse | EE | konvergent |
+| Verwaltung & Personal | Digitale Projektakte (DMS) mit KI-Indexierung | EE | konvergent |
+| Verwaltung & Personal | Lagerverwaltung mit bildbasierter Bestandserkennung (Halbzeuge, Profile) | EE | konvergent |
 | Operatives Kerngeschäft | Schweißprotokoll- und Sicherheits-Dokumentation | PR | branchenspezifisch |
 | Operatives Kerngeschäft | Zuschnitt- und Nesting-Optimierung | EE | branchenspezifisch |
 | Operatives Kerngeschäft | KI-Verschleißprognose für CNC-Werkzeuge | EE | branchenspezifisch |
@@ -31,3 +34,4 @@
 | Kundenservice & Beziehung | Terminerinnerungen | PR | konvergent |
 | Kundenservice & Beziehung | Beschwerde-Antworten | PR | konvergent |
 | Kundenservice & Beziehung | Interaktive Montageanleitungen aus Stückliste | PR | konvergent |
+| Kundenservice & Beziehung | Kundenportal mit Fertigungsstatus-Updates | PR | konvergent |

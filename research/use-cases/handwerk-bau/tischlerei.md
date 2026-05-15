@@ -15,6 +15,7 @@
 | Marketing & Kommunikation | Bild-KI-Visualisierungen für Möbel-Entwürfe | PR | branchenspezifisch — Vertriebs-Differenzierer |
 | Marketing & Kommunikation | Lokales SEO-Monitoring | PR | konvergent |
 | Marketing & Kommunikation | Google-Business-Rezensionspflege | PR | konvergent |
+| Marketing & Kommunikation | AR-Live-Visualisierung von Möbeln im Kundenraum (Tablet) | PR | konvergent |
 | Vertrieb & Angebote | Angebotserstellung mit Leistungsverzeichnis | PR | konvergent |
 | Vertrieb & Angebote | Materialkalkulation aus Skizzen | EE | branchenspezifisch |
 | Vertrieb & Angebote | Maßanfertigungs-Visualisierung für Kunden | PR | branchenspezifisch |
@@ -23,10 +24,14 @@
 | Verwaltung & Personal | Lagerbestand-Bewirtschaftung (Bestellvorschläge) | EE | konvergent |
 | Verwaltung & Personal | KI-Posteingangs-Klassifizierung | PR | konvergent |
 | Verwaltung & Personal | Digitales Onboarding für Azubis | PR | konvergent |
+| Verwaltung & Personal | Digitale Projektakte (DMS) mit KI-Indexierung | EE | konvergent |
+| Verwaltung & Personal | Werkstatt- und Auslastungsplanung aus Auftragsdaten | EE | konvergent |
 | Operatives Kerngeschäft | CAD-Skizzen in Klartext-Beschreibungen überführen | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Holzart- und Materialberatung per Chat-Assistent | EE | branchenspezifisch |
 | Operatives Kerngeschäft | KI-Fehlererkennung in CAD-Plänen vor dem Abbund | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Bruch-/Verschnitt-Vermeidung durch KI-Zuschnittplanung | PR | branchenspezifisch |
+| Operatives Kerngeschäft | Predictive Maintenance für CNC-Spindeln und Fräsen (akustische Anomalieerkennung) | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Terminerinnerungen | PR | konvergent |
 | Kundenservice & Beziehung | Pflegehinweise für gelieferte Möbel | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Interaktive Montageanleitungen aus Stückliste | PR | konvergent |
+| Kundenservice & Beziehung | Kundenportal mit Fertigungsstatus-Updates | PR | konvergent |

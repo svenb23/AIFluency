@@ -21,7 +21,10 @@
 | Verwaltung & Personal | Sicherheitsunterweisungen generieren | PR | branchenspezifisch |
 | Verwaltung & Personal | Sprachen-Übersetzung für Sicherheitsdatenblätter | PR | branchenspezifisch |
 | Verwaltung & Personal | Automatisierte Bestands- und Nachbestellverwaltung | EE | konvergent |
+| Verwaltung & Personal | Digitale Objektakte (DMS) mit KI-Indexierung | EE | konvergent |
+| Verwaltung & Personal | Wartungsvertrags- und Service-Management (Vertragslaufzeiten, Folgeaufträge) | EE | konvergent |
 | Operatives Kerngeschäft | Tourenplanung-Optimierung für Reinigungsteams | EE | branchenspezifisch |
+| Operatives Kerngeschäft | Predictive Maintenance für Reinigungsmaschinen | PR | branchenspezifisch |
 | Operatives Kerngeschäft | Reinigungsprotokolle automatisiert erstellen | PR | branchenspezifisch |
 | Operatives Kerngeschäft | IoT- und Sensor-basierte Reinigungs-Bedarfs-Prognose (Predictive Cleaning) | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Bildbasierte Qualitätskontrolle (Sauberkeits-Bewertung aus Fotos) | EE | branchenspezifisch |

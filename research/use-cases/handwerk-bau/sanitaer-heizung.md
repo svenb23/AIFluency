@@ -22,6 +22,8 @@
 | Verwaltung & Personal | Rechnungserstellung | PR | konvergent |
 | Verwaltung & Personal | Bewerber-Vorselektion | EE | konvergent |
 | Verwaltung & Personal | KI-Abgleich von Lieferschein und Rechnung | PR | konvergent |
+| Verwaltung & Personal | Digitale Anlagen-/Objektakte (DMS) mit KI-Indexierung | EE | konvergent |
+| Verwaltung & Personal | Werkstatt- und Auslastungsplanung aus Auftragsdaten | EE | konvergent |
 | Operatives Kerngeschäft | Hydraulischer Abgleich – Berechnungsunterstützung | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Smart-Home-Konfiguration (Heizungssteuerung) | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Anlagen-Dokumentation und Wartungsberichte | PR | branchenspezifisch |
@@ -33,3 +35,5 @@
 | Kundenservice & Beziehung | Beschwerde-Antworten | PR | konvergent |
 | Kundenservice & Beziehung | Termin-Routen-Optimierung im Notdienst | EE | branchenspezifisch |
 | Kundenservice & Beziehung | Sprachgesteuerter Notfall-Koordinator (Telefonassistent) | EE | branchenspezifisch |
+| Kundenservice & Beziehung | Wartungsvertrags- und Service-Management (Vertragslaufzeiten, Prüf-Reminder) | EE | konvergent |
+| Kundenservice & Beziehung | Kundenportal mit Auftragsstatus-Updates | PR | konvergent |
