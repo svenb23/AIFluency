@@ -2,7 +2,7 @@
 
 **Quelle:** Gemini Deep Research
 **Datum:** 2026-05-14
-**Zugehöriger Prompt:** [`../prompts/01_branchen-use-case-mapping.md`](../prompts/01_branchen-use-case-mapping.md)
+**Zugehöriger Prompt:** [`../prompts/01_branchen-auswahl_runde-1-offen.md`](../prompts/01_branchen-auswahl_runde-1-offen.md)
 
 ---
 

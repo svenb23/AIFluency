@@ -2,7 +2,7 @@
 
 **Quelle:** Perplexity Deep Research mit Claude Sonnet 4.6
 **Datum:** 2026-05-15
-**Zugehöriger Prompt:** [`../prompts/02_branchen-validierung.md`](../prompts/02_branchen-validierung.md)
+**Zugehöriger Prompt:** [`../prompts/02_branchen-auswahl_runde-2-validierung.md`](../prompts/02_branchen-auswahl_runde-2-validierung.md)
 
 ---
 
