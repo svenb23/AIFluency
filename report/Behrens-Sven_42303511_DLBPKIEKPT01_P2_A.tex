@@ -126,57 +126,75 @@ welcher Reifegrad wird in dieser Phase angestrebt.]
 
 \subsection{Branchen-Use-Case-Mapping}
 
-Die Auswahl der zu betrachtenden Branchen erfolgte auf Basis dreier
-unabhängiger Deep-Research-Läufe (ChatGPT Deep Research, Gemini Deep
-Research sowie Perplexity Deep Research mit Claude Sonnet 4.6). Branchen,
-die in mindestens zwei dieser Recherchen übereinstimmend als realistische
-Erstkandidaten für ein KMU-KI-Beratungsangebot genannt wurden, bilden
-den Kern der Auswahl; eine ergänzende fünfte Branche stammt aus nur
-einer Recherche, fügt aber eine relevante Perspektive hinzu.
-Heilberufe (Arztpraxen, Therapeuten) waren in keiner der drei
-Recherchen als Kandidaten genannt, sind im KMU-Beratungskontext jedoch
-eine naheliegende Erstkandidaten-Frage; sie wurden daher vom Verfasser
-als ausdrücklich ausgeschlossene Branche in die Methodik aufgenommen,
-um die Auswahllogik transparent zu halten. Ausschlaggebend für den
-Ausschluss sind insbesondere die strengen DSGVO-Anforderungen an
+Die Auswahl der zu betrachtenden Branchen erfolgte in zwei Etappen.
+Ein erster Recherchelauf mit offener Branchenwahl (ChatGPT Deep
+Research, Gemini Deep Research sowie Perplexity Deep Research mit
+Claude Sonnet 4.6) identifizierte fünf Erstkandidaten auf
+Cluster-Ebene (Handwerk, Friseurhandwerk, Gastgewerbe, Steuerberatung,
+lokaler Einzelhandel), unterlag jedoch einem systematischen
+Sichtbarkeitsbias zugunsten weniger prominent dokumentierter
+Branchen mit starker Verbandsdatenlage (Bitkom, Destatis, DEHOGA,
+Bundessteuerberaterkammer, Zentralverband Deutsches Friseurhandwerk).
+Ein zweiter Validierungslauf mit vorgegebenem Branchenuniversum von
+rund achtzig KMU-Branchen aus zwölf Kategorien diente der
+Nachschärfung. In diesem Lauf lieferten ChatGPT und Gemini eine
+vollständige Eignungsmatrix; Perplexity hingegen verweigerte die
+Aufgabe und gab stattdessen eine Meta-Antwort mit kurzer Heuristik
+ab, da die für eine belastbare Matrix erforderlichen Primärquellen
+aus Sicht des Tools nicht ausreichend verfügbar waren. Die folgende
+Auswahl stützt sich daher primär auf den Gemini-Lauf, der 35
+Primärquellen aus KfW, Bitkom, Destatis, BStBK, EU~AI~Act und
+Mittelstand-Digital ausweist, und nutzt den ChatGPT-Lauf zur
+Querprüfung.
+
+Aus dem Validierungslauf wurden fünf Branchen-Cluster ausgeschlossen,
+obwohl die Tools dort vielfach hohe Eignung attestierten: IT und
+Digitalisierung, Kreativbranche, Handel und E-Commerce, Bildung und
+Training sowie Medien und Internet. Diese Cluster weisen eine
+überdurchschnittliche Digitalisierungsrate auf und sind technisch sehr
+gut für generative KI geeignet; der Beratungsmarkt wird dort jedoch
+bereits durch zahlreiche überregional tätige Anbieter mit
+Remote-Geschäftsmodell bedient, sodass eine lokale Beratungsstärke
+vor Ort keinen Wettbewerbsvorteil entfaltet. Ebenfalls ausgeschlossen
+wurde das Cluster Gesundheit und Pflege, obwohl Gemini Deep Research
+Physiotherapie, Ergotherapie und Pflegedienste als hoch geeignet
+bewertete; ausschlaggebend sind die strengen DSGVO-Anforderungen an
 Patientendaten, das hohe Bias-Risiko bei medizinischen Aussagen sowie
-die besondere berufsrechtliche Haftung.
+die besondere berufsrechtliche Haftung. Die verbleibenden sechs
+Cluster bilden den Fokus der Sondierung; innerhalb dieser wurden jene
+Branchen ausgewählt, deren Tätigkeitsprofil ein
+Vor-Ort-Beratungsmodell methodisch trägt.
 
 \begin{table}[H]
 \centering
-\caption{Ausgewählte Branchen für das Use-Case-Mapping}
+\caption{Branchenauswahl auf Basis des Validierungslaufs}
 \label{tab:branchen_auswahl}
 \rowcolors{2}{zebragray}{white}
-\begin{tabular}{p{3.5cm}p{1.5cm}p{10cm}}
+\begin{tabular}{p{3cm}p{5.5cm}p{6.5cm}}
 \toprule
-\textbf{Branche} & \textbf{Belege} & \textbf{Begründung} \\
+\textbf{Kategorie} & \textbf{Eingeschlossene Einzelbranchen} & \textbf{Auswahllogik} \\
 \midrule
-Handwerk (allgemein) & 3 von 3 & Rund 564.000 Betriebe, sechs Millionen Beschäftigte, BIP-Anteil von etwa 7,8\,\%; der akute Fachkräftemangel macht Effizienzgewinne durch generative KI besonders attraktiv. \\
-Friseurhandwerk & 2 von 3 & Über 70\,\% der rund 76.000 Salons mit unter fünf Mitarbeitern; typische Anwendungsfelder (Termin-, Marketing- und Stilkommunikation) unterscheiden sich deutlich von technisch geprägten Gewerken. \\
-Gastgewerbe & 3 von 3 & 197.000 bis 206.000 überwiegend kleine Betriebe; akuter Kostendruck nach Arbeitskosten-Anstieg um rund 40\,\% sowie hoher Anteil an Kommunikations- und Marketingaufgaben. \\
-Steuerberatung & 3 von 3 & Rund 53.800 Praxen, davon zwei Drittel Ein-Personen-Kanzleien; textintensiv mit hohem Automatisierungspotenzial bei klar abgegrenzten Risiko-Use-Cases (DSGVO, Berufsrecht). \\
-Lokaler Einzelhandel & 1 von 3 & Ergänzt das Mapping um eine Branche mit starkem lokalen Charakter und hohem Marketing- und Visualisierungs-Bedarf; die gespaltene KI-Adoption verdeutlicht die Beratungslücke bei kleinen Läden. \\
+Handwerk \& Bau & Elektriker, Malerbetrieb, Tischlerei, Dachdecker, Garten- und Landschaftsbau, Sanitär und Heizung, Fliesenleger, Gebäudereinigung, Hausmeisterservice, Trockenbau & Heterogenes Cluster mit Eignungsspektrum von hoch (Tischlerei, Garten- und Landschaftsbau, Sanitär und Heizung, Elektriker) bis gering (Fliesenleger, Hausmeisterservice, Trockenbau); vollständige Cluster-Aufnahme erlaubt die Differenzierung zwischen planungsintensiven und rein manuellen Gewerken. \\
+Beratung \& Dienstleistungen (lokal) & Steuerberatung, Immobilienmakler, Versicherungsagentur & Hohe administrative und kommunikative Last bei lokaler Marktstruktur; alle drei Branchen in Gemini Deep Research als hoch eignungsfähig eingestuft, ChatGPT bewertet zurückhaltender wegen Berufsrecht und Datenschutz. \\
+Landwirtschaft \& Regionale Wirtschaft & Landwirtschaft, Direktvermarktung, Biohof, Pferdehof, Imkerei, Forstwirtschaft & Direktvermarktung und Biohof durch Strukturwandel zu Öko-Betrieben hoch eingestuft; übrige Branchen als regional verankerte Kontrastfälle mit geringerer Eignung mitgeführt. \\
+Mobilität \& Fahrzeuge & Kfz-Werkstatt, Fahrschule & Lokal verankerte Werkstattstrukturen; Kfz-Werkstatt im Zuge der Elektromobilitäts-Transformation hoch eingestuft, Fahrschule als regulatorisch beschränkter Kontrastfall. \\
+Lokale Dienstleistungen & Friseur, Kosmetikstudio, Kinderbetreuung & Maximal lokal verankerte Kleinstbetriebe; in Lauf 2 als gering eignungsfähig bewertet, dienen aber als Stresstest für die Tragfähigkeit eines Beratungsangebots bei kleinen Budgets und einfachen administrativen Strukturen. \\
+Gastronomie \& Lebensmittel & nachrangig zu prüfen & Aufnahme offen; Hofladen aus Gemini-Lauf hoch eingestuft, übrige Branchen zwiespältig zwischen Use-Case-Potenzial und geringer Beratungsökonomie kleiner Gastrobetriebe. \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-Die so ermittelte Auswahl unterliegt einem systematischen Quellen- und
-Sichtbarkeitsbias der drei Deep-Research-Läufe. Die generative KI
-stützt sich bevorzugt auf solche Branchen, zu denen prominent
-zitierfähige Verbands- und Statistikdaten vorliegen (Bitkom, Destatis,
-DEHOGA, Bundessteuerberaterkammer, Zentralverband Deutsches
-Friseurhandwerk), und greift wiederkehrende Beispielnennungen aus der
-GenAI-Berichterstattung der Jahre 2023 bis 2025 auf. Branchen ohne
-starke Verbandsdatenlage (etwa Kfz-Werkstätten, Kosmetikstudios,
-Foodtrucks, Hofläden, Immobilienmakler, Versicherungsagenturen oder
-freie Coachings) erscheinen daher trotz vergleichbarer Eignungsprofile
-nicht als Erstkandidaten. Umgekehrt fallen bereits stark KI-affine
-Branchen (Webagenturen, SEO-Dienstleister, Softwareentwicklung,
-Mediengestaltung) aus dem Beratungs-Scope heraus, da sie generative
-KI selbst aktiv einsetzen und keine externe Einstiegsberatung
-nachfragen. Diese Einschränkung wird in einem ergänzenden
-Recherchelauf mit erweiterter Branchen-Hypothese im weiteren Verlauf
-der Sondierung adressiert.
+Die endgültige Auswahl umfasst sechs Branchen-Cluster mit rund zwei
+Dutzend Einzelbranchen und spiegelt eine bewusste Verschiebung weg
+von online-affinen Branchen mit gesättigtem Remote-Beratungsmarkt hin
+zu lokal verankerten Tätigkeitsfeldern, in denen ein
+Vor-Ort-Beratungsmodell methodisch trägt. Innerhalb der ausgewählten
+Cluster reicht das Eignungsspektrum der einzelnen Branchen nach Gemini
+Deep Research von hoch (Steuerberatung, Tischlerei, Kfz-Werkstatt,
+Direktvermarktung) bis gering (Hausmeisterservice, Friseur,
+Kosmetikstudio); die geringer eingestuften Branchen werden bewusst
+mitgeführt, um die Tragfähigkeit eines Beratungsangebots auch bei
+kleinstbetrieblichen Strukturen prüfen zu können.
 
 \subsection{Business Model Canvas}
 % Inhalt: Canvas-Bausteine für das hypothetische KMU-KI-Beratungsangebot.
