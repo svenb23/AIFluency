@@ -1,7 +1,7 @@
 # Branchen-Übersicht
 
 **Status:** `[x]` = Use-Case-Mapping vorhanden in `use-cases/[cluster]/[branche].md` · `[ ]` = noch offen
-**Bearbeitet:** 44 von rund 135 Branchen — Cluster *Handwerk & Bau* und *IT & Digitalisierung* vollständig abgeschlossen.
+**Bearbeitet:** 51 von rund 135 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung* und *Kreativbranche* vollständig abgeschlossen.
 
 ---
 
@@ -57,13 +57,13 @@
 
 ## Kreativbranche
 
-- [ ] Grafikdesign
-- [ ] Fotograf
-- [ ] Videograf
-- [ ] Texter
-- [ ] Werbeagentur
-- [ ] UX/UI Design
-- [ ] Content Creator
+- [x] Grafikdesign
+- [x] Fotograf
+- [x] Videograf
+- [x] Texter
+- [x] Werbeagentur
+- [x] UX/UI Design
+- [x] Content Creator
 
 ## Gesundheit & Pflege
 
