@@ -1,7 +1,7 @@
 # Branchen-Übersicht
 
 **Status:** `[x]` = Use-Case-Mapping vorhanden in `use-cases/[cluster]/[branche].md` · `[ ]` = noch offen
-**Bearbeitet:** 99 von rund 135 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche*, *Gesundheit & Pflege*, *Gastronomie & Lebensmittel* und *Handel & E-Commerce* vollständig abgeschlossen.
+**Bearbeitet:** 114 von rund 135 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche*, *Gesundheit & Pflege*, *Gastronomie & Lebensmittel*, *Handel & E-Commerce* und *Beratung & Dienstleistungen* vollständig abgeschlossen.
 
 ---
 
@@ -124,21 +124,21 @@
 
 ## Beratung & Dienstleistungen
 
-- [ ] Unternehmensberatung
-- [ ] Steuerberatung
-- [ ] Immobilienmakler
-- [ ] Versicherungsagentur
-- [ ] Coaching
-- [ ] Personalvermittlung
-- [ ] Buchhaltung
-- [ ] Übersetzungen
-- [ ] Rechtsanwaltskanzlei
-- [ ] Notar
-- [ ] Wirtschaftsprüfer
-- [ ] Architekturbüro
-- [ ] Ingenieurbüro
-- [ ] Hausverwaltung
-- [ ] Vermessungsbüro
+- [x] Unternehmensberatung
+- [x] Steuerberatung
+- [x] Immobilienmakler
+- [x] Versicherungsagentur
+- [x] Coaching
+- [x] Personalvermittlung
+- [x] Buchhaltung
+- [x] Übersetzungen
+- [x] Rechtsanwaltskanzlei
+- [x] Notar
+- [x] Wirtschaftsprüfer
+- [x] Architekturbüro
+- [x] Ingenieurbüro
+- [x] Hausverwaltung
+- [x] Vermessungsbüro
 
 ## Bildung & Training
 
