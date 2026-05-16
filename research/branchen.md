@@ -1,7 +1,7 @@
 # Branchen-Übersicht
 
 **Status:** `[x]` = Use-Case-Mapping vorhanden in `use-cases/[cluster]/[branche].md` · `[ ]` = noch offen
-**Bearbeitet:** 51 von rund 135 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung* und *Kreativbranche* vollständig abgeschlossen.
+**Bearbeitet:** 69 von rund 135 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche* und *Gesundheit & Pflege* vollständig abgeschlossen.
 
 ---
 
@@ -67,24 +67,24 @@
 
 ## Gesundheit & Pflege
 
-- [ ] Physiotherapie
-- [ ] Pflegedienst
-- [ ] Ernährungsberatung
-- [ ] Fitness-Coaching
-- [ ] Personal Trainer
-- [ ] Ergotherapie
-- [ ] Heilpraktiker
-- [ ] Seniorenbetreuung
-- [ ] Zahnarztpraxis
-- [ ] Allgemein- und Facharztpraxis
-- [ ] Tierarztpraxis
-- [ ] Apotheke
-- [ ] Hebamme
-- [ ] Logopädie
-- [ ] Psychotherapie
-- [ ] Optiker
-- [ ] Hörgeräteakustiker
-- [ ] Podologie (medizinische Fußpflege)
+- [x] Physiotherapie
+- [x] Pflegedienst
+- [x] Ernährungsberatung
+- [x] Fitness-Coaching
+- [x] Personal Trainer
+- [x] Ergotherapie
+- [x] Heilpraktiker
+- [x] Seniorenbetreuung
+- [x] Zahnarztpraxis
+- [x] Allgemein- und Facharztpraxis
+- [x] Tierarztpraxis
+- [x] Apotheke
+- [x] Hebamme
+- [x] Logopädie
+- [x] Psychotherapie
+- [x] Optiker
+- [x] Hörgeräteakustiker
+- [x] Podologie (medizinische Fußpflege)
 
 ## Gastronomie & Lebensmittel
 
