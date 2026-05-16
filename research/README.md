@@ -46,6 +46,7 @@ Beispiele:
 | Cluster | Status | Mappings |
 | --- | --- | --- |
 | Handwerk & Bau | vollständig | 34 von 34 |
+| IT & Digitalisierung | vollständig | 10 von 10 (Cluster in Section 1.1 als Beratungs-Zielgruppe ausgeschlossen, methodisch dennoch gemappt) |
 | Beratung & Dienstleistungen | offen | 0 von 15 |
 | Mobilität & Fahrzeuge | offen | 0 von 11 |
 | Gastronomie & Lebensmittel | offen | 0 von 11 |

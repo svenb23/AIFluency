@@ -1,7 +1,7 @@
 # Branchen-Übersicht
 
 **Status:** `[x]` = Use-Case-Mapping vorhanden in `use-cases/[cluster]/[branche].md` · `[ ]` = noch offen
-**Bearbeitet:** 34 von rund 135 Branchen — Cluster *Handwerk & Bau* vollständig abgeschlossen.
+**Bearbeitet:** 44 von rund 135 Branchen — Cluster *Handwerk & Bau* und *IT & Digitalisierung* vollständig abgeschlossen.
 
 ---
 
@@ -44,16 +44,16 @@
 
 ## IT & Digitalisierung
 
-- [ ] Webentwicklung
-- [ ] App-Entwicklung
-- [ ] KI-Beratung
-- [ ] IT-Support
-- [ ] Cybersecurity
-- [ ] Cloud-Services
-- [ ] Softwareentwicklung
-- [ ] Hosting-Anbieter
-- [ ] SEO-Agentur
-- [ ] Social-Media-Management
+- [x] Webentwicklung
+- [x] App-Entwicklung
+- [x] KI-Beratung
+- [x] IT-Support
+- [x] Cybersecurity
+- [x] Cloud-Services
+- [x] Softwareentwicklung
+- [x] Hosting-Anbieter
+- [x] SEO-Agentur
+- [x] Social-Media-Management
 
 ## Kreativbranche
 
