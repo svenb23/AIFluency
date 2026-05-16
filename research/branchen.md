@@ -1,7 +1,7 @@
 # Branchen-Übersicht
 
 **Status:** `[x]` = Use-Case-Mapping vorhanden in `use-cases/[cluster]/[branche].md` · `[ ]` = noch offen
-**Bearbeitet:** 80 von rund 135 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche*, *Gesundheit & Pflege* und *Gastronomie & Lebensmittel* vollständig abgeschlossen.
+**Bearbeitet:** 99 von rund 135 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche*, *Gesundheit & Pflege*, *Gastronomie & Lebensmittel* und *Handel & E-Commerce* vollständig abgeschlossen.
 
 ---
 
@@ -102,25 +102,25 @@
 
 ## Handel & E-Commerce
 
-- [ ] Onlineshop
-- [ ] Amazon FBA
-- [ ] Einzelhandel
-- [ ] Second-Hand-Shop
-- [ ] Technikhandel
-- [ ] Möbelhandel
-- [ ] Tierbedarf
-- [ ] Modegeschäft
-- [ ] Buchhandlung
-- [ ] Floristik / Blumenladen
-- [ ] Drogerie
-- [ ] Sportgeschäft
-- [ ] Spielwarengeschäft
-- [ ] Reformhaus / Bioladen
-- [ ] Juwelier / Schmuckgeschäft
-- [ ] Fahrradladen
-- [ ] Eisenwarenladen
-- [ ] Kiosk / Tante-Emma-Laden
-- [ ] Schuhgeschäft
+- [x] Onlineshop
+- [x] Amazon FBA
+- [x] Einzelhandel
+- [x] Second-Hand-Shop
+- [x] Technikhandel
+- [x] Möbelhandel
+- [x] Tierbedarf
+- [x] Modegeschäft
+- [x] Buchhandlung
+- [x] Floristik / Blumenladen
+- [x] Drogerie
+- [x] Sportgeschäft
+- [x] Spielwarengeschäft
+- [x] Reformhaus / Bioladen
+- [x] Juwelier / Schmuckgeschäft
+- [x] Fahrradladen
+- [x] Eisenwarenladen
+- [x] Kiosk / Tante-Emma-Laden
+- [x] Schuhgeschäft
 
 ## Beratung & Dienstleistungen
 

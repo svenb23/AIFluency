@@ -50,6 +50,7 @@ Beispiele:
 | Kreativbranche | vollständig | 7 von 7 (Cluster in Section 1.1 als Beratungs-Zielgruppe ausgeschlossen, methodisch dennoch gemappt) |
 | Gesundheit & Pflege | vollständig | 18 von 18 (Cluster in Section 1.1 wegen DSGVO/§203 StGB ausgeschlossen, methodisch dennoch gemappt; alle Mappings enthalten Datenschutz-Hinweis-Block) |
 | Gastronomie & Lebensmittel | vollständig | 11 von 11 — Round-7-Ergänzung aus ChatGPT und Gemini eingearbeitet |
+| Handel & E-Commerce | vollständig | 19 von 19 — Round-8-Ergänzung aus ChatGPT eingearbeitet (Gemini/Perplexity offen). Cluster in Section 1.1 ausgeschlossen, methodisch dennoch gemappt |
 | Beratung & Dienstleistungen | offen | 0 von 15 |
 | Mobilität & Fahrzeuge | offen | 0 von 11 |
 | Gesundheit & Pflege | ausgeschlossen | DSGVO/Berufsrecht |
