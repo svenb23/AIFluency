@@ -1,7 +1,7 @@
 # Branchen-Übersicht
 
 **Status:** `[x]` = Use-Case-Mapping vorhanden in `use-cases/[cluster]/[branche].md` · `[ ]` = noch offen
-**Bearbeitet:** 69 von rund 135 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche* und *Gesundheit & Pflege* vollständig abgeschlossen.
+**Bearbeitet:** 80 von rund 135 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche*, *Gesundheit & Pflege* und *Gastronomie & Lebensmittel* vollständig abgeschlossen.
 
 ---
 
@@ -88,17 +88,17 @@
 
 ## Gastronomie & Lebensmittel
 
-- [ ] Café
-- [ ] Foodtruck
-- [ ] Catering
-- [ ] Bäckerei
-- [ ] Imbiss
-- [ ] Restaurant
-- [ ] Hofladen
-- [ ] Feinkosthandel
-- [ ] Konditorei
-- [ ] Metzgerei (Fleischerbetrieb)
-- [ ] Brauerei
+- [x] Café
+- [x] Foodtruck
+- [x] Catering
+- [x] Bäckerei
+- [x] Imbiss
+- [x] Restaurant
+- [x] Hofladen
+- [x] Feinkosthandel
+- [x] Konditorei
+- [x] Metzgerei (Fleischerbetrieb)
+- [x] Brauerei
 
 ## Handel & E-Commerce
 

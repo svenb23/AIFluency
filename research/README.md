@@ -49,9 +49,9 @@ Beispiele:
 | IT & Digitalisierung | vollständig | 10 von 10 (Cluster in Section 1.1 als Beratungs-Zielgruppe ausgeschlossen, methodisch dennoch gemappt) |
 | Kreativbranche | vollständig | 7 von 7 (Cluster in Section 1.1 als Beratungs-Zielgruppe ausgeschlossen, methodisch dennoch gemappt) |
 | Gesundheit & Pflege | vollständig | 18 von 18 (Cluster in Section 1.1 wegen DSGVO/§203 StGB ausgeschlossen, methodisch dennoch gemappt; alle Mappings enthalten Datenschutz-Hinweis-Block) |
+| Gastronomie & Lebensmittel | vollständig | 11 von 11 — Round-7-Ergänzung aus ChatGPT und Gemini eingearbeitet |
 | Beratung & Dienstleistungen | offen | 0 von 15 |
 | Mobilität & Fahrzeuge | offen | 0 von 11 |
-| Gastronomie & Lebensmittel | offen | 0 von 11 |
 | Gesundheit & Pflege | ausgeschlossen | DSGVO/Berufsrecht |
 | IT & Digitalisierung | ausgeschlossen | gesättigter Remote-Beratungsmarkt |
 | Kreativbranche | ausgeschlossen | gesättigter Remote-Beratungsmarkt |
