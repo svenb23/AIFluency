@@ -1,7 +1,7 @@
 # Branchen-Übersicht
 
 **Status:** `[x]` = Use-Case-Mapping vorhanden in `use-cases/[cluster]/[branche].md` · `[ ]` = noch offen
-**Bearbeitet:** 162 von rund 165 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche*, *Gesundheit & Pflege*, *Gastronomie & Lebensmittel*, *Handel & E-Commerce*, *Beratung & Dienstleistungen*, *Bildung & Training*, *Landwirtschaft & Regionale Wirtschaft*, *Mobilität & Fahrzeuge*, *Medien & Internet* und *Lokale Dienstleistungen* vollständig abgeschlossen.
+**Bearbeitet:** 171 von rund 175 Branchen — 14 Cluster vollständig abgeschlossen. Offen: *Sicherheit & Schutzdienste* (3), *Kunsthandwerk & Manufaktur* (8).
 
 ---
 
@@ -205,18 +205,18 @@
 
 ## Beherbergung & Tourismus
 
-- [ ] Hotel
-- [ ] Pension
-- [ ] Ferienwohnung
-- [ ] Campingplatz
-- [ ] Reiseleitung / Stadtführung
+- [x] Hotel
+- [x] Pension
+- [x] Ferienwohnung
+- [x] Campingplatz
+- [x] Reiseleitung / Stadtführung
 
 ## Persönliche Übergänge & Soziales
 
-- [ ] Bestattungsunternehmen
-- [ ] Hochzeitsplanung
-- [ ] Trauerredner / Zeremonienleitung
-- [ ] Gemeinnützige Träger
+- [x] Bestattungsunternehmen
+- [x] Hochzeitsplanung
+- [x] Trauerredner / Zeremonienleitung
+- [x] Gemeinnützige Träger
 
 ## Sicherheit & Schutzdienste
 

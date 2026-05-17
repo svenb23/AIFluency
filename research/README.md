@@ -57,6 +57,8 @@ Beispiele:
 | Mobilität & Fahrzeuge | vollständig | 11 von 11 — Round-11-Ergänzung aus ChatGPT eingearbeitet (Gemini offen) |
 | Medien & Internet | vollständig | 5 von 5 — Round-11-Ergänzung aus ChatGPT eingearbeitet (Cluster in Section 1.1 ausgeschlossen, methodisch dennoch gemappt) |
 | Lokale Dienstleistungen | vollständig | 16 von 16 — Round-12-Ergänzung aus ChatGPT eingearbeitet (Gemini offen). Bei Änderungsschneiderei keine Ergänzung (ChatGPT meldete keine sinnvollen Use-Cases) |
+| Beherbergung & Tourismus | vollständig (Erstbearbeitung) | 5 von 5 — Deep-Research-Ergänzung steht aus |
+| Persönliche Übergänge & Soziales | vollständig (Erstbearbeitung) | 4 von 4 — Deep-Research-Ergänzung steht aus |
 | Gesundheit & Pflege | ausgeschlossen | DSGVO/Berufsrecht |
 | IT & Digitalisierung | ausgeschlossen | gesättigter Remote-Beratungsmarkt |
 | Kreativbranche | ausgeschlossen | gesättigter Remote-Beratungsmarkt |
