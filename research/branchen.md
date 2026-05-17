@@ -1,7 +1,7 @@
 # Branchen-Übersicht
 
 **Status:** `[x]` = Use-Case-Mapping vorhanden in `use-cases/[cluster]/[branche].md` · `[ ]` = noch offen
-**Bearbeitet:** 130 von rund 135 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche*, *Gesundheit & Pflege*, *Gastronomie & Lebensmittel*, *Handel & E-Commerce*, *Beratung & Dienstleistungen*, *Bildung & Training* und *Landwirtschaft & Regionale Wirtschaft* vollständig abgeschlossen.
+**Bearbeitet:** 146 von rund 165 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche*, *Gesundheit & Pflege*, *Gastronomie & Lebensmittel*, *Handel & E-Commerce*, *Beratung & Dienstleistungen*, *Bildung & Training*, *Landwirtschaft & Regionale Wirtschaft*, *Mobilität & Fahrzeuge* und *Medien & Internet* vollständig abgeschlossen.
 
 ---
 
@@ -164,25 +164,25 @@
 
 ## Mobilität & Fahrzeuge
 
-- [ ] Kfz-Werkstatt
-- [ ] Fahrzeugaufbereitung
-- [ ] Fahrschule
-- [ ] Reifenservice
-- [ ] Carsharing
-- [ ] E-Bike-Verleih
-- [ ] Taxiunternehmen
-- [ ] Autohaus / Gebrauchtwagenhandel
-- [ ] Spedition / Lokale Logistik
-- [ ] Autovermietung
-- [ ] Motorradhändler
+- [x] Kfz-Werkstatt
+- [x] Fahrzeugaufbereitung
+- [x] Fahrschule
+- [x] Reifenservice
+- [x] Carsharing
+- [x] E-Bike-Verleih
+- [x] Taxiunternehmen
+- [x] Autohaus / Gebrauchtwagenhandel
+- [x] Spedition / Lokale Logistik
+- [x] Autovermietung
+- [x] Motorradhändler
 
 ## Medien & Internet
 
-- [ ] YouTube-Kanal
-- [ ] Podcast
-- [ ] Newsletter-Business
-- [ ] Blog
-- [ ] Online-Magazin
+- [x] YouTube-Kanal
+- [x] Podcast
+- [x] Newsletter-Business
+- [x] Blog
+- [x] Online-Magazin
 
 ## Lokale Dienstleistungen
 

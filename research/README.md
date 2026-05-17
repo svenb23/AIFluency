@@ -54,7 +54,8 @@ Beispiele:
 | Beratung & Dienstleistungen | vollständig | 15 von 15 — Round-9-Ergänzung aus ChatGPT und Gemini eingearbeitet |
 | Bildung & Training | vollständig | 7 von 7 — Round-10-Ergänzung aus ChatGPT und Gemini eingearbeitet (Cluster in Section 1.1 ausgeschlossen, methodisch dennoch gemappt) |
 | Landwirtschaft & Regionale Wirtschaft | vollständig | 9 von 9 — Round-10-Ergänzung aus ChatGPT und Gemini eingearbeitet |
-| Mobilität & Fahrzeuge | offen | 0 von 11 |
+| Mobilität & Fahrzeuge | vollständig | 11 von 11 — Round-11-Ergänzung aus ChatGPT eingearbeitet (Gemini offen) |
+| Medien & Internet | vollständig | 5 von 5 — Round-11-Ergänzung aus ChatGPT eingearbeitet (Cluster in Section 1.1 ausgeschlossen, methodisch dennoch gemappt) |
 | Gesundheit & Pflege | ausgeschlossen | DSGVO/Berufsrecht |
 | IT & Digitalisierung | ausgeschlossen | gesättigter Remote-Beratungsmarkt |
 | Kreativbranche | ausgeschlossen | gesättigter Remote-Beratungsmarkt |
