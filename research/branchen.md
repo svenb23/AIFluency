@@ -1,7 +1,7 @@
 # Branchen-Übersicht
 
 **Status:** `[x]` = Use-Case-Mapping vorhanden in `use-cases/[cluster]/[branche].md` · `[ ]` = noch offen
-**Bearbeitet:** 114 von rund 135 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche*, *Gesundheit & Pflege*, *Gastronomie & Lebensmittel*, *Handel & E-Commerce* und *Beratung & Dienstleistungen* vollständig abgeschlossen.
+**Bearbeitet:** 130 von rund 135 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche*, *Gesundheit & Pflege*, *Gastronomie & Lebensmittel*, *Handel & E-Commerce*, *Beratung & Dienstleistungen*, *Bildung & Training* und *Landwirtschaft & Regionale Wirtschaft* vollständig abgeschlossen.
 
 ---
 
@@ -142,25 +142,25 @@
 
 ## Bildung & Training
 
-- [ ] Nachhilfe
-- [ ] Sprachschule
-- [ ] Online-Kurse
-- [ ] Musikschule
-- [ ] Weiterbildung
-- [ ] Prüfungsvorbereitung
-- [ ] KI-Schulungen
+- [x] Nachhilfe
+- [x] Sprachschule
+- [x] Online-Kurse
+- [x] Musikschule
+- [x] Weiterbildung
+- [x] Prüfungsvorbereitung
+- [x] KI-Schulungen
 
 ## Landwirtschaft & Regionale Wirtschaft
 
-- [ ] Landwirtschaft
-- [ ] Direktvermarktung
-- [ ] Biohof
-- [ ] Pferdehof
-- [ ] Imkerei
-- [ ] Forstwirtschaft
-- [ ] Obstbau
-- [ ] Gärtnerei (Pflanzengärtnerei)
-- [ ] Baumschule
+- [x] Landwirtschaft
+- [x] Direktvermarktung
+- [x] Biohof
+- [x] Pferdehof
+- [x] Imkerei
+- [x] Forstwirtschaft
+- [x] Obstbau
+- [x] Gärtnerei (Pflanzengärtnerei)
+- [x] Baumschule
 
 ## Mobilität & Fahrzeuge
 

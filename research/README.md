@@ -52,6 +52,8 @@ Beispiele:
 | Gastronomie & Lebensmittel | vollständig | 11 von 11 — Round-7-Ergänzung aus ChatGPT und Gemini eingearbeitet |
 | Handel & E-Commerce | vollständig | 19 von 19 — Round-8-Ergänzung aus ChatGPT eingearbeitet (Gemini/Perplexity offen). Cluster in Section 1.1 ausgeschlossen, methodisch dennoch gemappt |
 | Beratung & Dienstleistungen | vollständig | 15 von 15 — Round-9-Ergänzung aus ChatGPT und Gemini eingearbeitet |
+| Bildung & Training | vollständig | 7 von 7 — Round-10-Ergänzung aus ChatGPT und Gemini eingearbeitet (Cluster in Section 1.1 ausgeschlossen, methodisch dennoch gemappt) |
+| Landwirtschaft & Regionale Wirtschaft | vollständig | 9 von 9 — Round-10-Ergänzung aus ChatGPT und Gemini eingearbeitet |
 | Mobilität & Fahrzeuge | offen | 0 von 11 |
 | Gesundheit & Pflege | ausgeschlossen | DSGVO/Berufsrecht |
 | IT & Digitalisierung | ausgeschlossen | gesättigter Remote-Beratungsmarkt |
