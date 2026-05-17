@@ -1,7 +1,7 @@
 # Branchen-Übersicht
 
 **Status:** `[x]` = Use-Case-Mapping vorhanden in `use-cases/[cluster]/[branche].md` · `[ ]` = noch offen
-**Bearbeitet:** 146 von rund 165 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche*, *Gesundheit & Pflege*, *Gastronomie & Lebensmittel*, *Handel & E-Commerce*, *Beratung & Dienstleistungen*, *Bildung & Training*, *Landwirtschaft & Regionale Wirtschaft*, *Mobilität & Fahrzeuge* und *Medien & Internet* vollständig abgeschlossen.
+**Bearbeitet:** 162 von rund 165 Branchen — Cluster *Handwerk & Bau*, *IT & Digitalisierung*, *Kreativbranche*, *Gesundheit & Pflege*, *Gastronomie & Lebensmittel*, *Handel & E-Commerce*, *Beratung & Dienstleistungen*, *Bildung & Training*, *Landwirtschaft & Regionale Wirtschaft*, *Mobilität & Fahrzeuge*, *Medien & Internet* und *Lokale Dienstleistungen* vollständig abgeschlossen.
 
 ---
 
@@ -186,22 +186,22 @@
 
 ## Lokale Dienstleistungen
 
-- [ ] Friseur
-- [ ] Kosmetikstudio
-- [ ] Hundesalon
-- [ ] Schlüsseldienst
-- [ ] Umzugsservice
-- [ ] Eventplanung
-- [ ] Kinderbetreuung
-- [ ] Reisebüro
-- [ ] Wäscherei / Textilreinigung
-- [ ] Nagelstudio
-- [ ] Tattoo-Studio
-- [ ] Massagestudio
-- [ ] Yogastudio
-- [ ] Tanzschule
-- [ ] Änderungsschneiderei / Nähservice
-- [ ] Handy-Reparaturdienst
+- [x] Friseur
+- [x] Kosmetikstudio
+- [x] Hundesalon
+- [x] Schlüsseldienst
+- [x] Umzugsservice
+- [x] Eventplanung
+- [x] Kinderbetreuung
+- [x] Reisebüro
+- [x] Wäscherei / Textilreinigung
+- [x] Nagelstudio
+- [x] Tattoo-Studio
+- [x] Massagestudio
+- [x] Yogastudio
+- [x] Tanzschule
+- [x] Änderungsschneiderei / Nähservice
+- [x] Handy-Reparaturdienst
 
 ## Beherbergung & Tourismus
 
