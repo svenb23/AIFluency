@@ -59,13 +59,14 @@ Beispiele:
 | Lokale Dienstleistungen | vollständig | 16 von 16 — Round-12-Ergänzung aus ChatGPT und Gemini eingearbeitet. Gemini-Highlights selektiv nachgezogen (Telefonassistent, Trinkgeld-Motivations-Statistik, Aging-Simulation, Transparenz-Bot, Schlüsselrohling-OCR, Schulungs-Assistent, 3D-Body-Scan, Haltungs-Analyse, Motiv-Refinement) |
 | Beherbergung & Tourismus | vollständig (Erstbearbeitung) | 5 von 5 — Deep-Research-Ergänzung steht aus |
 | Persönliche Übergänge & Soziales | vollständig (Erstbearbeitung) | 4 von 4 — Deep-Research-Ergänzung steht aus |
+| Sicherheit & Schutzdienste | vollständig (Erstbearbeitung) | 3 von 3 — Deep-Research-Ergänzung steht aus |
+| Kunsthandwerk & Manufaktur | vollständig (Erstbearbeitung) | 8 von 8 — Deep-Research-Ergänzung steht aus |
 | Gesundheit & Pflege | ausgeschlossen | DSGVO/Berufsrecht |
 | IT & Digitalisierung | ausgeschlossen | gesättigter Remote-Beratungsmarkt |
 | Kreativbranche | ausgeschlossen | gesättigter Remote-Beratungsmarkt |
 | Handel & E-Commerce | ausgeschlossen | gesättigter Remote-Beratungsmarkt |
 | Bildung & Training | ausgeschlossen | gesättigter Remote-Beratungsmarkt |
 | Medien & Internet | ausgeschlossen | gesättigter Remote-Beratungsmarkt |
-| weitere Cluster | offen | siehe `branchen.md` |
 
 ## Arbeitsweise
 

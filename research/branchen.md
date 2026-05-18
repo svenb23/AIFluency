@@ -1,7 +1,7 @@
 # Branchen-Übersicht
 
 **Status:** `[x]` = Use-Case-Mapping vorhanden in `use-cases/[cluster]/[branche].md` · `[ ]` = noch offen
-**Bearbeitet:** 171 von rund 175 Branchen — 14 Cluster vollständig abgeschlossen. Offen: *Sicherheit & Schutzdienste* (3), *Kunsthandwerk & Manufaktur* (8).
+**Bearbeitet:** 182 von 182 Branchen — alle 16 Cluster vollständig erstbearbeitet. Deep-Research-Ergänzung steht noch aus für: Mobilität (Gemini), Medien (Gemini), Beherbergung, Persönliche Übergänge, Sicherheit, Kunsthandwerk.
 
 ---
 
@@ -220,17 +220,17 @@
 
 ## Sicherheit & Schutzdienste
 
-- [ ] Sicherheitsdienst
-- [ ] Wach- und Schließdienst
-- [ ] Sicherheits- und Alarmtechnik
+- [x] Sicherheitsdienst
+- [x] Wach- und Schließdienst
+- [x] Sicherheits- und Alarmtechnik
 
 ## Kunsthandwerk & Manufaktur
 
-- [ ] Uhrmacher
-- [ ] Graveur
-- [ ] Gold- und Silberschmiede
-- [ ] Maßschneider
-- [ ] Schuhmacher
-- [ ] Buchbinder
-- [ ] Print- und Medientechnologe (Druckereitechnik)
-- [ ] Keramiker
+- [x] Uhrmacher
+- [x] Graveur
+- [x] Gold- und Silberschmiede
+- [x] Maßschneider
+- [x] Schuhmacher
+- [x] Buchbinder
+- [x] Print- und Medientechnologe (Druckereitechnik)
+- [x] Keramiker
