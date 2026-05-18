@@ -21,6 +21,7 @@
 | Verwaltung & Personal | Rechnungserstellung und TSE-Auswertung | PR | branchenspezifisch |
 | Verwaltung & Personal | KI-Posteingangs-Klassifizierung | PR | konvergent |
 | Verwaltung & Personal | Hygiene- und Sterilisations-Doku | EE | branchenspezifisch |
+| Verwaltung & Personal | KI-Schulungs-Assistent für neue Modellage-Techniken | PR | branchenspezifisch — HandwO |
 | Operatives Kerngeschäft | Design-Generierung aus Stil-/Anlass-Vorgabe | PR | branchenspezifisch |
 | Operatives Kerngeschäft | Bestandsoptimierung (Lacke, Gele, Tips) | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Allergie-/Wirkstoff-Vorabprüfung | EE | branchenspezifisch |

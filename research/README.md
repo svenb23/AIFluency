@@ -56,7 +56,7 @@ Beispiele:
 | Landwirtschaft & Regionale Wirtschaft | vollständig | 9 von 9 — Round-10-Ergänzung aus ChatGPT und Gemini eingearbeitet |
 | Mobilität & Fahrzeuge | vollständig | 11 von 11 — Round-11-Ergänzung aus ChatGPT eingearbeitet (Gemini offen) |
 | Medien & Internet | vollständig | 5 von 5 — Round-11-Ergänzung aus ChatGPT eingearbeitet (Cluster in Section 1.1 ausgeschlossen, methodisch dennoch gemappt) |
-| Lokale Dienstleistungen | vollständig | 16 von 16 — Round-12-Ergänzung aus ChatGPT eingearbeitet (Gemini offen). Bei Änderungsschneiderei keine Ergänzung (ChatGPT meldete keine sinnvollen Use-Cases) |
+| Lokale Dienstleistungen | vollständig | 16 von 16 — Round-12-Ergänzung aus ChatGPT und Gemini eingearbeitet. Gemini-Highlights selektiv nachgezogen (Telefonassistent, Trinkgeld-Motivations-Statistik, Aging-Simulation, Transparenz-Bot, Schlüsselrohling-OCR, Schulungs-Assistent, 3D-Body-Scan, Haltungs-Analyse, Motiv-Refinement) |
 | Beherbergung & Tourismus | vollständig (Erstbearbeitung) | 5 von 5 — Deep-Research-Ergänzung steht aus |
 | Persönliche Übergänge & Soziales | vollständig (Erstbearbeitung) | 4 von 4 — Deep-Research-Ergänzung steht aus |
 | Gesundheit & Pflege | ausgeschlossen | DSGVO/Berufsrecht |

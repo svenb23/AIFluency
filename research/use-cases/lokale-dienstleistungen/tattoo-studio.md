@@ -23,6 +23,7 @@
 | Verwaltung & Personal | REACH-Konformitäts-Check für Tattoo-Farben | EE | branchenspezifisch |
 | Verwaltung & Personal | Aufklärungs- und Einwilligungs-Dokumentation | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Motiv-Generierung (Stil-Sketches) als Inspiration | PR | branchenspezifisch |
+| Operatives Kerngeschäft | Detailliertes Motiv-Refinement im persönlichen Künstler-Stil (Human-in-the-Loop) | EE | branchenspezifisch — UrhG |
 | Operatives Kerngeschäft | Hygiene- und Sterilisations-Protokoll | EE | branchenspezifisch |
 | Operatives Kerngeschäft | No-Show-Prädiktion und Terminplan-Reorganisation | EE | konvergent |
 | Kundenservice & Beziehung | Heil-/Pflege-Anleitungen nach dem Stechen | PR | branchenspezifisch |

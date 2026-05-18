@@ -22,6 +22,7 @@
 | Verwaltung & Personal | KI-Posteingangs-Klassifizierung | PR | konvergent |
 | Verwaltung & Personal | Abgrenzungs-Doku zu Heilkunde (Heilpraktikergesetz) | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Behandlungs-Doku (Verlauf, Vorlieben) | EE | branchenspezifisch — DSGVO |
+| Operatives Kerngeschäft | Haltungs-Analyse und Vorher-Nachher-Fortschrittsdoku aus Körperfotos | EE | branchenspezifisch — DSGVO, HeilprG-Abgrenzung |
 | Operatives Kerngeschäft | Hygiene-Protokoll-Dokumentation | EE | branchenspezifisch |
 | Kundenservice & Beziehung | Termin- und Recall-Erinnerungen | PR | konvergent |
 | Kundenservice & Beziehung | Pflege-Tipps und Entspannungs-Inhalte | PR | branchenspezifisch |

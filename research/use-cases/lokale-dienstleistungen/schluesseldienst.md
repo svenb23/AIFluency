@@ -19,6 +19,7 @@
 | Vertrieb & Angebote | Sicherheits-Audit für Privathaushalte und Gewerbe | PR | branchenspezifisch |
 | Verwaltung & Personal | Rechnungserstellung und TSE-Auswertung | PR | branchenspezifisch |
 | Verwaltung & Personal | KI-Posteingangs-Klassifizierung | PR | konvergent |
+| Verwaltung & Personal | Automatisierte Rechnungslesung für Schlüsselrohling-Bestellung | PR | konvergent |
 | Operatives Kerngeschäft | Routenoptimierung Notdienst (ETA, Verkehrslage) | PR | branchenspezifisch |
 | Operatives Kerngeschäft | Schloss-Bilderkennung für Werkzeug-Vorbereitung | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Schloss-Identifikation per Reverse-Image-Search | EE | branchenspezifisch |
@@ -26,5 +27,6 @@
 | Operatives Kerngeschäft | Auftrags-Doku (Foto vor/nach, Identitätsnachweis) | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Auftrags-Status und ETA-Updates | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Anti-Abzocke-Preis-Alarm (Marktanalyse, Verbraucher-Warnung) | EE | branchenspezifisch — PAngV |
+| Kundenservice & Beziehung | Transparenz-Bot für Wettbewerber-Angebots-Plausibilitätsprüfung | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Stammkunden-Aktionen (Folgeaufträge Sicherheits-Upgrade) | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Beschwerde-Antworten | PR | konvergent |

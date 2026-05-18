@@ -22,6 +22,7 @@
 | Verwaltung & Personal | Bewerber-Vorselektion (Friseure, Auszubildende) | EE | konvergent |
 | Verwaltung & Personal | KI-Posteingangs-Klassifizierung | PR | konvergent |
 | Verwaltung & Personal | Trinkgeld-Routing und steuerkonforme Verteilung (§3 Nr. 51 EStG) | EE | konvergent |
+| Verwaltung & Personal | Anonymisierte Trinkgeld-Statistik für Personal-Motivationsanalyse | EE | konvergent — BetrVG |
 | Operatives Kerngeschäft | Allergie- und Verträglichkeits-Check vor Färbung | EE | branchenspezifisch |
 | Operatives Kerngeschäft | Allergen-Datenbank für Haarpflegeprodukte (Inhaltsstoff-Mapping) | EE | branchenspezifisch |
 | Operatives Kerngeschäft | No-Show-Prädiktion und dynamische Terminlückenfüllung | EE | konvergent |
@@ -29,6 +30,7 @@
 | Operatives Kerngeschäft | Hygiene-Protokoll-Dokumentation | EE | branchenspezifisch |
 | Kundenservice & Beziehung | Recall-Erinnerungen (Schnitt, Farbauffrischung) | PR | branchenspezifisch |
 | Kundenservice & Beziehung | KI-Telefonassistent für 24/7-Terminannahme | EE | konvergent |
+| Kundenservice & Beziehung | Proaktive Termin-Rückbestätigung per Telefon-Bot (24h vorher) | PR | konvergent |
 | Kundenservice & Beziehung | Pflege- und Styling-Tutorials als Stammkunden-Mehrwert | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Stammkunden-Aktionen und Bonuskarten | PR | konvergent |
 | Kundenservice & Beziehung | Beschwerde-Antworten | PR | konvergent |

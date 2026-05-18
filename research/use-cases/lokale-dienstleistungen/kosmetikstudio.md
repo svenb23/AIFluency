@@ -18,6 +18,7 @@
 | Vertrieb & Angebote | Online-Buchung mit Vorgespräch-Fragebogen | PR | branchenspezifisch |
 | Vertrieb & Angebote | Pakete (Gesichtsbehandlung, Body, Anti-Aging) | PR | branchenspezifisch |
 | Vertrieb & Angebote | Hauttyp- und Wirkstoff-Konfigurator (AR-Anprobe) | EE | branchenspezifisch |
+| Vertrieb & Angebote | Wirkstoff-Simulations-Vorschau (Aging-Simulation, HWG-konform) | EE | branchenspezifisch |
 | Verwaltung & Personal | Rechnungserstellung und TSE-Auswertung | PR | branchenspezifisch |
 | Verwaltung & Personal | KI-Posteingangs-Klassifizierung | PR | konvergent |
 | Verwaltung & Personal | Kosmetik-VO-/CLP-Compliance-Doku | EE | branchenspezifisch |

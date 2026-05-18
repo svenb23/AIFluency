@@ -17,6 +17,7 @@
 | Vertrieb & Angebote | Anfragen-Vorklassifizierung (Material, Aufgabe, Aufwand) | PR | branchenspezifisch |
 | Vertrieb & Angebote | Pakete (Hochzeit, Anzug, Brautkleid) | PR | branchenspezifisch |
 | Vertrieb & Angebote | Foto-basierte Aufwandsschätzung | EE | branchenspezifisch |
+| Vertrieb & Angebote | 3D-Body-Scanning via Smartphone-App für Remote-Maßnahme (80+ Maße) | EE | branchenspezifisch — DSGVO |
 | Verwaltung & Personal | Rechnungserstellung und TSE-Auswertung | PR | branchenspezifisch |
 | Verwaltung & Personal | KI-Posteingangs-Klassifizierung | PR | konvergent |
 | Operatives Kerngeschäft | Schnittmuster-/Anpassungs-Generierung | PR | branchenspezifisch |

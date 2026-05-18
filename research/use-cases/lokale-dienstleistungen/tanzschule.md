@@ -24,6 +24,7 @@
 | Verwaltung & Personal | KI-Posteingangs-Klassifizierung | PR | konvergent |
 | Operatives Kerngeschäft | Choreografie-/Schritt-Material-Generierung | PR | branchenspezifisch |
 | Operatives Kerngeschäft | Hochzeits-Choreographie-Generator aus Musik-Wunsch | EE | branchenspezifisch |
+| Operatives Kerngeschäft | KI-Niveau-Einstufung des Brautpaars via Video für individuelle Choreografie | EE | branchenspezifisch — DSGVO |
 | Operatives Kerngeschäft | Musik-Empfehlungen pro Stil und Niveau | PR | branchenspezifisch |
 | Operatives Kerngeschäft | Aufführungs-/Turnier-Planung | PR | branchenspezifisch |
 | Kundenservice & Beziehung | Eltern- und Schüler-Erinnerungen | PR | branchenspezifisch |
