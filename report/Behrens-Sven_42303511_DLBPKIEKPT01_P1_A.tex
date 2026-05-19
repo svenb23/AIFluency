@@ -149,24 +149,23 @@ Sondierung verlangt.
 
 \subsection{Ziel und Abgrenzung}
 Aus dieser Problemstellung leiten sich drei Leitfragen ab, die
-systematisch und KI-gestützt sondiert werden: Zunächst, welche drei bis
-fünf lokalen Branchen als realistische Erstkandidaten gelten; sodann,
-welche generativen KI-Use-Cases dort heute bereits produktionsreif sind,
-also mit überschaubarem Aufwand und akzeptablem Risiko produktiv
-einsetzbar; und schließlich, wie ein hypothetisches Beratungsangebot
-daraus als Business Model Canvas Gestalt annehmen könnte. Das
-Endergebnis besteht entsprechend aus zwei Dokumenten: einem
-hypothetischen Business Model Canvas, der skizziert, wie ein
-KMU-KI-Beratungsangebot strukturell aussehen könnte, sowie einem
-Branchen- und Use-Case-Mapping als Anlage, das die getroffene Auswahl
-nachvollziehbar begründet.
+systematisch und KI-gestützt sondiert werden: Zunächst, welche fünf
+lokalen Branchen als realistische Erstkandidaten gelten; sodann, welche
+generativen KI-Use-Cases dort heute bereits produktionsreif sind, also
+mit überschaubarem Aufwand und akzeptablem Risiko produktiv einsetzbar;
+und schließlich, wie ein hypothetisches Beratungsangebot daraus als
+Business Model Canvas Gestalt annehmen könnte. Das Endergebnis besteht
+entsprechend aus zwei Dokumenten: einem hypothetischen Business Model
+Canvas, der skizziert, wie ein KMU-KI-Beratungsangebot strukturell
+aussehen könnte, sowie einem Branchen- und Use-Case-Mapping als Anlage,
+das die getroffene Auswahl nachvollziehbar begründet.
 
-Nicht Gegenstand der Arbeit sind hingegen rechtliche Rahmenbedingungen
-(DSGVO, branchenspezifische Regulierung), Finanzierungs- und
+Eine erschöpfende juristische Würdigung ist nicht Gegenstand der Arbeit;
+regulatorische Mindestbedingungen werden je Branche markiert, jedoch
+nicht abschließend ausgelegt. Ebenso überschreiten Finanzierungs- und
 Fördermöglichkeiten, konkrete Wirtschaftlichkeitsbetrachtungen einzelner
-Use-Cases sowie eine empirische Validierung durch Unternehmensinterviews;
-diese Aspekte überschreiten den Umfang einer konzeptionellen Sondierung
-im Rahmen dieses Moduls.
+Use-Cases sowie eine empirische Validierung durch Unternehmensinterviews
+den Umfang einer konzeptionellen Sondierung im Rahmen dieses Moduls.
 
 \section{Strategie: Mensch-KI-Aufgabenteilung}
 % Anforderung: Plane BEVOR Du loslegst.
@@ -270,9 +269,8 @@ spezialisierten Recherche-Werkzeugen für die Quellensuche.
 Claude Opus 4.7 (Anthropic) & Hauptwerkzeug für Strukturierung, mehrstufige Textarbeit und Argumentation. Großes Kontextfenster für die durchgängige Bearbeitung des Sondierungs-Dokuments; die Auswahl als Hauptmodell stützt sich zudem auf die unter den verfügbaren Modellen umfangreichste Praxiserfahrung des Verfassers mit Claude im Software-Entwicklungs-Kontext. \\
 ChatGPT Deep Research (OpenAI) & Hauptrecherche für Primär- und Sekundärquellen; im ResearcherBench besonders stark bei offenen Beratungsfragen und Literatur-Review-Aufgaben \parencite{Xu2025ResearcherBench}, was der konzeptionellen Ausrichtung dieser Sondierung entspricht. \\
 Gemini Deep Research (Google) & Ergänzender Recherchelauf; nach ResearcherBench beste Balance zwischen Faithfulness und Groundedness \parencite{Xu2025ResearcherBench} und nach DeepResearch Bench das stärkste Gesamtsystem mit durchschnittlich 111,2 effektiven Zitationen pro Bericht \parencite{Du2025DeepResearchBench}; geeignet zur Querbestätigung der ChatGPT-Ergebnisse. \\
-Perplexity Deep Research (mit Claude Sonnet 4.6) & Verifikationslauf für kritische Primärquellen; weist nach DeepResearch Bench mit 90{,}2\,\% die höchste Citation Accuracy unter den geprüften Deep-Research-Werkzeugen auf (Gemini 81{,}4\,\%, OpenAI 78{,}0\,\%) \parencite{Du2025DeepResearchBench}. Der Citation-Vorteil ergibt sich aus der Retrieval- und Citation-Pipeline; das gewählte Sprachmodell beeinflusst Synthesequalität und deutsche Stilistik. \\
-Elicit & Spezialisiertes Werkzeug zur systematischen Erschließung peer-reviewter Sekundärliteratur. Praxiserfahrung des Verfassers liegt mit diesem Werkzeug noch nicht vor; der Einsatz erfolgt im Rahmen dieser Sondierung erstmals erprobend. \\
-NotebookLM (Google) & Bearbeitung einer abgegrenzten Sammlung lokal hochgeladener Quellen (PDF, Notizen) zur gezielten Stellen-Suche, Querverweisen und Synthese über mehrere Dokumente. \\
+Perplexity Deep Research (mit Claude Sonnet 4.6) & Vorgesehen als Verifikationslauf für kritische Primärquellen; weist nach DeepResearch Bench mit 90{,}2\,\% die höchste Citation Accuracy unter den geprüften Deep-Research-Werkzeugen auf (Gemini 81{,}4\,\%, OpenAI 78{,}0\,\%) \parencite{Du2025DeepResearchBench}. Der Citation-Vorteil ergibt sich aus der Retrieval- und Citation-Pipeline; das gewählte Sprachmodell beeinflusst Synthesequalität und deutsche Stilistik. Inwieweit dieser Vorteil in der konkreten Aufgabenstellung tragfähig ist, wird im Verlauf der Sondierung empirisch zu prüfen sein. \\
+NotebookLM (Google) & Werkzeug zum gezielten Auffinden von Zitatstellen in einer eigenen Quellensammlung (PDF, Notizen). Die durch NotebookLM angezeigten Fundstellen werden an der jeweils ausgewiesenen Stelle in der Originalquelle manuell nachgelesen und gegengeprüft, bevor sie übernommen werden; dies stützt den Vertraue-aber-überprüfe-Workflow aus Abschnitt~2. \\
 \bottomrule
 \end{tabular}
 \end{table}
