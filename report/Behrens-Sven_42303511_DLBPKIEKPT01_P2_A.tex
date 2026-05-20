@@ -241,66 +241,73 @@ Beispiel die Identifikation und Korrektur eines KI-Fehlers.
 %     - Wie korrigiert
 % =============================================================================
 
-\subsection{Beispiel A1: Erstellung eines Deep-Research-Prompts für die Branchen-Auswahl}
+\subsection{Beispiel A1: Reduktion von 182 Branchen auf eine Top-15-Erstkandidaten-Liste}
 
 \paragraph{Die Aufgabe.}
-Für das Zwischenprodukt der Phase~2 sollte ein Deep-Research-Prompt
-erstellt werden, der zitierfähige Quellen und empirische Befunde für
-ein Branchen-Use-Case-Mapping liefert. Der Prompt sollte methodisch
-entlang der Kursstruktur des Moduls \emph{Project: AI Fluency} aufgebaut
-sein.
+Aus der konsolidierten Branchenmenge von 182~Einzelbranchen über
+16~Cluster sollte eine handhabbare Top-15-Liste an Erstkandidaten für
+ein lokales KMU-KI-Beratungsangebot abgeleitet werden. Eine
+vollständige manuelle Bewertung sämtlicher Branchen entlang mehrerer
+Eignungs-Kriterien wäre angesichts der Datenmenge nicht praktikabel
+gewesen. KI sollte daher als strukturierter Vorfilter dienen, dessen
+Ergebnis anschließend manuell qualitätsgesichert wird.
 
 \paragraph{Der Prompt.}
 \begin{quote}
-\textbf{Rolle:} Assistierende Instanz für die Prompt-Konstruktion.\\
-\textbf{Kontext:} Sondierungs-Phase 2 mit dem Zielprodukt eines
-Branchen-Use-Case-Mappings und eines hypothetischen Business Model
-Canvas.\\
-\textbf{Aufgabe:} Branchen-Auswahl und KI-Einsatzmöglichkeiten in einen
-recherchetauglichen Deep-Research-Prompt überführen.\\
-\textbf{Strukturvorgabe:} Entsprechend der Kurslogik des Moduls
-\emph{Project: AI Fluency}.\\
-\textbf{Bewusst nicht vorgegeben:} Output-Detailtiefe und Quellenliste.
+\textbf{Rolle:} Assistierende Instanz für die Branchen-Vorauswahl.\\
+\textbf{Kontext:} Konsolidierte Branchenmenge von 182~Einzelbranchen aus
+16~Clustern, vollständig nach sechs Funktionsbereichen und drei
+Reifegraden gemappt.\\
+\textbf{Aufgabe:} Aus dieser Branchenmenge die fünfzehn am besten
+geeigneten Erstkandidaten für ein lokales KMU-KI-Beratungsangebot
+identifizieren.\\
+\textbf{Vorab-Ausschluss:} Sechs Cluster wegen Self-KI oder
+DSGVO/§203~StGB nicht in die Bewertung aufnehmen. Aus dem Cluster
+\emph{Beratung und Dienstleistungen} zusätzlich Anwalt, Notar,
+Steuerberatung und Wirtschaftsprüfung ausschließen.\\
+\textbf{Bewertungs-Kriterien:} Lokale Verankerung, geringe
+Self-KI-Affinität, Marktgröße, Bürokratie- und Compliance-Last, Margen
+und Zahlungsbereitschaft, Reifegrad der Use-Cases, niedrige
+Vertrauenshürde gegenüber externer Beratung, kein Cluster-Ausschluss.\\
+\textbf{Format:} Tabellarisch mit Branche, Cluster und Hauptbegründung.
+Zusätzlich eine Liste \glqq Auch erwogen, aber nicht in Top-15\grqq{}
+mit Kurzbegründungen für die Nicht-Aufnahme.
 \end{quote}
 
 \paragraph{Der KI-Output.}
-Die KI generierte einen mehrteiligen Prompt mit Anwendungskontext,
-einer Liste vorgegebener Branchen (Handwerk, Steuerberatung,
-Friseur- und Beauty-Salons, lokale Gastronomie), differenzierten
-Reifegrad-Anforderungen, gewünschten Quellenarten (u.\,a.\ Bitkom,
-ZEW, Eurostat) sowie einem definierten Output-Format einschließlich
-APA-7-Konventionen und BibTeX-Einträgen.
+Die KI lieferte eine sortierte Top-15-Liste mit Branche, Cluster und
+einer Begründungs-Zeile pro Branche. Die fünf später gewählten Branchen
+(Sanitär und Heizung, Elektriker, Malerbetrieb, Immobilienmakler,
+Hausverwaltung) waren in der Liste enthalten. Ergänzend wurde eine
+Liste von neun bewusst nicht aufgenommenen Branchen mit Begründung
+geliefert, darunter Garten- und Landschaftsbau, Architekturbüro,
+Spedition und Friseur.
 
 \paragraph{Kritische Prüfung.}
-Der KI-Output wies mehrere Schwächen auf. Erstens fügte die KI
-unaufgefordert eine konkrete Vier-Branchen-Liste (Handwerk,
-Steuerberatung, Friseur- und Beauty-Salons, lokale Gastronomie) ein,
-die als Vorgabe die Ergebnisoffenheit der Sondierung untergraben hätte:
-Die Branchen-Auswahl ist Teil dessen, was die Sondierung untersuchen
-soll, nicht eine vorausgesetzte Annahme. Zweitens enthielt der Prompt
-explizite Verweise auf einzelne Lektionen des Moduls \emph{Project:
-AI Fluency} (Tag 1 und Tag 10). Die KI hatte die Strukturvorgabe
-ernst genommen und konnte über die vom Verfasser zuvor angelegten
-Kapitel-Zusammenfassungen direkt auf die Kurslogik zugreifen,
-übernahm dabei aber auch kursinterne Bezugspunkte, die für einen
-externen Recherche-Agenten keine inhaltliche Funktion erfüllen und
-nur Verständnishürden produzieren. Drittens nannte der Anwendungskontext institutionelle
-Bezüge (Studiengang, Hochschule), die für die Recherche-Aufgabe selbst
-irrelevant sind. Hinzu kamen einige redundante Format- und
-Stil-Vorgaben, die ohne inhaltlichen Mehrwert wirkten.
+Der Output war methodisch sauber strukturiert, wies jedoch mehrere
+Schwächen auf. Erstens wurden die acht Bewertungs-Kriterien im Verlauf
+der Sondierung ad hoc abgeleitet und nicht vorab als unabhängiger
+Bewertungs-Rahmen festgelegt. Damit besteht das Risiko, dass die
+Kriterien-Wahl die gewünschte Endauswahl im Nachhinein rechtfertigt
+statt sie prüft. Zweitens wurde die Bewertung qualitativ vorgenommen,
+ohne quantitative Datenbasis je Branche. Drittens wurde das Kriterium
+\emph{lokale Verankerung} argumentativ vergeben und nicht durch eine
+Markt-Erhebung in der Zielregion gestützt. Viertens wirken einige
+Trennlinien zwischen Aufnahme und Nicht-Aufnahme heuristisch, etwa die
+Bevorzugung des Dachdeckerhandwerks gegenüber dem Garten- und
+Landschaftsbau bei vergleichbarem Eignungsprofil.
 
 \paragraph{Verbesserung.}
-Der Prompt wurde an mehreren Stellen entschärft. Der Abschnitt zur
-Branchen-Auswahl wurde durch eine offene Formulierung mit fünf
-expliziten Auswahlkriterien (Text-Intensität, KMU-Dichte,
-KI-Adoptionslücke bei erkennbarem Anwendungsbedarf,
-DSGVO-Praktikabilität und Verfügbarkeit zitierfähiger Branchendaten)
-ersetzt, sodass die Branchen-Auswahl selbst Teil des Forschungs\-ergebnisses
-wird. Die expliziten Tag-Verweise auf das Modul \emph{Project: AI
-Fluency} sowie der institutionelle Kontext wurden gestrichen, da sie
-für die Recherche-Qualität keinen Mehrwert liefern. Eine vollständige
-Gegenüberstellung beider Fassungen mit farblich markierten Änderungen
-findet sich in Anhang~A.
+Die Top-15 wurde nicht direkt als Ergebnis übernommen, sondern als
+strukturierter Vorschlag betrachtet. Aus den fünfzehn Erstkandidaten
+hat der Verfasser anschließend die endgültige Top-5 ohne KI-Unterstützung
+ausgewählt und dabei nicht entlang eines Eignungs-Scores entschieden,
+sondern entlang eines unternehmerischen Strukturkriteriums, nämlich
+der Bildung einer geschlossenen Wertschöpfungskette der regionalen
+Immobilien- und Wohnungswirtschaft (siehe Beispiel~B). Die Liste der
+nicht aufgenommenen Erwägungskandidaten bleibt explizit dokumentiert,
+um die Auswahllogik transparent zu halten und spätere Erweiterungen
+vorzubereiten.
 
 \subsection{Beispiel A2: Synthese der drei Deep-Research-Ergebnisse zur Branchenauswahl}
 
