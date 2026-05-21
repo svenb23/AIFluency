@@ -241,7 +241,81 @@ Beispiel die Identifikation und Korrektur eines KI-Fehlers.
 %     - Wie korrigiert
 % =============================================================================
 
-\subsection{Beispiel A1: Reduktion von 182 Branchen auf eine Top-15-Erstkandidaten-Liste}
+\subsection{Beispiel A1: KI-gestützte Erstellung eines branchenspezifischen Use-Case-Mappings}
+
+\paragraph{Die Aufgabe.}
+Für jede der 182~Branchen sollte ein vollständiges Use-Case-Mapping
+nach der festgelegten Methodik aus sechs Funktionsbereichen und drei
+Reifegraden erstellt werden. Die Mapping-Struktur ist standardisiert,
+der Inhalt jedoch branchen-spezifisch. Eine vollständig manuelle
+Erstellung über die gesamte Branchenmenge wäre nicht praktikabel
+gewesen. Stellvertretend wird hier die Erstellung des Mappings für die
+Branche \emph{Sanitär und Heizung} als Top-5-Branche dokumentiert.
+
+\paragraph{Der Prompt.}
+\begin{quote}
+\textbf{Rolle:} Assistierende Instanz für die Erstellung eines
+branchen\-spezifischen Use-Case-Mappings.\\
+\textbf{Kontext:} Methodik festgelegt auf sechs Funktionsbereiche
+(Geschäftsleitung und Strategie, Marketing und Kommunikation, Vertrieb
+und Angebote, Verwaltung und Personal, Operatives Kerngeschäft,
+Kundenservice und Beziehung) und drei Reifegrade (produktionsreif,
+eingeschränkt einsatzfähig, nicht geeignet). Scope: KMU mit 1 bis
+50~Mitarbeitern.\\
+\textbf{Aufgabe:} Für die Branche \emph{Sanitär und Heizung} ein
+vollständiges Mapping über alle sechs Funktionsbereiche erstellen.
+Jeder Funktionsbereich enthält mehrere Use-Cases mit Reifegrad und
+Kurz\-anmerkung.\\
+\textbf{Inhaltliche Anker:} Branchen\-spezifische Regulatorik (GEG,
+HwO, Schornsteinfeger-Handwerksgesetz, BAFA-/KfW-Förder\-anträge,
+AwSV bei Heizöl, Trinkwasser\-verordnung) im Hinweis-Block markieren.
+Konvergente Use-Cases (branchen\-übergreifend, z.\,B.\
+KI-Postein\-gangs-Klassifizierung) und branchen\-spezifische Use-Cases
+(z.\,B.\ hydraulischer Abgleich) in der Anmerkungs\-spalte trennen.\\
+\textbf{Format:} Markdown-Tabelle mit Spalten \emph{Funktionsbereich},
+\emph{KI-Use-Case}, \emph{Reifegrad}, \emph{Anmerkung}.
+\end{quote}
+
+\paragraph{Der KI-Output.}
+Die KI generierte ein vollständiges Mapping mit 23 Use-Cases verteilt
+über alle sechs Funktionsbereiche. Branchen\-spezifische Use-Cases
+umfassten unter anderem die Förder\-antrags-Recherche zu GEG und BAFA,
+die hydraulische-Abgleichs-Doku, die Notdienst-Tourenoptimierung sowie
+die Wartungs- und Inspektions-Recall-Logik. Im Hinweis-Block wurden
+GEG, BAFA, AwSV und Trinkwasser\-VO explizit benannt. Die
+Reife\-grade verteilten sich auf produktionsreife und eingeschränkt
+einsatzfähige Anwendungen ohne Einträge in der Kategorie \emph{nicht
+geeignet}.
+
+\paragraph{Kritische Prüfung.}
+Die Mapping-Struktur war vollständig und methodisch konsistent. Drei
+Schwächen wurden sichtbar. Erstens neigte die KI dazu, branchen\-fremde
+generische Use-Cases (z.\,B.\ allgemeines Social-Media-Marketing) als
+branchen\-spezifisch auszuweisen, obwohl sie konvergent über mehrere
+Cluster auftreten. Zweitens war die Reife\-grad-Begründung nicht
+durchgehend nachvollziehbar, insbesondere die Trennung zwischen
+\emph{produktionsreif} und \emph{eingeschränkt einsatzfähig} blieb in
+einigen Zellen unscharf. Drittens fehlten anfänglich einzelne
+branchen\-typische Anwendungen, die erst in den späteren
+Deep-Research-Ergänzungs\-runden zutage traten (z.\,B.\ Heizungs-Telemetrie-Auswertung
+oder GEG-Heizungs\-tausch-Beratungs\-leitfaden).
+
+\paragraph{Verbesserung.}
+Das Mapping wurde nicht als endgültiges Ergebnis akzeptiert. Erstens
+wurden die Anmerkungen manuell nachgezogen, sodass die Trennung
+zwischen konvergenten und branchen\-spezifischen Use-Cases in jeder
+Zeile sichtbar wird. Zweitens wurde die Reife\-grad-Vergabe entlang
+einer einheitlichen Heuristik überprüft: \emph{produktionsreif}
+verlangt überschaubaren Aufwand und akzeptables Risiko bei vorhandenen
+Standard-Werkzeugen, \emph{eingeschränkt einsatzfähig} setzt definierte
+Auflagen voraus (z.\,B.\ Fach-Validierung bei sicherheits- oder
+gesundheits-relevanten Use-Cases). Drittens wurde das Mapping in
+Round~2 und 3 der Deep-Research-Ergänzung gegen ChatGPT- und
+Gemini-Outputs gespiegelt und um die dort identifizierten Lücken
+erweitert, wobei das Gemini-Format-Anchoring beim Ergänzungs-Schritt
+ein eigenes Problem aufwarf (siehe Beispiel~C).
+
+\subsection{Beispiel A2: Reduktion von 182 Branchen auf eine Top-15-Erstkandidaten-Liste}
 
 \paragraph{Die Aufgabe.}
 Aus der konsolidierten Branchenmenge von 182~Einzelbranchen über
@@ -308,71 +382,6 @@ Immobilien- und Wohnungswirtschaft (siehe Beispiel~B). Die Liste der
 nicht aufgenommenen Erwägungskandidaten bleibt explizit dokumentiert,
 um die Auswahllogik transparent zu halten und spätere Erweiterungen
 vorzubereiten.
-
-\subsection{Beispiel A2: Synthese der drei Deep-Research-Ergebnisse zur Branchenauswahl}
-
-\paragraph{Die Aufgabe.}
-Aus drei unabhängigen Deep-Research-Läufen (ChatGPT Deep Research,
-Gemini Deep Research, Perplexity Deep Research) sollte eine
-Branchenauswahl für das Zwischenprodukt entstehen. Maßgeblich war die
-Frage, welche Branchen in welcher Anzahl der Reports auftauchen und
-welche davon als Erstkandidaten für ein KMU-KI-Beratungsangebot tragen.
-
-\paragraph{Der Prompt.}
-\begin{quote}
-\textbf{Rolle:} Assistierende Instanz für die Vergleichsanalyse mehrerer
-Recherche-Ergebnisse.\\
-\textbf{Kontext:} Drei unabhängige Deep-Research-Reports zu KMU-Branchen
-mit produktionsreifen GenAI-Use-Cases liegen vor.\\
-\textbf{Aufgabe:} Welche Branchen kommen in allen drei, welche in zwei
-und welche in nur einem Report vor? Ergebnis tabellarisch.\\
-\textbf{Strukturvorgabe:} Quorum-Auszählung (3 von 3, 2 von 3, 1 von 3),
-für jede Branche zusätzlich eine knappe Auswahlbegründung.\\
-\textbf{Bewusst nicht vorgegeben:} Die endgültige Anzahl auszuwählender
-Branchen, die inhaltliche Gewichtung sowie etwaige aus dem Scope
-herausfallende Branchen.
-\end{quote}
-
-\paragraph{Der KI-Output.}
-Die KI strukturierte das Ergebnis tabellarisch nach Quorum: drei
-Branchen in allen drei Recherchen vertreten (Handwerk, Gastgewerbe,
-Steuerberatung), Friseurhandwerk in zwei von drei, Einzelhandel sowie
-produzierendes Gewerbe in nur einer. Auf dieser Basis wurde eine
-Vier-Branchen-Variante (Quorum $\geq 2$) und eine Fünf-Branchen-Variante
-(inkl.\ einer Ein-Report-Ergänzung) vorgeschlagen. Heilberufe und
-Arztpraxen wurden in der Aufstellung nicht thematisiert, da sie in
-keiner der drei Recherchen genannt waren.
-
-\paragraph{Kritische Prüfung.}
-Die Synthese war methodisch sauber, aber rein quorumgetrieben. Drei
-inhaltliche Schwächen wurden sichtbar. Erstens behandelte die
-Standardlogik Friseurhandwerk wie eine schwächer belegte Branche
-($2$ von $3$), obwohl die Betriebsstruktur (überwiegend Kleinstbetriebe)
-und die typischen Anwendungsfelder sich grundlegend vom übrigen Handwerk
-unterscheiden. Zweitens fehlte mit den Heilberufen eine Branche, die im
-KMU-Beratungskontext naheliegt, in keiner der drei Recherchen aber
-genannt wurde, weil sie systematisch durch das DSGVO- und
-Haftungs-Kriterium des Ausgangsprompts ausgeschlossen wird. Drittens
-blieb die Entscheidung zwischen Vier- und Fünf-Branchen-Variante eine
-inhaltliche Wahl, die das Modell nicht für den Verfasser treffen konnte.
-
-\paragraph{Verbesserung.}
-Der Verfasser hat die drei Original-Reports selbst quergelesen, statt
-sich allein auf die KI-Synthese zu verlassen, und drei inhaltliche
-Korrekturen vorgenommen. Friseurhandwerk wurde trotz nur zweifacher
-Nennung als eigenständige Branche aufgenommen, da die wirtschaftliche
-und betriebliche Sonderlage diese Trennung sachlich rechtfertigt. Die
-Heilberufe waren in keiner der drei Recherchen aufgetaucht, weil das
-DSGVO-Kriterium des Ausgangsprompts sie systematisch ausschloss,
-der Verfasser hat diese Lücke jedoch selbst erkannt, da Arztpraxen im
-KMU-Beratungskontext eine naheliegende Erstkandidaten-Frage sind, und
-sie als bewusst ausgeschlossene Branche mit Begründung
-(DSGVO, Bias-Risiko, berufsrechtliche Haftung) in den
-Methodik-Absatz aufgenommen, sodass die Auswahllogik transparent
-nachvollziehbar bleibt. Die Auswahl wurde schließlich auf fünf
-Branchen festgelegt, mit dem lokalen Einzelhandel als ergänzendem
-Fall, dessen geringere Belegtheit in der Tabelle explizit ausgewiesen
-ist.
 
 \subsection{Beispiel A3: [Titel folgt]}
 \paragraph{Die Aufgabe.} [Inhalt folgt.]
