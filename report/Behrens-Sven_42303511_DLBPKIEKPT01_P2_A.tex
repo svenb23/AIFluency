@@ -66,12 +66,6 @@
 
 \usepackage[table]{xcolor}
 \definecolor{zebragray}{gray}{0.92}
-\definecolor{diffgreen}{rgb}{0.0,0.5,0.0}
-\definecolor{diffred}{rgb}{0.75,0.0,0.0}
-
-\usepackage[normalem]{ulem}
-\newcommand{\added}[1]{\textcolor{diffgreen}{#1}}
-\newcommand{\removed}[1]{\textcolor{diffred}{\sout{#1}}}
 
 \begin{document}
 
@@ -545,88 +539,6 @@ sind damit belastbares Evidenz-Material für die Diagnose, dass nicht
 jedes Anchoring durch Prompt-Design steuerbar ist. Im weiteren
 Verlauf der Sondierung wurde Gemini deshalb gezielt für inhaltliche
 Triangulation eingesetzt, nicht für formatgebundene Aggregation.
-
-\newpage
-
-\section*{Anhang A: Prompt-Iteration zu Beispiel A1}
-\addcontentsline{toc}{section}{Anhang A: Prompt-Iteration zu Beispiel A1}
-
-Die folgende Gegenüberstellung zeigt den KI-generierten Erstentwurf des
-Deep-Research-Prompts (A.1) und die vom Verfasser überarbeitete Fassung
-(A.2). In A.1 sind die später gestrichenen Stellen \removed{rot
-durchgestrichen}, in A.2 die neu hinzugefügten Stellen \added{grün
-hervorgehoben}, sodass die Änderungen zwischen beiden Fassungen direkt
-nachvollziehbar werden.
-
-\subsection*{A.1\quad KI-generierter Erstentwurf}
-
-\begin{quote}\small
-Recherchiere zitierfähige Quellen und empirische Befunde zur Frage, in welchen lokalen KMU-Branchen in Deutschland heute welche Use-Cases generativer KI produktiv eingesetzt werden können.
-
-\textbf{ANWENDUNGSKONTEXT:}\\
-\removed{Modul-Portfolio "Project: AI Fluency" (Phase 2), Studiengang Angewandte Künstliche Intelligenz, IU Internationale Hochschule.} Die Arbeit ist eine Sondierung, die als Zwischenprodukt ein Branchen-Use-Case-Mapping und ein Business Model Canvas für ein hypothetisches KMU-KI-Beratungsangebot liefert.
-
-\removed{\textbf{AUSGANGSAUSWAHL DER BRANCHEN} (zur Bestätigung oder Korrektur):}\\
-\removed{1. Handwerk (SHK, Elektro, Maler, Schreinerei, Dachdecker)}\\
-\removed{2. Steuerberatung und kleine Wirtschaftskanzleien}\\
-\removed{3. Friseur-, Beauty- und Wellness-Salons}\\
-\removed{4. Lokale Gastronomie}
-
-\textbf{PRO BRANCHE GESUCHT:}
-
-a) Markt- und Strukturzahlen: Anzahl Betriebe in Deutschland, durchschnittliche Betriebsgröße bzw. Beschäftigtenzahl, wirtschaftliche Bedeutung (Umsatz, Wertschöpfung). Bevorzugte Quellen: Statistisches Bundesamt, Zentralverband Deutsches Handwerk, Bundessteuerberaterkammer, DEHOGA, Zentralverband des Deutschen Friseurhandwerks.
-
-b) Use-Case-Mapping nach drei Reifegraden \removed{(entsprechend AI-Fluency-Logik Tag~10 ,,Korrekt vs. Gut'')}: PRODUKTIONSREIF (heute mit überschaubarem Aufwand und akzeptablem Risiko produktiv einsetzbar); EINGESCHRÄNKT EINSATZFÄHIG (technisch möglich, aber mit Auflagen wie DSGVO, Bias-Risiko, fachliche Kontrolle); NICHT GEEIGNET (aktuell ohne erhebliches Risiko nicht produktiv einsetzbar). \removed{Strukturierung entsprechend der vier Tool-Kategorien aus AI Fluency Tag~1:} Kommunikatoren (Sprachmodelle), Kreative (Bild-KI), Ingenieure (Code-KI), Analysten (Daten-KI).
-
-c) Konkrete empirische Belege zur tatsächlichen KI-Nutzung in der Branche (Bitkom, ZEW, Branchen-Reports, Fraunhofer, Eurostat \texttt{E\_AI\_TNLG}).
-
-\textbf{OUTPUT-FORMAT PRO BRANCHE:}\\
-- \removed{Strukturdaten (3-5 Sätze mit Belegen)}\\
-- Tabellarisches Use-Case-Mapping nach Reifegrad\\
-- Pro Use Case: kurze Begründung, nach Möglichkeit empirischer Beleg\\
-- Branchenspezifische Risiken oder Hürden
-
-\textbf{OUTPUT-STIL:}\\
-- \removed{Akademisch, deutschsprachig}\\
-- APA-7-Stil, Direktlinks, BibTeX-Einträge, methodische Einschränkungen explizit
-
-\textbf{AUSSCHLÜSSE:} Vendor-Marketing, methodisch intransparente Whitepapers, Pressemitteilungen, Quellen älter als 2023.
-\end{quote}
-
-\subsection*{A.2\quad Überarbeitete Fassung}
-
-\begin{quote}\small
-Recherchiere zitierfähige Quellen und empirische Befunde zur Frage, in welchen lokalen KMU-Branchen in Deutschland heute welche Use-Cases generativer KI produktiv eingesetzt werden können.
-
-\textbf{ANWENDUNGSKONTEXT:}\\
-Die Arbeit ist eine Sondierung, die als Zwischenprodukt ein Branchen-Use-Case-Mapping und ein Business Model Canvas für ein hypothetisches KMU-KI-Beratungsangebot liefert.
-
-\added{\textbf{BRANCHEN-AUSWAHL OFFEN:}}\\
-\added{Die Sondierung soll KMU-Branchen identifizieren, die als realistische Erstkandidaten für ein produktives KI-Beratungsangebot in Frage kommen. Bitte konkrete Vorschläge mit empirisch hergeleiteter Begründung liefern, statt vorgegebene Branchen abzuarbeiten. Mögliche Auswahlkriterien:}\\
-\added{- Anteil text- und kommunikationsintensiver Tätigkeiten (wo generative KI heute stark ist)}\\
-\added{- Hohe KMU-Dichte und viele kleine Betriebe in Deutschland}\\
-\added{- Bislang niedrige KI-Adoption bei erkennbarem Anwendungsbedarf}\\
-\added{- DSGVO-Vertretbarkeit und regulatorische Praktikabilität}\\
-\added{- Verfügbarkeit zitierfähiger Branchen-Strukturdaten}
-
-\textbf{PRO BRANCHE GESUCHT:}
-
-a) Markt- und Strukturzahlen: Anzahl Betriebe in Deutschland, durchschnittliche Betriebsgröße bzw. Beschäftigtenzahl, wirtschaftliche Bedeutung (Umsatz, Wertschöpfung). Bevorzugte Quellen: Statistisches Bundesamt, Zentralverband Deutsches Handwerk, Bundessteuerberaterkammer, DEHOGA, Zentralverband des Deutschen Friseurhandwerks.
-
-b) Use-Case-Mapping nach drei Reifegraden: PRODUKTIONSREIF (heute mit überschaubarem Aufwand und akzeptablem Risiko produktiv einsetzbar); EINGESCHRÄNKT EINSATZFÄHIG (technisch möglich, aber mit Auflagen wie DSGVO, Bias-Risiko, fachliche Kontrolle); NICHT GEEIGNET (aktuell ohne erhebliches Risiko nicht produktiv einsetzbar). Kommunikatoren (Sprachmodelle), Kreative (Bild-KI), Ingenieure (Code-KI), Analysten (Daten-KI).
-
-c) Konkrete empirische Belege zur tatsächlichen KI-Nutzung in der Branche (Bitkom, ZEW, Branchen-Reports, Fraunhofer, Eurostat \texttt{E\_AI\_TNLG}).
-
-\textbf{OUTPUT-FORMAT PRO BRANCHE:}\\
-- Tabellarisches Use-Case-Mapping nach Reifegrad\\
-- Pro Use Case: kurze Begründung, nach Möglichkeit empirischer Beleg\\
-- Branchenspezifische Risiken oder Hürden
-
-\textbf{OUTPUT-STIL:}\\
-- APA-7-Stil, Direktlinks, BibTeX-Einträge, methodische Einschränkungen explizit
-
-\textbf{AUSSCHLÜSSE:} Vendor-Marketing, methodisch intransparente Whitepapers, Pressemitteilungen, Quellen älter als 2023.
-\end{quote}
 
 \newpage
 
