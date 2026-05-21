@@ -542,6 +542,254 @@ Triangulation eingesetzt, nicht für formatgebundene Aggregation.
 
 \newpage
 
+\section*{Anhang A: Methodik des Branchen-Use-Case-Mappings}
+\addcontentsline{toc}{section}{Anhang A: Methodik des Branchen-Use-Case-Mappings}
+
+\paragraph{Zielgruppe und Scope.}
+Lokale KMU in Deutschland mit 1 bis 50 Mitarbeitern. Diese Größenklasse
+umfasst Solo-Selbstständige, Kleinstbetriebe (bis 9~MA) und
+Kleinbetriebe (10 bis 49~MA). Ab etwa 50 Mitarbeitern verfügen
+Unternehmen typischerweise über eigene IT- und Innovations-Ressourcen,
+sodass eine externe KI-Einstiegsberatung im hier untersuchten Sinn
+entbehrlich wird.
+
+\paragraph{Sechs Funktionsbereiche.}
+Die KMU-Tätigkeit wird in sechs Funktionsbereiche aufgeteilt, die in
+Kleinstbetrieben überwiegend vom Inhaber selbst und in Kleinbetrieben
+teils arbeitsteilig wahrgenommen werden.
+
+\begin{enumerate}
+  \item \textbf{Geschäftsleitung und Strategie} -- mittel- und
+        langfristige Planung, Investitionsentscheidungen,
+        Marktbeobachtung.
+  \item \textbf{Marketing und Kommunikation} -- Webseite, Social Media,
+        Newsletter, Print- und Online-Werbung, Pressearbeit.
+  \item \textbf{Vertrieb und Angebote} -- Bearbeitung von
+        Kundenanfragen, Angebotserstellung, Preiskalkulation,
+        Auftragsannahme.
+  \item \textbf{Verwaltung und Personal} -- Buchhaltung, Rechnungswesen,
+        Lohnabrechnung, Schichtplanung, Bewerbermanagement.
+  \item \textbf{Operatives Kerngeschäft} -- die branchen-spezifische
+        Hauptleistung (z.\,B.\ Heizung installieren, Steuererklärung
+        erstellen, Brot backen).
+  \item \textbf{Kundenservice und Beziehung} -- Beschwerdebearbeitung,
+        After-Sales, Bindungsmaßnahmen, Termin- und Folgekommunikation.
+\end{enumerate}
+
+\paragraph{Drei Reifegrade.}
+Use-Cases werden im Anschluss an die in Phase~1 etablierte
+Bewertungslogik entlang dreier Reifegrade bewertet.
+
+\begin{itemize}
+  \item \textbf{Produktionsreif (PR)} -- heute mit überschaubarem
+        Aufwand und akzeptablem Risiko produktiv einsetzbar. Geeignet
+        für unmittelbare Beratungs-Pakete.
+  \item \textbf{Eingeschränkt einsatzfähig (EE)} -- technisch möglich,
+        aber mit definierten Auflagen wie DSGVO-Pflichten,
+        Bias-Kontrolle oder fachlicher Validierung. Geeignet als
+        Beratungs-Tiefen\-angebot mit Risikoeinordnung.
+  \item \textbf{Nicht geeignet (NG)} -- aktuell ohne erhebliches Risiko
+        nicht produktiv einsetzbar (Berufsrecht, Haftung, fehlende
+        Reife). Methodisch wichtig zur Abgrenzung des Beratungs-Scope.
+\end{itemize}
+
+\paragraph{Konvergente und branchenspezifische Use-Cases.}
+Use-Cases werden zusätzlich in zwei Kategorien unterschieden.
+\emph{Konvergente Use-Cases} treten in nahezu jeder Branche identisch
+auf, etwa Newsletter-Texte, Social-Media-Posts oder Angebotsvorlagen.
+Sie eignen sich als standardisierte, branchen\-übergreifende
+Beratungs-Bausteine. \emph{Branchenspezifische Use-Cases} sind nur in
+einer oder wenigen Branchen relevant, etwa der hydraulische Abgleich,
+ein BAFA-Förder\-antrag oder ein §-203-konformer KI-Einsatz. Sie sind
+das Differenzierungs-Angebot eines Beratungs-Modells.
+
+\paragraph{Tabellenstruktur.}
+Pro Branche wird eine einheitliche Übersichtstabelle mit den Spalten
+\emph{Funktionsbereich}, \emph{KI-Use-Case}, \emph{Reifegrad} und
+\emph{Anmerkung} geführt. In der Anmerkung wird die Spezifik markiert
+(konvergent oder branchen\-spezifisch) sowie regulatorische Hinweise
+ergänzt. Pro Funktionsbereich werden in der Regel zwei bis vier
+Use-Cases erfasst. Eine erschöpfende Auflistung ist nicht das Ziel,
+sondern die Identifikation der jeweils tragfähigsten Anwendungen.
+
+\newpage
+
+\section*{Anhang B: Vollständiges Mapping-Beispiel -- Sanitär und Heizung}
+\addcontentsline{toc}{section}{Anhang B: Vollständiges Mapping-Beispiel}
+
+Das folgende Mapping zeigt die Anwendung der in Anhang~A beschriebenen
+Methodik am Beispiel der Branche \emph{Sanitär und Heizung}. Es ist
+stellvertretend für die 182~Mappings über alle 16~Cluster und wurde in
+Beispiel~A1 als konkreter Erstellungs-Workflow dokumentiert.
+
+\textbf{Cluster:} Handwerk und Bau \quad
+\textbf{Scope:} KMU mit 1 bis 50~Mitarbeitern \\
+\textbf{Reifegrade:} PR = produktionsreif,
+EE = eingeschränkt einsatzfähig,
+NG = nicht geeignet \\
+\textbf{Anmerkung:} \emph{konvergent} = branchen\-übergreifend
+wiederkehrend
+
+\begin{table}[H]
+\centering
+\caption{Use-Case-Mapping Sanitär und Heizung}
+\label{tab:mapping_shk}
+\rowcolors{2}{zebragray}{white}
+\small
+\begin{tabular}{p{2.8cm}p{6.5cm}p{0.8cm}p{3.5cm}}
+\toprule
+\textbf{Funktionsbereich} & \textbf{KI-Use-Case} & \textbf{Reife} & \textbf{Anmerkung} \\
+\midrule
+Geschäftsleitung und Strategie & Marktbeobachtung Förderprogramme (BEG, Wärmepumpe) & EE & konvergent \\
+Geschäftsleitung und Strategie & Wettbewerbsanalyse lokaler Anbieter & EE & konvergent \\
+Geschäftsleitung und Strategie & Liquiditäts-Forecasting aus Auftragsbestand & EE & konvergent \\
+Marketing und Kommunikation & Social-Media-Posts & PR & konvergent \\
+Marketing und Kommunikation & Webseiten-Inhalte (Energieberatung, Förderhilfen) & PR & konvergent \\
+Marketing und Kommunikation & Programmatische Recruiting-Anzeigen & PR & konvergent \\
+Vertrieb und Angebote & Angebotserstellung & PR & konvergent \\
+Vertrieb und Angebote & Angebotserstellung aus Kundenfotos und -beschreibungen & EE & branchenspezifisch \\
+Vertrieb und Angebote & Automatisierte Angebotsnachverfolgung & EE & konvergent \\
+Vertrieb und Angebote & Förderfähigkeits-Recherche (BAFA, KfW) & EE & branchenspezifisch \\
+Vertrieb und Angebote & Energieberatungs-Vorschläge aus Kunden-Daten & EE & branchenspezifisch \\
+Vertrieb und Angebote & Ersatzteil-Identifikation via Foto-KI & PR & branchenspezifisch \\
+Verwaltung und Personal & Rechnungserstellung & PR & konvergent \\
+Verwaltung und Personal & Bewerber-Vorselektion & EE & konvergent \\
+Verwaltung und Personal & KI-Abgleich von Lieferschein und Rechnung & PR & konvergent \\
+Verwaltung und Personal & Digitale Anlagen-/Objektakte mit KI-Indexierung & EE & konvergent \\
+Verwaltung und Personal & Werkstatt- und Auslastungsplanung aus Auftragsdaten & EE & konvergent \\
+Operatives Kerngeschäft & Hydraulischer Abgleich -- Berechnungsunterstützung & EE & branchenspezifisch \\
+Operatives Kerngeschäft & Smart-Home-Konfiguration (Heizungssteuerung) & EE & branchenspezifisch \\
+Operatives Kerngeschäft & Anlagen-Dokumentation und Wartungsberichte & PR & branchenspezifisch \\
+Operatives Kerngeschäft & Spracherkennung für Abnahmeprotokolle & PR & konvergent \\
+Operatives Kerngeschäft & Automatische Materialbedarfs- und Bestellplanung & EE & konvergent \\
+Operatives Kerngeschäft & Leck- und Schadensfrüherkennung (Sensor- und Bildanalyse) & EE & branchenspezifisch \\
+Kundenservice und Beziehung & Wartungspläne nach Anlagentyp & PR & branchenspezifisch \\
+Kundenservice und Beziehung & Terminerinnerungen & PR & konvergent \\
+Kundenservice und Beziehung & Beschwerde-Antworten & PR & konvergent \\
+Kundenservice und Beziehung & Termin-Routen-Optimierung im Notdienst & EE & branchenspezifisch \\
+Kundenservice und Beziehung & Sprachgesteuerter Notfall-Koordinator (Telefonassistent) & EE & branchenspezifisch \\
+Kundenservice und Beziehung & Wartungsvertrags- und Service-Management & EE & konvergent \\
+Kundenservice und Beziehung & Kundenportal mit Auftragsstatus-Updates & PR & konvergent \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\newpage
+
+\section*{Anhang C: Top-15-Liste mit Auswahlbegründung}
+\addcontentsline{toc}{section}{Anhang C: Top-15-Liste mit Auswahlbegründung}
+
+Die folgende Liste ist das Ergebnis der in Beispiel~A2 dokumentierten
+KI-gestützten Reduktion von 182~Branchen auf 15~Erstkandidaten. Aus
+dieser Top-15 wurden in Beispiel~B die endgültigen fünf Branchen
+ausgewählt, die in Tabelle~\ref{tab:top5} ausgewiesen sind. Die hier
+ebenfalls dokumentierte Liste \emph{Auch erwogen, aber nicht in
+Top-15} stellt die Transparenz der Auswahllogik sicher.
+
+\begin{table}[H]
+\centering
+\caption{Top-15-Erstkandidaten mit Cluster und Hauptbegründung}
+\label{tab:top15}
+\rowcolors{2}{zebragray}{white}
+\small
+\begin{tabular}{p{0.5cm}p{3.2cm}p{3cm}p{7.3cm}}
+\toprule
+\textbf{\#} & \textbf{Branche} & \textbf{Cluster} & \textbf{Hauptbegründung} \\
+\midrule
+1 & Sanitär und Heizung & Handwerk und Bau & Wärmewende und GEG-Novelle erzeugen hohen Beratungs- und Förderantrags-Bedarf bei hoher Betriebs-Dichte. \\
+2 & Elektriker & Handwerk und Bau & Photovoltaik-, Wallbox- und Smart-Home-Boom, niedrige Eigen-Digitalisierung. \\
+3 & Malerbetrieb & Handwerk und Bau & Klassischer Marketing- und Angebots-Schmerz, sehr hohe lokale Dichte. \\
+4 & Tischlerei & Handwerk und Bau & Foto-Visualisierung und 3D-Konfigurator als Quick-Wins, Premium-Margen. \\
+5 & Dachdecker & Handwerk und Bau & Notdienst-Geschäft, Drohnen-Inspektion, Versicherungs-Workflow als Differenzierung. \\
+6 & Bäckerei & Gastronomie und Lebensmittel & Backmengen- und Filial-Prognose mit messbarem ROI, viele lokale Betriebe. \\
+7 & Restaurant & Gastronomie und Lebensmittel & No-Show- und F\&B-Schmerz, hohe Betriebs-Dichte. \\
+8 & Catering & Gastronomie und Lebensmittel & Event-Geschäft mit höheren Margen, B2B-Aufträge. \\
+9 & Kfz-Werkstatt & Mobilität und Fahrzeuge & Sehr hohe Betriebs-Dichte, OBD-Diagnose, E-Mobilität-Umstellungs-Druck. \\
+10 & Immobilienmakler & Beratung und Dienstleistungen & Exposé-, Foto- und GwG-Workflow als KI-Hebel mit guten Margen. \\
+11 & Hausverwaltung & Beratung und Dienstleistungen & WEG-Komplexität, hohe administrative Last bei stabilen Mandats-Strukturen. \\
+12 & Hochzeitsplanung & Persönliche Übergänge & Premium-Markt, hohe Zahlungsbereitschaft, Koordinations-Komplexität. \\
+13 & Bestattungsunternehmen & Persönliche Übergänge & Bürokratische Last, traditionelles Handwerk, Pietät-sensible Differenzierung. \\
+14 & Sicherheits- und Alarmtechnik & Sicherheit und Schutzdienste & KRITIS- und NIS2-Audits als USP, B2B-Margen, Predictive Maintenance. \\
+15 & Druckerei & Kunsthandwerk und Manufaktur & B2B-Geschäft mit guten Margen, Preflight-Check und UrhG-Plausibilität als KI-Hebel. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Auch erwogen, aber nicht in Top-15.}
+Garten- und Landschaftsbau (Cluster Handwerk bereits durch fünf
+Branchen vertreten), Konditorei und Metzgerei (geringere
+Use-Case-Reife als Bäckerei), Architektur- und Ingenieurbüro
+(teilweise digital-affin), Autohaus (händler- und konzernabhängig),
+Spedition (spezialisierte Logistik-Beratung gefragt), Eventplanung
+(mit Hochzeitsplanung überlappend), Friseur und Kosmetikstudio (dünne
+Margen), Gold- und Silberschmiede (kleiner Markt), Hotel (in
+Klein\-städten entweder zu klein oder über Scope), Sicherheitsdienst
+(dünne Margen trotz Bürokratie), Landwirtschaft und Hofladen (niedrige
+Zahlungsbereitschaft), Versicherungsagentur (häufig
+konzern-IT-gebunden).
+
+\newpage
+
+\section*{Anhang D: Anti-Anchoring-Prompt-Template}
+\addcontentsline{toc}{section}{Anhang D: Anti-Anchoring-Prompt-Template}
+
+Das folgende Template wurde ab Round~5 der Deep-Research-Ergänzungen
+verwendet und in den Folge-Runden iterativ geschärft. Es adressiert
+das in Beispiel~A3 beschriebene inhaltliche Anchoring (das Wiederholen
+des vorgelegten Bestands statt seiner Ergänzung). Eckige Klammern
+markieren die je Lauf zu ersetzenden Platzhalter.
+
+\begin{quote}\small
+\textbf{Zweck.} Identifikation \emph{fehlender} KI-Use-Cases für
+[Anzahl] Branchen aus dem Cluster [Cluster-Bezeichnung]. Der vorhandene
+Bestand wird explizit \emph{nicht} wiederholt. Gesucht sind
+ausschließlich Ergänzungen.
+
+\textbf{Zieltools.} ChatGPT Deep Research, Gemini Deep Research,
+Perplexity Deep Research (mit Claude Sonnet 4.6).
+
+\textbf{Anwendungskontext.} Die Recherche ist Teil einer Sondierung
+zu einem KMU-KI-Beratungsangebot. Für ein Branchen-Use-Case-Mapping
+wurde eine Erstfassung modell\-generiert. Nun soll die Vollständigkeit
+überprüft werden, indem unabhängig recherchiert wird, welche
+produktiven KI-Anwendungsfälle bislang fehlen.
+
+\textbf{Methodik.} Bewertung entlang von sechs Funktionsbereichen
+(Geschäftsleitung und Strategie, Marketing und Kommunikation, Vertrieb
+und Angebote, Verwaltung und Personal, Operatives Kerngeschäft,
+Kundenservice und Beziehung). Reifegrade PR und EE wie in Anhang~A
+definiert.
+
+\textbf{Bereits abgedeckter Bestand (nicht wiederholen).}
+[Pro Branche eine Negativ-Liste aller bisher dokumentierten
+Use-Cases.]
+
+\textbf{Aufgabe.} Identifiziere pro Branche \emph{ausschließlich}
+Use-Cases, die im obigen Bestand nicht enthalten sind. Die
+KI-Anwendungen müssen für Betriebsgrößen von 1 bis 50~Mitarbeitern
+realistisch sein, mindestens den Reifegrad \emph{eingeschränkt
+einsatzfähig} aufweisen, entlang der sechs Funktionsbereiche
+zugeordnet werden und spezifisch genug formuliert sein, um nicht mit
+bestehenden Use-Cases zusammenzufallen.
+
+\textbf{Output-Format.} Pro Branche eine separate Tabelle mit den
+Spalten \emph{Funktionsbereich}, \emph{KI-Use-Case}, \emph{Reifegrad}
+und \emph{Kurzanmerkung}. Wenn für eine Branche keine sinnvollen
+Ergänzungen gefunden werden, ist dies explizit zu benennen, anstatt
+den Bestand mit Variationen zu wiederholen.
+
+\textbf{Ausschlüsse.} Keine Wiederholung des oben gelisteten Bestands.
+Keine Anwendungen für Großbetriebe (über 50~Mitarbeiter). Keine
+generischen oder allgemein gehaltenen Vorschläge ohne konkreten
+Branchenbezug. Keine Use-Cases mit Reifegrad \emph{nicht geeignet}.
+
+\textbf{Optionale Anregungs-Themen.} [Liste branchen-typischer
+Lücken-Themen]. Diese Liste ist als Hinweis und nicht als Vorgabe zu
+verstehen.
+\end{quote}
+
+\newpage
+
 \printbibliography
 \addcontentsline{toc}{section}{Literaturverzeichnis}
 
