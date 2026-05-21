@@ -495,10 +495,56 @@ in einer rein scoring-basierten Auswahl nicht zwingend entstanden,
 sondern erforderte das unternehmerische Urteil über das Zusammenspiel
 der Branchen im Beratungs-Alltag.
 
-\subsection{Beispiel C: [Titel folgt -- KI-Fehler gefunden \& korrigiert]}
-\paragraph{Was war falsch.} [Inhalt folgt.]
-\paragraph{Wie erkannt.} [Inhalt folgt.]
-\paragraph{Wie korrigiert.} [Inhalt folgt.]
+\subsection{Beispiel C: Gemini Format-Anchoring über vier Ergänzungsrunden}
+
+\paragraph{Was war falsch.}
+Gemini Deep Research hielt in vier von fünf Ergänzungsrunden das im
+Prompt explizit geforderte Pro-Branche-Tabellenformat nicht ein.
+Statt einer Tabelle pro Branche mit Spalten \emph{Funktionsbereich},
+\emph{KI-Use-Case}, \emph{Reifegrad} und \emph{Kurzanmerkung} lieferte
+das Modell eine querschnittliche Strategie-Analyse, sortiert nach
+Funktionsbereich anstatt nach Branche. Konkret betroffen waren
+Round~4 (IT und Digitalisierung), Round~7 (Gastronomie und
+Lebensmittel), Round~9 (Beratung und Dienstleistungen) und Round~10
+(Bildung und Landwirtschaft). In Round~10 trat zusätzlich ein
+Branchen-Mismatch auf: das Modell fügte eigenmächtig Branchen ein, die
+nicht zum vorgegebenen Cluster gehörten (Weinbau, Garten- und
+Landschaftsbau, Fahrschule, Volkshochschule, Kinderbetreuung) und ließ
+einige vorgegebene Branchen aus oder benannte sie um. Round~12
+(Lokale Dienstleistungen) zeigte ein gemischtes Bild: für fünf
+Branchen wurde das Format eingehalten, für elf weitere wiederum nicht.
+
+\paragraph{Wie erkannt.}
+Der Format-Verstoß war beim ersten Sichten des Outputs unmittelbar
+sichtbar, da die Funktionsbereich-Überschriften die Pro-Branche-Gliederung
+ersetzten. Im Branchen-Mismatch von Round~10 fielen die hinzugefügten
+Branchen durch Abgleich mit der vorgegebenen Branchenliste auf. Die
+Wiederholung über vier Runden hinweg ließ einen Übergang zum
+strukturellen Muster zu: kein einmaliges Versagen, sondern ein
+wiederkehrendes Modell-Verhalten unabhängig vom inhaltlichen
+Cluster und trotz mehrfach geschärfter Prompt-Vorgaben aus dem
+Anti-Anchoring-Design (siehe Beispiel~A3).
+
+\paragraph{Wie korrigiert.}
+Inhaltlich verwertbar blieb der Gemini-Output trotz Format-Verstoß,
+da die einzelnen Use-Cases manuell der korrekten Branche zugeordnet
+werden konnten. Beim Branchen-Mismatch in Round~10 wurden die
+nicht-passenden Branchen herausgefiltert, die übrig gebliebenen
+Use-Cases entweder der korrekten Branche zugewiesen oder verworfen.
+Für die Synthese der Ergänzungsrunden wurde Gemini damit als
+inhaltliche, aber nicht als strukturelle Quelle verwendet, während
+ChatGPT die strukturkonforme Tabelle lieferte.
+
+Methodisch wurde die Beobachtung als Anchoring-Phänomen
+zweiter Ordnung interpretiert. Das Anti-Anchoring-Prompt-Design aus
+Beispiel~A3 wirkt gegen \emph{inhaltliches} Anchoring, also gegen die
+Wiederholung des Bestands. Gegen \emph{strukturelles} Anchoring, also
+die Übernahme eines präferierten Output-Formats unabhängig von der
+Prompt-Vorgabe, wirkt es nicht. Die vier wiederholten Beobachtungen
+sind damit belastbares Evidenz-Material für die Diagnose, dass nicht
+jedes Anchoring durch Prompt-Design steuerbar ist. Im weiteren
+Verlauf der Sondierung wurde Gemini deshalb gezielt für inhaltliche
+Triangulation eingesetzt, nicht für formatgebundene Aggregation.
 
 \newpage
 
