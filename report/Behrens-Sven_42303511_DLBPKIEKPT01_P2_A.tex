@@ -383,12 +383,73 @@ nicht aufgenommenen Erwägungskandidaten bleibt explizit dokumentiert,
 um die Auswahllogik transparent zu halten und spätere Erweiterungen
 vorzubereiten.
 
-\subsection{Beispiel A3: [Titel folgt]}
-\paragraph{Die Aufgabe.} [Inhalt folgt.]
-\paragraph{Der Prompt.} [Inhalt folgt.]
-\paragraph{Der KI-Output.} [Inhalt folgt.]
-\paragraph{Kritische Prüfung.} [Inhalt folgt.]
-\paragraph{Verbesserung.} [Inhalt folgt.]
+\subsection{Beispiel A3: Anti-Anchoring-Prompt-Design für Deep-Research-Ergänzungsrunden}
+
+\paragraph{Die Aufgabe.}
+In Round~4 der Deep-Research-Ergänzungen (IT-Cluster) wurde sichtbar,
+dass ChatGPT den vorgelegten Use-Case-Bestand überwiegend validierte
+statt ergänzte. Auf die Frage nach fehlenden Use-Cases wiederholte das
+Modell mit kleinen Variationen den bereits vorhandenen Bestand. Aus
+diesem Befund leitete sich die Aufgabe ab, ein Prompt-Muster zu
+entwickeln, das Modelle systematisch zur Ergänzungs-Antwort zwingt und
+zugleich ein \emph{ehrliches Schweigen} erlaubt, wenn keine
+substanziellen Ergänzungen mehr verfügbar sind.
+
+\paragraph{Der Prompt.}
+\begin{quote}
+\textbf{Rolle:} Assistierende Instanz für die Identifikation fehlender
+KI-Use-Cases.\\
+\textbf{Kontext:} Vollständig dokumentierter Bestand an Use-Cases pro
+Branche aus der bisherigen Sondierung.\\
+\textbf{Aufgabe:} Pro Branche \emph{ausschließlich} Use-Cases
+identifizieren, die im vorgelegten Bestand nicht enthalten sind.\\
+\textbf{Bestands-Anker:} Pro Branche werden alle bisher dokumentierten
+Use-Cases vollständig als Negativ-Liste aufgeführt.\\
+\textbf{Ausschlüsse:} Keine Wiederholung des Bestands. Keine
+generischen Querschnitts-Use-Cases ohne konkreten Branchenbezug.\\
+\textbf{Recht zur Nicht-Antwort:} Wenn für eine Branche keine
+sinnvollen Ergänzungen identifiziert werden können, ist dies explizit
+zu benennen anstatt den Bestand mit Variationen zu wiederholen.\\
+\textbf{Optionale Anregungs-Themen:} Wird eine Liste branchen-typischer
+Lücken-Themen mitgegeben, ist diese als Hinweis und nicht als Vorgabe
+zu verstehen.
+\end{quote}
+
+\paragraph{Der KI-Output.}
+Das Muster wurde ab Round~5 in allen Folge-Runden verwendet und
+zeigte unterschiedliche Wirkung je Modell. ChatGPT antwortete ab
+Round~11 (Mobilität und Medien) und Round~12 (Lokale Dienstleistungen)
+in drei beziehungsweise einer Branche explizit \glqq Keine sinnvollen
+Ergänzungen identifiziert\grqq{}, was methodisch saubere Anti-Anchoring-Disziplin
+darstellt: die Modellantwort spiegelt ein Sättigungsverhalten wider und
+nicht eine erzwungene Pseudo-Ergänzung. Gemini hingegen brach in vier
+von fünf späten Runden das geforderte Pro-Branche-Tabellenformat
+und fügte in Round~10 sogar Branchen ein, die nicht zur vorgelegten
+Branchenmenge gehörten (siehe Beispiel~C).
+
+\paragraph{Kritische Prüfung.}
+Das Anti-Anchoring-Prompt-Design adressiert das ursprüngliche Problem
+(Validierungs-Wiederholung) erfolgreich, bleibt jedoch unvollständig.
+Erstens wirkt es nur auf Modelle, deren Verhalten primär durch
+Prompt-Struktur steuerbar ist. Das Gemini-Format-Anchoring entstand
+nicht aus mangelnder Vorgabe, sondern aus einem Modell-internen
+Verhalten, das sich von der Prompt-Form gerade nicht zurückführen
+lässt. Zweitens können die optional mitgegebenen Anregungs-Themen
+selbst eine neue Form von Anchoring erzeugen, indem sie die
+Ergänzungs-Richtung implizit vorgeben. Drittens setzt das Muster
+voraus, dass der Bestand vor Ausführung vollständig und korrekt
+gelistet ist. Fehler im Bestand werden in den Ergänzungen
+fortgeschrieben.
+
+\paragraph{Verbesserung.}
+Das Prompt-Muster wurde iterativ geschärft. Ab Round~8 wurden die
+Anregungs-Themen klar als optionale Hilfe markiert, um Richtungs-Bias
+zu reduzieren. Für Gemini wurde im Verlauf zusätzlich differenziert
+diagnostiziert, dass nicht jeder Format-Verstoß ein Prompt-Problem
+darstellt, sondern teils eine Modell-Eigenschaft. Diese Diagnose wird
+in Beispiel~C ausgeführt. Das Anti-Anchoring-Muster wird damit als
+Werkzeug verstanden, das ein Anchoring-Phänomen wirksam adressiert,
+aber andere Anchoring-Formen nicht beseitigt.
 
 \subsection{Beispiel B: [Titel folgt -- bewusst ohne KI]}
 \paragraph{Die Aufgabe.} [Inhalt folgt.]
