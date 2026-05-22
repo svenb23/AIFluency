@@ -267,7 +267,13 @@ Beratungs\-angebots wirksam wird.
 Die folgende Dokumentation gibt fünf konkrete Arbeitssituationen aus der
 vorliegenden Sondierung wieder. Drei Beispiele zeigen die strategische
 Nutzung generativer KI, ein Beispiel die bewusste Nicht-Nutzung und ein
-Beispiel die Identifikation und Korrektur eines KI-Fehlers.
+Beispiel die Identifikation und Korrektur eines KI-Fehlers. Pro
+Beispiel wird der KI-Output aus Platzgründen nur ausschnittweise
+zitiert. Die vollständigen Prompts, Eingaben und Roh-Outputs aller
+13~Deep-Research-Runden sowie sämtliche 182~Branchen-Mappings sind im
+öffentlichen Begleit-Repository zur Sondierung einsehbar und damit
+unabhängig nachvollziehbar.\footnote{Begleit-Repository:
+\url{https://github.com/SvenBehrens/AIFluency}}
 
 % =============================================================================
 % STRUKTUR PRO BEISPIEL (Aufgabenstellung):
@@ -324,27 +330,44 @@ KI-Postein\-gangs-Klassifizierung) und branchen\-spezifische Use-Cases
 
 \paragraph{Der KI-Output.}
 Die KI generierte ein vollständiges Mapping mit 23 Use-Cases verteilt
-über alle sechs Funktionsbereiche. Branchen\-spezifische Use-Cases
-umfassten unter anderem die Förder\-antrags-Recherche zu GEG und BAFA,
-die hydraulische-Abgleichs-Doku, die Notdienst-Tourenoptimierung sowie
-die Wartungs- und Inspektions-Recall-Logik. Im Hinweis-Block wurden
-GEG, BAFA, AwSV und Trinkwasser\-VO explizit benannt. Die
-Reife\-grade verteilten sich auf produktionsreife und eingeschränkt
-einsatzfähige Anwendungen ohne Einträge in der Kategorie \emph{nicht
-geeignet}.
+über alle sechs Funktionsbereiche. Auszugsweise stellten sich vier
+charakteristische Zeilen des Outputs wie folgt dar:
+
+\begin{quote}\small
+\begin{tabular}{p{2.6cm}p{6.2cm}p{0.8cm}p{2.6cm}}
+\toprule
+\textbf{Funktionsbereich} & \textbf{KI-Use-Case} & \textbf{Reife} & \textbf{Anmerkung} \\
+\midrule
+Vertrieb & Förderfähigkeits-Recherche (BAFA, KfW) & EE & branchenspezifisch \\
+Operatives & Hydraulischer Abgleich -- Berechnungsunterstützung & EE & branchenspezifisch \\
+Marketing & Social-Media-Posts & PR & konvergent \\
+Kundenservice & Terminerinnerungen & PR & konvergent \\
+\bottomrule
+\end{tabular}
+\end{quote}
+
+Im Hinweis-Block wurden GEG, BAFA, AwSV und Trinkwasser\-VO explizit
+benannt. Die Reife\-grade verteilten sich auf produktionsreife und
+eingeschränkt einsatzfähige Anwendungen ohne Einträge in der Kategorie
+\emph{nicht geeignet}. Das vollständige Mapping mit allen 23 Zeilen
+findet sich in Anhang~B.
 
 \paragraph{Kritische Prüfung.}
 Die Mapping-Struktur war vollständig und methodisch konsistent. Drei
-Schwächen wurden sichtbar. Erstens neigte die KI dazu, branchen\-fremde
-generische Use-Cases (z.\,B.\ allgemeines Social-Media-Marketing) als
-branchen\-spezifisch auszuweisen, obwohl sie konvergent über mehrere
-Cluster auftreten. Zweitens war die Reife\-grad-Begründung nicht
-durchgehend nachvollziehbar, insbesondere die Trennung zwischen
-\emph{produktionsreif} und \emph{eingeschränkt einsatzfähig} blieb in
-einigen Zellen unscharf. Drittens fehlten anfänglich einzelne
-branchen\-typische Anwendungen, die erst in den späteren
-Deep-Research-Ergänzungs\-runden zutage traten (z.\,B.\ Heizungs-Telemetrie-Auswertung
-oder GEG-Heizungs\-tausch-Beratungs\-leitfaden).
+Schwächen wurden sichtbar. Erstens neigte die KI zu einer
+\emph{Oversimplification}, indem sie branchen\-fremde generische
+Use-Cases (z.\,B.\ allgemeines Social-Media-Marketing) als
+branchen\-spezifisch auswies, obwohl sie konvergent über mehrere
+Cluster auftreten. Die Vereinfachung verwischt damit gerade jene
+Differenzierung, die methodisch entscheidend ist. Zweitens war die
+Reife\-grad-Begründung nicht durchgehend nachvollziehbar, insbesondere
+die Trennung zwischen \emph{produktionsreif} und \emph{eingeschränkt
+einsatzfähig} blieb in einigen Zellen unscharf. Drittens zeigte sich
+ein leichter \emph{Reporting-Bias} dahingehend, dass die KI tendenziell
+solche Use-Cases priorisierte, die in öffentlich gut dokumentierten
+Quellen vorkommen, während stärker betriebs\-praktische Anwendungen
+(z.\,B.\ Heizungs-Telemetrie-Auswertung oder GEG-Heizungs\-tausch-Beratungs\-leitfaden)
+erst in den späteren Deep-Research-Ergänzungs\-runden zutage traten.
 
 \paragraph{Verbesserung.}
 Das Mapping wurde nicht als endgültiges Ergebnis akzeptiert. Erstens
@@ -396,26 +419,45 @@ mit Kurzbegründungen für die Nicht-Aufnahme.
 
 \paragraph{Der KI-Output.}
 Die KI lieferte eine sortierte Top-15-Liste mit Branche, Cluster und
-einer Begründungs-Zeile pro Branche. Die fünf später gewählten Branchen
-(Sanitär und Heizung, Elektriker, Malerbetrieb, Immobilienmakler,
-Hausverwaltung) waren in der Liste enthalten. Ergänzend wurde eine
-Liste von neun bewusst nicht aufgenommenen Branchen mit Begründung
-geliefert, darunter Garten- und Landschaftsbau, Architekturbüro,
-Spedition und Friseur.
+einer Begründungs-Zeile pro Branche. Die ersten Zeilen des Outputs
+stellten sich wie folgt dar:
+
+\begin{quote}\small
+\begin{tabular}{p{0.4cm}p{3.2cm}p{2.7cm}p{7.5cm}}
+\toprule
+\textbf{\#} & \textbf{Branche} & \textbf{Cluster} & \textbf{Hauptbegründung} \\
+\midrule
+1 & Sanitär und Heizung & Handwerk und Bau & Wärmewende und GEG-Novelle, hohe Betriebs-Dichte \\
+2 & Elektriker & Handwerk und Bau & PV-, Wallbox- und Smart-Home-Boom \\
+3 & Malerbetrieb & Handwerk und Bau & Marketing- und Angebots-Schmerz, hohe lokale Dichte \\
+\bottomrule
+\end{tabular}
+\end{quote}
+
+Die fünf später gewählten Branchen (Sanitär und Heizung, Elektriker,
+Malerbetrieb, Immobilienmakler, Hausverwaltung) waren in der Liste
+enthalten. Ergänzend wurde eine Liste von neun bewusst nicht
+aufgenommenen Branchen mit Begründung geliefert, darunter Garten- und
+Landschaftsbau, Architekturbüro, Spedition und Friseur. Die
+vollständige Top-15 mit allen Begründungen findet sich in Anhang~C.
 
 \paragraph{Kritische Prüfung.}
 Der Output war methodisch sauber strukturiert, wies jedoch mehrere
 Schwächen auf. Erstens wurden die acht Bewertungs-Kriterien im Verlauf
 der Sondierung ad hoc abgeleitet und nicht vorab als unabhängiger
-Bewertungs-Rahmen festgelegt. Damit besteht das Risiko, dass die
-Kriterien-Wahl die gewünschte Endauswahl im Nachhinein rechtfertigt
-statt sie prüft. Zweitens wurde die Bewertung qualitativ vorgenommen,
-ohne quantitative Datenbasis je Branche. Drittens wurde das Kriterium
-\emph{lokale Verankerung} argumentativ vergeben und nicht durch eine
-Markt-Erhebung in der Zielregion gestützt. Viertens wirken einige
-Trennlinien zwischen Aufnahme und Nicht-Aufnahme heuristisch, etwa die
-Bevorzugung des Dachdeckerhandwerks gegenüber dem Garten- und
-Landschaftsbau bei vergleichbarem Eignungsprofil.
+Bewertungs-Rahmen festgelegt. Damit besteht das Risiko einer
+\emph{Oversimplification}: Die Kriterien-Wahl könnte die gewünschte
+Endauswahl im Nachhinein rechtfertigen statt sie kritisch prüfen.
+Zweitens wurde die Bewertung qualitativ vorgenommen, ohne quantitative
+Datenbasis je Branche. Drittens zeigte sich ein \emph{Reporting-Bias}
+dahingehend, dass Branchen mit reichhaltiger Verbandsdatenlage und
+medialer Präsenz tendenziell höher bewertet wurden als ebenfalls
+relevante, aber weniger sichtbar dokumentierte Tätigkeitsfelder. Das
+Kriterium \emph{lokale Verankerung} wurde argumentativ vergeben und
+nicht durch eine Markt-Erhebung in der Zielregion gestützt. Viertens
+wirken einige Trennlinien zwischen Aufnahme und Nicht-Aufnahme
+heuristisch, etwa die Bevorzugung des Dachdecker\-handwerks gegenüber
+dem Garten- und Landschaftsbau bei vergleichbarem Eignungsprofil.
 
 \paragraph{Verbesserung.}
 Die Top-15 wurde nicht direkt als Ergebnis übernommen, sondern als
@@ -465,13 +507,30 @@ zu verstehen.
 Das Muster wurde ab Round~5 in allen Folge-Runden verwendet und
 zeigte unterschiedliche Wirkung je Modell. ChatGPT antwortete ab
 Round~11 (Mobilität und Medien) und Round~12 (Lokale Dienstleistungen)
-in drei beziehungsweise einer Branche explizit \glqq Keine sinnvollen
-Ergänzungen identifiziert\grqq{}, was methodisch saubere Anti-Anchoring-Disziplin
-darstellt: die Modellantwort spiegelt ein Sättigungsverhalten wider und
+in drei beziehungsweise einer Branche explizit mit der vollständigen
+Verweigerung weiterer Pseudo-Ergänzungen. Auszugsweise stellte sich
+das wie folgt dar:
+
+\begin{quote}\small
+\textbf{Fahrzeugaufbereitung} \\
+\textit{Keine sinnvollen Ergänzungen ermittelt.}
+
+\smallskip
+\textbf{Fahrschule} \\
+\textit{Keine sinnvollen Ergänzungen ermittelt.}
+
+\smallskip
+\textbf{Motorradhändler} \\
+\textit{Keine sinnvollen Ergänzungen ermittelt.}
+\end{quote}
+
+Dieses Verhalten stellt methodisch saubere Anti-Anchoring-Disziplin
+dar: die Modellantwort spiegelt ein Sättigungsverhalten wider und
 nicht eine erzwungene Pseudo-Ergänzung. Gemini hingegen brach in vier
-von fünf späten Runden das geforderte Pro-Branche-Tabellenformat
-und fügte in Round~10 sogar Branchen ein, die nicht zur vorgelegten
-Branchenmenge gehörten (siehe Beispiel~C).
+von fünf späten Runden das geforderte Pro-Branche-Tabellenformat und
+fügte in Round~10 sogar Branchen ein, die nicht zur vorgelegten
+Branchenmenge gehörten (siehe Beispiel~C). Das vollständige Template
+ist in Anhang~D dokumentiert.
 
 \paragraph{Kritische Prüfung.}
 Das Anti-Anchoring-Prompt-Design adressiert das ursprüngliche Problem
@@ -480,9 +539,13 @@ Erstens wirkt es nur auf Modelle, deren Verhalten primär durch
 Prompt-Struktur steuerbar ist. Das Gemini-Format-Anchoring entstand
 nicht aus mangelnder Vorgabe, sondern aus einem Modell-internen
 Verhalten, das sich von der Prompt-Form gerade nicht zurückführen
-lässt. Zweitens können die optional mitgegebenen Anregungs-Themen
-selbst eine neue Form von Anchoring erzeugen, indem sie die
-Ergänzungs-Richtung implizit vorgeben. Drittens setzt das Muster
+lässt. Hier zeigt sich eine \emph{Oversimplification} des
+Anti-Anchoring-Ansatzes: Die Annahme, jedes Anchoring sei durch
+präzisere Prompt-Vorgaben behebbar, greift zu kurz. Zweitens können
+die optional mitgegebenen Anregungs-Themen selbst eine neue Form von
+\emph{Direction-Bias} erzeugen, indem sie die Ergänzungs-Richtung
+implizit vorgeben und damit jene Modellantworten begünstigen, die in
+das vorgezeichnete Themen-Spektrum passen. Drittens setzt das Muster
 voraus, dass der Bestand vor Ausführung vollständig und korrekt
 gelistet ist. Fehler im Bestand werden in den Ergänzungen
 fortgeschrieben.
