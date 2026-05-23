@@ -1,0 +1,202 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[a4paper, top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+
+\usepackage{setspace}
+\setstretch{1.5}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\usepackage{microtype}
+\sloppy
+\hyphenpenalty=1000
+\tolerance=3000
+
+\renewcommand{\footnotesize}{\fontsize{10}{12}\selectfont}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\fontsize{12}{14}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\fontsize{12}{14}\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\fontsize{12}{14}\bfseries}{\thesubsubsection}{1em}{}
+
+\usepackage[
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=blue,
+  filecolor=black,
+  urlcolor=blue
+]{hyperref}
+\usepackage[capitalise,nameinlink]{cleveref}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}
+
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{titling}
+
+\usepackage{acronym}
+\usepackage[german=quotes]{csquotes}
+
+\usepackage{caption}
+\captionsetup[table]{
+    font=small,
+    skip=10pt,
+    labelfont=bf
+}
+
+\usepackage[table]{xcolor}
+\definecolor{zebragray}{gray}{0.92}
+
+\begin{document}
+
+\begin{titlepage}
+    \thispagestyle{empty}
+    \centering
+    \vspace*{5cm}
+    {\Huge\bfseries Portfolio \par}
+    \vspace{0.3cm}
+    {\Large Finalisierungsphase (Phase~3) \par}
+    \vspace{1cm}
+    {\large Sondierung produktionsreifer KI-Use-Cases für lokale KMU \\ und Skizze eines möglichen Beratungsangebots \par}
+    \vspace{1.5cm}
+    {\large Kurs: DLBPKIEKPT01 -- Project: AI Fluency -- Einführung in die Generative KI \par}
+    \vspace{0.5cm}
+    {\large Studiengang: Angewandte Künstliche Intelligenz \par}
+    \vspace{0.5cm}
+    {\large Sven Behrens \par}
+    \vspace{0.5cm}
+    {\large Matrikelnummer: 42303511 \par}
+    \vspace{0.5cm}
+    {\large Tutor: Prof. Dr. Thorsten Fröhlich \par}
+    \vspace{0.5cm}
+    {\large \today \par}
+\end{titlepage}
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% =============================================================================
+% PHASE 3 -- FINALISIERUNGSPHASE
+% Laut Aufgabenstellung besteht Phase 3 aus vier Teilen:
+%   1. Finales Produkt                          (keine Seitenvorgabe)
+%   2. Reflexion                                (3-4 Seiten)
+%        a) Zielerreichung
+%        b) Rolle der KI
+%        c) Lernkurve
+%   3. Persönliches KI-Nutzungsrahmenwerk       (3-4 Seiten)
+%        a) Entscheidungskriterien
+%        b) Qualitätssicherungsprozess
+%        c) Ethische Leitplanken
+%        d) Ausblick
+%   4. Meta-Reflexion                           (1-2 Seiten, verpflichtend)
+%        a) Wie man dieses Portfolio mit KI faken könnte
+%        b) Warum der Verfasser das nicht gemacht hat
+%        c) Was die Authentizität dieses Portfolios beweist
+%
+% Außerdem: Überarbeitete Phase 1 und Phase 2 basierend auf Tutor-Feedback.
+% =============================================================================
+
+\section{Finales Produkt}
+% Inhalt: Die fertige Lösung für das Problem aus Phase 1.
+% Hier arbeiten menschliche Kompetenz und strategische KI-Nutzung zusammen.
+
+[Inhalt folgt: Finales Produkt als Zusammenführung der Sondierungs-Ergebnisse
+aus Phase~1 und 2. Mögliche Form: ein konsolidiertes Sondierungs-Dokument
+mit verfeinertem Business Model Canvas, Top-5-Branchen-Profil und
+Beratungs-Paket-Skizze.]
+
+\section{Reflexion}
+
+\subsection{Zielerreichung}
+% Was war Dein Ziel? Was hast Du erreicht? Entspricht das Ergebnis dem Ziel?
+
+[Inhalt folgt.]
+
+\subsection{Rolle der KI}
+% Wo hat KI Dich wirklich vorangebracht? Wo war KI nicht hilfreich?
+% Wo warst DU unverzichtbar?
+
+[Inhalt folgt.]
+
+\subsection{Lernkurve}
+% Was kannst Du jetzt, was Du vorher nicht konntest?
+% Was würdest Du beim nächsten Mal anders machen?
+
+[Inhalt folgt.]
+
+\section{Persönliches KI-Nutzungsrahmenwerk}
+
+\subsection{Entscheidungskriterien}
+% Wann setze ich KI ein? Wann nicht? Grauzonen.
+
+[Inhalt folgt.]
+
+\subsection{Qualitätssicherungsprozess}
+% Bevor / Während / Nach der KI-Nutzung / Vor der Finalisierung.
+
+[Inhalt folgt.]
+
+\subsection{Ethische Leitplanken}
+% Transparenz, Verantwortung, Fairness, Datenschutz.
+
+[Inhalt folgt.]
+
+\subsection{Ausblick}
+% Kompetenz-Weiterentwicklung, Vertiefungsbereiche, Auf-dem-Stand-Bleiben.
+
+[Inhalt folgt.]
+
+\section{Meta-Reflexion: Authentizität dieses Portfolios}
+
+\subsection{Wie dieses Portfolio mit KI gefälscht werden könnte}
+% Welche Teile hätte man komplett von KI generieren lassen können?
+% Wie würde ein Fake-Portfolio aussehen? Welche Prompts wären nötig?
+
+[Inhalt folgt.]
+
+\subsection{Warum der Verfasser diesen Weg nicht gegangen ist}
+% Warum echte Arbeit? Motivation, AI Fluency tatsächlich zu lernen?
+% Persönlicher Nutzen aus der ehrlichen Auseinandersetzung?
+
+[Inhalt folgt.]
+
+\subsection{Was die Authentizität dieses Portfolios belegt}
+% Welche Teile sind eindeutig eigene Gedanken? (mit Beispielen)
+% Wo sieht man persönlichen Kontext und Situation?
+% Welche Fehler/Probleme/Lernkurve zeigen echte Auseinandersetzung?
+% Was könnte KI allein nicht produzieren?
+
+[Inhalt folgt.]
+
+\newpage
+
+\printbibliography
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+
+\end{document}
