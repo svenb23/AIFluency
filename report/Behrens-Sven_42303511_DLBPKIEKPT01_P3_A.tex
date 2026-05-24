@@ -259,7 +259,29 @@ Endverantwortung beim Verfasser zu halten.
 \subsection{Qualitätssicherungsprozess}
 % Bevor / Während / Nach der KI-Nutzung / Vor der Finalisierung.
 
-[Inhalt folgt.]
+Vor der KI-Nutzung wird die Aufgabe so formuliert, dass Output-Format
+und Prüf-Kriterium klar sind. Wo Bias-Risiken zu erwarten sind, wird
+ein Anti-Anchoring-Prompt vorbereitet (vergleiche Anhang~D von
+Phase~2). Zugleich wird entschieden, ob mehrere Werkzeuge parallel oder
+ein einzelnes mit tiefer Iteration angemessener ist.
+
+Während der KI-Nutzung kommen mehrere Werkzeuge bewusst parallel zum
+Einsatz, sodass divergente Outputs als Hinweis auf Unsicherheit lesbar
+werden. Zwischenstände werden geprüft statt erst der finale Output,
+weil eine frühe Korrektur effizienter ist als eine späte Rückabwicklung.
+
+Nach der KI-Nutzung wird der Output auf Plausibilität gegengelesen,
+Halluzinations-Stichproben bei Zahlen, Eigennamen und Daten werden
+gezogen und Quellen-Hinweise werden über NotebookLM und manuelles
+Nachlesen in der Originalquelle verifiziert. Parallel wird auf typische
+Verzerrungs-Muster geprüft, etwa Oversimplification, Reporting-Bias
+oder Format-Anchoring.
+
+Vor der Finalisierung erfolgt eine vollständige eigene Durchsicht des
+gesamten Dokuments mit Konsistenz-Prüfung über alle Abschnitte hinweg.
+Die Endverantwortung für jeden im Bericht stehenden Satz liegt beim
+Verfasser, unabhängig davon ob der Satz ursprünglich KI-gestützt
+entstanden ist.
 
 \subsection{Ethische Leitplanken}
 % Transparenz, Verantwortung, Fairness, Datenschutz.
