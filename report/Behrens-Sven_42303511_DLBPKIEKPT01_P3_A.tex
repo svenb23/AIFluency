@@ -143,17 +143,18 @@ einer Vorstudie: eine strukturierte Sondierung des Möglichkeits-Raums,
 eine begründete Branchen-Auswahl und die Übertragung in ein
 geschlossenes Geschäftsmodell-Artefakt. Nicht erreicht und auch nicht
 angestrebt wurden zwei weitergehende Ziele, die typischerweise erst auf
-eine Sondierung folgen. Ein Validierungs-Ziel würde verlangen,
-die im Canvas getroffenen Annahmen, insbesondere zur Festpreis-Logik
-und zur Zahlungsbereitschaft der Zielbranchen, marktnah gegen reale
-Mandanten zu prüfen. Ein Pilotierungs-Ziel würde die Umsetzung
-einzelner Use-Cases bei einem konkreten KMU sowie die Begleitung über
-einen abgrenzbaren Beratungs-Zyklus voraussetzen. Beides liegt
-außerhalb des Portfolio-Rahmens und ist als Anschluss-Schritt im
-Ausblick benannt. Das Ergebnis entspricht damit dem Ziel der
-Aufgabenstellung; die im nächsten Absatz benannten Grenzen sind
-keine Defizite der Sondierung, sondern Strukturmerkmale einer
-Vorstudie.
+eine Sondierung folgen.
+
+Ein Validierungs-Ziel würde verlangen, die im Canvas getroffenen
+Annahmen, insbesondere zur Festpreis-Logik und zur Zahlungsbereitschaft
+der Zielbranchen, marktnah gegen reale Mandanten zu prüfen. Ein
+Pilotierungs-Ziel würde die Umsetzung einzelner Use-Cases bei einem
+konkreten KMU sowie die Begleitung über einen abgrenzbaren
+Beratungs-Zyklus voraussetzen. Beides liegt außerhalb des
+Portfolio-Rahmens und ist als Anschluss-Schritt im Ausblick benannt.
+Das Ergebnis entspricht damit dem Ziel der Aufgabenstellung; die im
+nächsten Absatz benannten Grenzen sind keine Defizite der Sondierung,
+sondern Strukturmerkmale einer Vorstudie.
 
 Drei Grenzen bleiben bewusst offen, weil sie innerhalb einer
 Portfolio-Arbeit nicht zu schließen sind. Die Festpreis-Logik ist
@@ -184,6 +185,7 @@ zum Begriff der \emph{Wertschöpfungs-Kohärenz} entstanden in
 iterativen Vorschlags- und Verwerfungs-Schleifen mit dem Modell. Das
 Modell lieferte dabei nicht das Ergebnis, sondern Variations-Material,
 aus dem die jeweils tragfähige Formulierung manuell ausgewählt wurde.
+
 Eine vergleichbare Funktion erfüllte die KI bei der Ausgestaltung der
 Prompts selbst. Das Anti-Anchoring-Muster aus Beispiel~A3 von Phase~2
 wurde in mehreren Iterationen geschärft, etwa durch die ab Round~8
@@ -200,6 +202,17 @@ strukturell identische Tabellen unabhängig von der Branchen-Realität.
 Punktuelle Halluzinationen bei regionalen Details mussten manuell
 gegenrecherchiert werden.
 
+Methodisch besonders relevant ist die Beobachtung, dass nicht jede
+dieser Verzerrungen durch besseres Prompting auflösbar war. Das
+Gemini-Format-Anchoring trat in vier aufeinander folgenden
+Ergänzungsrunden trotz mehrfach geschärfter Prompt-Vorgaben auf (siehe
+Beispiel~C in Phase~2) und erwies sich damit als Modell-internes
+Verhalten, gegen das das Anti-Anchoring-Prompt-Design strukturell
+nicht greift. Daraus folgt die methodische Konsequenz, dass
+Prompt-Engineering eine wirksame, aber keine universelle
+Korrektur-Schicht ist und bei strukturellem Anchoring durch eine
+differenzierte Werkzeug-Rolle abgelöst werden muss.
+
 Unverzichtbar blieb der Verfasser überall dort, wo Markt- und
 Branchen-Kenntnis sowie unternehmerische Bewertung einflossen. Die
 Endauswahl der fünf Final-Branchen entlang der regionalen
@@ -207,6 +220,21 @@ Immobilien-Wertschöpfungskette wurde ohne KI getroffen, ebenso das
 Design der Anti-Anchoring-Prompts, die Erkennung der oben genannten
 Bias-Muster und die Festlegung des Scope auf KMU mit 1 bis
 50~Mitarbeitern.
+
+Gleiches gilt für die Festlegung der acht Bewertungs-Kriterien der
+Top-15-Filterung (lokale Verankerung, geringe Self-KI-Affinität,
+regionale Betriebsdichte, Bürokratie- und Compliance-Last, Margen und
+Zahlungsbereitschaft, Reifegrad der Use-Cases, Vertrauenshürde
+gegenüber externer Beratung und das Cluster-Ausschluss-Kriterium). Die
+Auswahl und Gewichtung dieser Kriterien spiegelt eine unternehmerische
+Priorisierung wider, die nicht aus den Trainingsdaten der Werkzeuge
+ableitbar ist, sondern auf der beabsichtigten Geschäfts-Strategie
+beruht. Ebenso lagen die Cluster-Ausschlüsse vollständig in der
+Verantwortung des Verfassers, unter anderem der Ausschluss des Clusters
+\emph{Gesundheit und Pflege} trotz hoch bewerteter Eignung der Tools,
+begründet mit dem Berufs-Geheimnis nach §203~StGB, den
+DSGVO-Anforderungen an Patientendaten und dem Bias-Risiko bei
+medizinischen Aussagen.
 
 \subsection{Lernkurve}
 
