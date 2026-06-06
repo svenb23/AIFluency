@@ -202,6 +202,23 @@ strukturell identische Tabellen unabhängig von der Branchen-Realität.
 Punktuelle Halluzinationen bei regionalen Details mussten manuell
 gegenrecherchiert werden.
 
+Wie ein solcher Korrektur-Eingriff konkret aussah, lässt sich an einer
+einzelnen Zelle des in Beispiel~A1 von Phase~2 dokumentierten
+Sanitär-Mappings zeigen. Die KI ordnete den Use-Case
+\emph{Social-Media-Posts} der Anmerkung \emph{branchenspezifisch} zu.
+Diese Einordnung war fachlich nicht haltbar, weil derselbe Use-Case in
+nahezu jedem der 16~Cluster auftritt und damit ein konvergentes und kein
+branchenspezifisches Muster bildet. Die Anmerkung wurde daher manuell auf
+\emph{konvergent} korrigiert. In gleicher Weise wurde die uneinheitliche
+Reifegrad-Vergabe der KI gegen eine selbst definierte Heuristik geprüft,
+nach der \emph{produktionsreif} einen überschaubaren Aufwand bei
+akzeptablem Risiko und \emph{eingeschränkt einsatzfähig} eine definierte
+Fach-Auflage voraussetzt. Erst diese Heuristik, die nicht aus dem
+KI-Output stammt, machte die Reifegrade über alle 182~Branchen hinweg
+vergleichbar. Der Unterschied zwischen KI-Rohausgabe und Endfassung ist
+damit nicht sprachlicher, sondern klassifikatorischer Natur und über die
+Commit-Historie des Begleit-Repositories nachvollziehbar.
+
 Methodisch besonders relevant ist die Beobachtung, dass nicht jede
 dieser Verzerrungen durch besseres Prompting auflösbar war. Das
 Gemini-Format-Anchoring trat in vier aufeinander folgenden
