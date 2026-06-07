@@ -604,6 +604,14 @@ in einer rein scoring-basierten Auswahl nicht zwingend entstanden,
 sondern erforderte das unternehmerische Urteil über das Zusammenspiel
 der Branchen im Beratungs-Alltag.
 
+Die hier entscheidende menschliche Kompetenz war damit nicht der Abruf
+von Branchen-Wissen, den die KI im Eignungs-Score bereits geliefert
+hatte, sondern die strategische Synthese, also das Erkennen einer
+tragfähigen Verbindung zwischen einzeln bewerteten Branchen. Diese
+Verbindung folgt nicht aus den Eigenschaften der Branchen selbst,
+sondern aus dem geplanten Geschäftsmodell und ist für ein Modell ohne
+Kenntnis dieser Geschäfts-Absicht nicht ableitbar.
+
 \subsection{Beispiel C: Gemini Format-Anchoring über vier Ergänzungsrunden}
 
 \paragraph{Was war falsch.}
@@ -637,12 +645,25 @@ Anti-Anchoring-Design (siehe Beispiel~A3).
 \paragraph{Wie korrigiert.}
 Inhaltlich verwertbar blieb der Gemini-Output trotz Format-Verstoß,
 da die einzelnen Use-Cases manuell der korrekten Branche zugeordnet
-werden konnten. Beim Branchen-Mismatch in Round~10 wurden die
-nicht-passenden Branchen herausgefiltert, die übrig gebliebenen
-Use-Cases entweder der korrekten Branche zugewiesen oder verworfen.
-Für die Synthese der Ergänzungsrunden wurde Gemini damit als
-inhaltliche, aber nicht als strukturelle Quelle verwendet, während
-ChatGPT die strukturkonforme Tabelle lieferte.
+werden konnten. Beim Branchen-Mismatch in Round~10 wurden die fünf
+nicht zum Cluster gehörenden Branchen (Weinbau, Garten- und
+Landschaftsbau, Fahrschule, Volkshochschule, Kinderbetreuung)
+entfernt, die übrig gebliebenen Use-Cases entweder der korrekten
+Branche zugewiesen oder verworfen. Für die Synthese der
+Ergänzungsrunden wurde Gemini damit als inhaltliche, aber nicht als
+strukturelle Quelle verwendet, während ChatGPT die strukturkonforme
+Tabelle lieferte.
+
+Konkret besser wurde das Ergebnis dadurch in zweierlei Hinsicht. Die
+funktionsbereich-sortierte Strategie-Analyse der Rohausgabe ließ sich
+nicht in den nach Branchen gegliederten Mapping-Bestand übernehmen,
+weil ihr die Zuordnung jedes Use-Case zu einer konkreten Branche
+fehlte. Erst die manuelle Rückführung in das Pro-Branche-Schema machte
+die Gemini-Inhalte mit den übrigen 16~Clustern vergleichbar und für die
+Top-15-Filterung verwertbar. Zugleich verhinderte das Entfernen der
+fünf cluster-fremden Branchen, dass nicht angefragte Branchen
+ungeprüft in die Sondierung gelangten und die spätere Auswahl
+verfälschten.
 
 Methodisch wurde die Beobachtung als Anchoring-Phänomen
 zweiter Ordnung interpretiert. Das Anti-Anchoring-Prompt-Design aus
